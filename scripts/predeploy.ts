@@ -3,18 +3,28 @@ import * as fs from "@std/fs";
 import { syncFile } from "./utils/fs.ts";
 import { unzip } from "./utils/unzip.ts";
 
-const PROJECTS = ["core"];
-
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
 const ROOT_DIR = path.join(SCRIPT_DIR, "..");
 const SRC_DIR = path.join(ROOT_DIR, "public");
 const DIST_DIR = path.join(ROOT_DIR, "dist");
 
+const PROJECTS_FILE = path.join(ROOT_DIR, "projects.json");
+
+interface Project {
+  repository: string;
+  subdirectory: string;
+}
+
 async function syncProjects(): Promise<void> {
+  const projectsData = await Deno.readFile(PROJECTS_FILE);
+  const projects: Project[] = JSON.parse(
+    new TextDecoder().decode(projectsData),
+  );
+
   await Promise.all(
-    PROJECTS.map(async (project) => {
-      const projectDir = path.join(SRC_DIR, project);
-      const projectDistDir = path.join(DIST_DIR, project);
+    projects.map(async (project) => {
+      const projectDir = path.join(SRC_DIR, project.subdirectory);
+      const projectDistDir = path.join(DIST_DIR, project.subdirectory);
 
       for await (
         const entry of fs.walk(projectDir, {

@@ -86,9 +86,6 @@ summary of what you need to do:
 ### Install dependencies
 
 1. Install [Deno](https://docs.deno.com/runtime/#quick-install).
-   ```bash
-   curl -fsSL "https://deno.land/install.sh" | sh
-   ```
 2. Install Deno dependencies:
    ```bash
    deno i
@@ -128,26 +125,19 @@ summary of what you need to do:
 
 ## Adding a new sub-site
 
-To add a new sub-site to the documentation, follow these steps:
+To add a new sub-site to the documentation, add `$YOUR_PROJECT_NAME` to the list
+of projects in the `projects.json` file:
 
-1. Remove the target directory from codeowners by adding
-   `/public/$YOUR_PROJECT_NAME/*` to the `.github/CODEOWNERS` file:
-   ```text
-   # The following files are set by pipelines in other repositories and are auto-approved by github actions, therefore we remove codeowners.
-   /public/core/*
-   # other entries...
-   /public/$YOUR_PROJECT_NAME/*
-   ```
-2. Add `$YOUR_PROJECT_NAME` to the list of projects in the
-   `scripts/predeploy.ts` file:
-   ```typescript
-   const PROJECTS = ["core", "other entries...", "$YOUR_PROJECT_NAME"];
-   ```
-3. Add `public/$YOUR_PROJECT_NAME/*` to the
-   `.github/repo_policies/BOT_APPROVED_FILES` file:
-   ```text
-   # The following files are set by pipelines in other repositories.
-   public/core/*
-   # other entries...
-   public/$YOUR_PROJECT_NAME/*
-   ```
+```json
+[
+  {
+    "repository": "dfinity/core",
+    "subdirectory": "core"
+  },
+  // other entries...
+  {
+    "repository": "$YOUR_GITHUB_ORGANIZATION/$YOUR_PROJECT_NAME",
+    "subdirectory": "$YOUR_PROJECT_NAME"
+  }
+]
+```
