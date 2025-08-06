@@ -126,12 +126,12 @@ summary of what you need to do:
 ## Adding a new sub-site
 
 To add a new sub-site to the documentation, add `$YOUR_PROJECT_NAME` to the list
-of projects in the `projects.json` file:
+of projects in the [`projects.json`](../projects.json) file:
 
 ```json
 [
   {
-    "repository": "dfinity/core",
+    "repository": "dfinity/agent-js",
     "subdirectory": "core"
   },
   // other entries...

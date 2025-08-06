@@ -10,6 +10,10 @@ const DIST_DIR = path.join(ROOT_DIR, "dist");
 
 const PROJECTS_FILE = path.join(ROOT_DIR, "projects.json");
 
+interface ProjectsConfig {
+  projects: Project[];
+}
+
 interface Project {
   repository: string;
   subdirectory: string;
@@ -17,12 +21,12 @@ interface Project {
 
 async function syncProjects(): Promise<void> {
   const projectsData = await Deno.readFile(PROJECTS_FILE);
-  const projects: Project[] = JSON.parse(
+  const projectsConfig: ProjectsConfig = JSON.parse(
     new TextDecoder().decode(projectsData),
   );
 
   await Promise.all(
-    projects.map(async (project) => {
+    projectsConfig.projects.map(async (project) => {
       const projectDir = path.join(SRC_DIR, project.subdirectory);
       const projectDistDir = path.join(DIST_DIR, project.subdirectory);
 

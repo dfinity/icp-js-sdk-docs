@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Project"
+      }
+    }
+  },
+  "required": ["projects"],
+  "definitions": {
+    "Project": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "repository": {
+          "type": "string"
+        },
+        "subdirectory": {
+          "type": "string"
+        }
+      },
+      "required": ["repository", "subdirectory"],
+      "title": "Project"
+    }
+  }
+}
