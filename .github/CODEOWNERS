@@ -1,4 +1,4 @@
 * @dfinity/sdk
 
-# the following files are auto-approved by github actions, therefore we remove codeowners
+# The following files are set by pipelines in other repositories and are auto-approved by github actions, therefore we remove codeowners.
 /public/core/*

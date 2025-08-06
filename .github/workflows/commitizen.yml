@@ -4,14 +4,16 @@ on:
   merge_group:
   pull_request:
 
+concurrency:
+  group: pr-${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
+
 jobs:
   check_pr_title:
-    name: check_pr_title
     if: github.event_name == 'pull_request'
     uses: dfinity/ci-tools/.github/workflows/check-pr-title.yaml@main
 
   check_commit_messages:
-    name: check_commit_messages
     if: github.event_name == 'merge_group'
     uses: dfinity/ci-tools/.github/workflows/check-commit-messages.yaml@main
 

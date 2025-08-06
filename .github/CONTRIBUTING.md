@@ -130,10 +130,10 @@ summary of what you need to do:
 
 To add a new sub-site to the documentation, follow these steps:
 
-1. Remove the target directory from codeowners by adding the following to the
-   `.github/CODEOWNERS` file:
+1. Remove the target directory from codeowners by adding
+   `/public/$YOUR_PROJECT_NAME/*` to the `.github/CODEOWNERS` file:
    ```text
-   # the following files are auto-approved by github actions, therefore we remove codeowners
+   # The following files are set by pipelines in other repositories and are auto-approved by github actions, therefore we remove codeowners.
    /public/core/*
    # other entries...
    /public/$YOUR_PROJECT_NAME/*
@@ -142,4 +142,12 @@ To add a new sub-site to the documentation, follow these steps:
    `scripts/predeploy.ts` file:
    ```typescript
    const PROJECTS = ["core", "other entries...", "$YOUR_PROJECT_NAME"];
+   ```
+3. Add `public/$YOUR_PROJECT_NAME/*` to the
+   `.github/repo_policies/BOT_APPROVED_FILES` file:
+   ```text
+   # The following files are set by pipelines in other repositories.
+   public/core/*
+   # other entries...
+   public/$YOUR_PROJECT_NAME/*
    ```

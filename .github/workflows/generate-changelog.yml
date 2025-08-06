@@ -1,9 +1,13 @@
-name: generate_changelog
+name: Generate Changelog
 
 on:
   push:
     branches:
       - main
+
+concurrency:
+  group: main-${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   generate_changelog:
