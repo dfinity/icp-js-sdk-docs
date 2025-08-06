@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public\" --allow-write=\"./dist\" scripts/predeploy.ts"
+  },
+  "imports": {
+    "@junobuild/config": "npm:@junobuild/config@^1.0.1",
+    "@std/fs": "jsr:@std/fs@^1.0.19",
+    "@std/path": "jsr:@std/path@^1.0.19",
+    "@types/yauzl": "npm:@types/yauzl@^2.10.3",
+    "typescript": "npm:typescript@^5.9.2",
+    "yauzl": "npm:yauzl@^3.2.0"
+  }
+}
