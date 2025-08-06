@@ -34,4 +34,3 @@ jobs:
           args: deploy --mode production --immediate
         env:
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
-          PROJECT_PATH: docs
