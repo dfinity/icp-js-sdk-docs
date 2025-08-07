@@ -3,7 +3,7 @@ import { defineConfig } from "@junobuild/config";
 export default defineConfig({
   satellite: {
     ids: {
-      production: "xavwt-jqaaa-aaaal-asjaa-cai",
+      production: "tdg7b-baaaa-aaaal-asj3a-cai",
     },
     predeploy: ["deno task predeploy"],
     source: "dist",
