@@ -1,0 +1,9 @@
+{
+  "$schema": "./projects-schema.json",
+  "projects": [
+    {
+      "repository": "dfinity/agent-js",
+      "subdirectory": "core"
+    }
+  ]
+}

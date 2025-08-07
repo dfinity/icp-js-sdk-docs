@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Project"
+      }
+    }
+  },
+  "required": ["projects"],
+  "definitions": {
+    "Project": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "repository": {
+          "type": "string",
+          "description": "The repository from which to pull the static assets",
+          "examples": ["dfinity/icp-sdk-js-core"]
+        },
+        "subdirectory": {
+          "type": "string",
+          "description": "The public/... subdirectory where to save the static assets pulled from the repository",
+          "examples": ["core"]
+        }
+      },
+      "required": ["repository", "subdirectory"],
+      "title": "Project"
+    }
+  }
+}
