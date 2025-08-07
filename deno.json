@@ -1,8 +1,10 @@
 {
   "tasks": {
-    "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public\" --allow-write=\"./dist\" scripts/predeploy.ts"
+    "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public\" --allow-write=\"./dist\" scripts/predeploy.ts",
+    "juno": "deno run --allow-all @junobuild/cli"
   },
   "imports": {
+    "@junobuild/cli": "npm:@junobuild/cli@^0.7.4",
     "@junobuild/config": "npm:@junobuild/config@^1.0.1",
     "@std/fs": "jsr:@std/fs@^1.0.19",
     "@std/path": "jsr:@std/path@^1.0.19",

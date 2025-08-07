@@ -26,8 +26,6 @@ jobs:
         run: deno i
 
       - name: Deploy Docs to Juno satellite
-        uses: junobuild/juno-action@24046975cb4adb15ac3b4f80b5684e5090a4c6c7 # v0.4.9
-        with:
-          args: deploy --mode production --immediate
         env:
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
+        run: deno task juno deploy --mode production --immediate
