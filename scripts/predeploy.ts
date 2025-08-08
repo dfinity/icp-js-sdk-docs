@@ -59,7 +59,7 @@ async function syncRootFiles(): Promise<void> {
   ) {
     const targetPath = path.join(DIST_DIR, entry.path.slice(SRC_DIR.length));
     await fs.ensureDir(path.dirname(targetPath));
-    await fs.copy(entry.path, targetPath);
+    await fs.copy(entry.path, targetPath, { overwrite: true });
   }
 }
 
