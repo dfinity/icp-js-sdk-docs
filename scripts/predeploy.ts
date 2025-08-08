@@ -1,6 +1,5 @@
 import * as path from "@std/path";
 import * as fs from "@std/fs";
-import { syncFile } from "./utils/fs.ts";
 import { unzip } from "./utils/unzip.ts";
 
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
@@ -48,17 +47,25 @@ async function syncProjects(): Promise<void> {
   );
 }
 
-async function sync404File(): Promise<void> {
-  await syncFile(
-    path.join(DIST_DIR, "core", "latest", "404.html"),
-    path.join(DIST_DIR, "404.html"),
-  );
+async function syncRootFiles(): Promise<void> {
+  for await (
+    const entry of fs.walk(SRC_DIR, {
+      followSymlinks: true,
+      includeSymlinks: true,
+      includeFiles: true,
+      includeDirs: false,
+      maxDepth: 1, // we only want the root files
+    })
+  ) {
+    const targetPath = path.join(DIST_DIR, entry.path.slice(SRC_DIR.length));
+    await fs.ensureDir(path.dirname(targetPath));
+    await fs.copy(entry.path, targetPath);
+  }
 }
 
 async function main(): Promise<void> {
+  await syncRootFiles();
   await syncProjects();
-  // [TODO]: Remove once there is a root project with it's own 404.html
-  await sync404File();
 }
 
 if (import.meta.main) {
