@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  data-theme="dark"
+  data-has-hero=""
+  class="astro-yjofowbl"
+  data-lt-installed="true"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ICP JavaScript SDK Docs</title>
+    <link rel="canonical" href="https://js.icp.build/" />
+    <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content="ICP JavaScript SDK Documentation" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://js.icp.build/" />
+    <meta property="og:locale" content="en" />
+    <meta
+      property="og:description"
+      content="Documentation for the ICP JavaScript SDK."
+    />
+    <meta property="og:site_name" content="ICP JavaScript SDK Docs" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="description"
+      content="Documentation for the ICP JavaScript SDK."
+    />
+
+    <script>
+      window.StarlightThemeProvider = (() => {
+        const storedTheme = typeof localStorage !== "undefined" &&
+          localStorage.getItem("starlight-theme");
+        const theme = storedTheme ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches
+            ? "light"
+            : "dark");
+        document.documentElement.dataset.theme = theme === "light"
+          ? "light"
+          : "dark";
+        return {
+          updatePickers(theme = storedTheme || "auto") {
+            document.querySelectorAll("starlight-theme-select").forEach(
+              (picker) => {
+                const select = picker.querySelector("select");
+                if (select) select.value = theme;
+                /** @type {HTMLTemplateElement | null} */
+                const tmpl = document.querySelector(`#theme-icons`);
+                const newIcon = tmpl &&
+                  tmpl.content.querySelector("." + theme);
+                if (newIcon) {
+                  const oldIcon = picker.querySelector(
+                    "svg.label-icon",
+                  );
+                  if (oldIcon) {
+                    oldIcon.replaceChildren(
+                      ...newIcon.cloneNode(true).childNodes,
+                    );
+                  }
+                }
+              },
+            );
+          },
+        };
+      })();
+    </script><template id="theme-icons"></template>
+    <link rel="stylesheet" href="./print.css" media="print">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body class="astro-yjofowbl">
+    <div class="page sl-flex astro-a7a4rjvc">
+      <header class="header astro-a7a4rjvc">
+        <div class="header astro-iylltedv">
+          <div class="title-wrapper sl-flex astro-iylltedv">
+            <a href="/" class="site-title sl-flex astro-jbmbwmdg">
+              <img
+                class="astro-jbmbwmdg"
+                alt="Internet Computer Logo"
+                src="./icp.svg"
+                width="880"
+                height="640"
+              >
+              <span class="astro-jbmbwmdg" translate="no">
+                ICP JS SDK Docs
+              </span>
+            </a>
+          </div>
+          <div
+            class="sl-hidden md:sl-flex print:hidden right-group astro-iylltedv"
+            style="justify-content: flex-end"
+          >
+            <starlight-theme-select>
+              <label style="--sl-select-width: 6.25em" class="astro-lkgfeijr">
+                <span class="sr-only astro-lkgfeijr">Select theme</span>
+                <svg
+                  aria-hidden="true"
+                  class="icon label-icon astro-lkgfeijr astro-o4xp5qjp"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="--sl-icon-size: 1em"
+                >
+                  <path
+                    d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"
+                  >
+                  </path>
+                </svg>
+                <select value="auto" autocomplete="off" class="astro-lkgfeijr">
+                  <option value="dark" class="astro-lkgfeijr">Dark</option>
+                  <option value="light" class="astro-lkgfeijr">Light</option>
+                  <option value="auto" selected="" class="astro-lkgfeijr">
+                    Auto
+                  </option>
+                </select>
+                <svg
+                  aria-hidden="true"
+                  class="icon caret astro-lkgfeijr astro-o4xp5qjp"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="--sl-icon-size: 1em"
+                >
+                  <path
+                    d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"
+                  >
+                  </path>
+                </svg>
+              </label>
+            </starlight-theme-select>
+            <script>
+              StarlightThemeProvider.updatePickers();
+            </script>
+            <script
+              type="module"
+            >
+              const r = "starlight-theme",
+                o = (e) =>
+                  e === "auto" || e === "dark" || e === "light"
+                    ? e
+                    : "auto",
+                c = () =>
+                  o(
+                    typeof localStorage < "u" &&
+                      localStorage.getItem(r),
+                  );
+              function n(e) {
+                typeof localStorage < "u" &&
+                  localStorage.setItem(
+                    r,
+                    e === "light" || e === "dark" ? e : "",
+                  );
+              }
+              const l = () =>
+                matchMedia("(prefers-color-scheme: light)")
+                    .matches
+                  ? "light"
+                  : "dark";
+              function t(e) {
+                StarlightThemeProvider.updatePickers(e),
+                  document.documentElement.dataset.theme =
+                    e === "auto" ? l() : e,
+                  n(e);
+              }
+              matchMedia("(prefers-color-scheme: light)")
+                .addEventListener("change", () => {
+                  c() === "auto" && t("auto");
+                });
+              class s extends HTMLElement {
+                constructor() {
+                  super(),
+                    t(c()),
+                    this.querySelector("select")
+                      ?.addEventListener("change", (a) => {
+                        a.currentTarget instanceof
+                            HTMLSelectElement &&
+                          t(o(a.currentTarget.value));
+                      });
+                }
+              }
+              customElements.define(
+                "starlight-theme-select",
+                s,
+              );
+            </script>
+            <script
+              type="module"
+            >
+              class s extends HTMLElement {
+                constructor() {
+                  super();
+                  const e = this.querySelector("select");
+                  e && (e.addEventListener("change", (t) => {
+                    t.currentTarget instanceof
+                        HTMLSelectElement &&
+                      (window.location.pathname =
+                        t.currentTarget.value);
+                  }),
+                    window.addEventListener("pageshow", (t) => {
+                      if (!t.persisted) return;
+                      const n = e.querySelector(
+                        "option[selected]",
+                      )?.index;
+                      n !== e.selectedIndex &&
+                        (e.selectedIndex = n ?? 0);
+                    }));
+                }
+              }
+              customElements.define("starlight-lang-select", s);
+            </script>
+          </div>
+        </div>
+      </header>
+      <div class="main-frame astro-a7a4rjvc">
+        <script
+          type="module"
+        >
+          const a = document.getElementById("starlight__sidebar"),
+            n = a?.querySelector("sl-sidebar-state-persist"),
+            o = "sl-sidebar-state",
+            i = () => {
+              let t = [];
+              const e = n?.dataset.hash || "";
+              try {
+                const s = sessionStorage.getItem(o),
+                  r = JSON.parse(s || "{}");
+                Array.isArray(r.open) && r.hash === e &&
+                  (t = r.open);
+              } catch {}
+              return {
+                hash: e,
+                open: t,
+                scroll: a?.scrollTop || 0,
+              };
+            },
+            c = (t) => {
+              try {
+                sessionStorage.setItem(o, JSON.stringify(t));
+              } catch {}
+            },
+            d = () => c(i()),
+            l = (t, e) => {
+              const s = i();
+              s.open[e] = t, c(s);
+            };
+          n?.addEventListener("click", (t) => {
+            if (!(t.target instanceof Element)) return;
+            const e = t.target.closest("summary")?.closest(
+              "details",
+            );
+            if (!e) return;
+            const s = e.querySelector("sl-sidebar-restore"),
+              r = parseInt(s?.dataset.index || "");
+            isNaN(r) || l(!e.open, r);
+          });
+          addEventListener("visibilitychange", () => {
+            document.visibilityState === "hidden" && d();
+          });
+          addEventListener("pageHide", d);
+        </script>
+        <div class="lg:sl-flex astro-vm4lxs7n">
+          <div class="main-pane astro-vm4lxs7n">
+            <main class="astro-yjofowbl" lang="en" dir="ltr">
+              <div class="content-panel astro-rtwfzukw">
+                <div class="sl-container astro-rtwfzukw">
+                  <div class="hero astro-oleampr6">
+                    <div class="sl-flex stack astro-oleampr6">
+                      <div class="sl-flex copy astro-oleampr6">
+                        <h1 id="_top" data-page-title="" class="astro-oleampr6">
+                          ICP JS SDK Docs
+                        </h1>
+                        <div class="tagline astro-oleampr6">
+                          Documentation for the ICP JavaScript SDK.
+                        </div>
+                      </div>
+                      <div class="sl-flex actions astro-oleampr6">
+                        <a
+                          class="sl-link-button not-content primary astro-oleampr6 astro-4wvpipyj"
+                          href="/core/latest/"
+                        >
+                          Core Docs
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <footer class="sl-flex astro-dv4zmgt4">
+                    <div class="meta sl-flex astro-dv4zmgt4"></div>
+                    <div
+                      class="pagination-links print:hidden astro-5xqyhryp"
+                      dir="ltr"
+                    >
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

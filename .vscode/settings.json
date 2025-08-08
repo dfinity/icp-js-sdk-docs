@@ -1,9 +1,12 @@
 {
-  "editor.defaultFormatter": "denoland.vscode-deno",
   "deno.enable": true,
   "deno.codeLens.test": true,
   "deno.codeLens.testArgs": ["--allow-all"],
+  "editor.defaultFormatter": "denoland.vscode-deno",
   "[github-actions-workflow]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
   "json.schemaDownload.enable": true
