@@ -6,12 +6,12 @@ on:
   workflow_dispatch:
     inputs:
       repository:
-        description: 'The repository to update. Format: "{owner}/{repo}"'
+        description: 'The repository to pull docs from. Format: "{owner}/{repo}"'
         required: true
       branch:
-        description: The branch to update
+        description: 'The branch to pull docs from'
         required: false
-        default: "icp-pages"
+        default: 'icp-pages'
 
 jobs:
   pull-docs:
