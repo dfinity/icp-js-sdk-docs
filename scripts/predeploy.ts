@@ -27,6 +27,8 @@ async function syncProjects(): Promise<void> {
       const projectDir = path.join(SRC_DIR, project.subdirectory);
       const projectDistDir = path.join(DIST_DIR, project.subdirectory);
 
+      await fs.ensureDir(projectDistDir);
+
       for await (
         const entry of fs.walk(projectDir, {
           exts: PROJECT_DOCS_FILE_EXTS,
