@@ -9,6 +9,16 @@ const SRC_DIR = path.join(ROOT_DIR, "public");
 const DIST_DIR = path.join(ROOT_DIR, "dist");
 const PROJECTS_FILE = path.join(ROOT_DIR, PROJECTS_FILE_NAME);
 
+enum ProjectDocsFileExt {
+  zip = ".zip",
+  json = ".json",
+}
+
+const PROJECT_DOCS_FILE_EXTS = [
+  ProjectDocsFileExt.zip,
+  ProjectDocsFileExt.json,
+];
+
 async function syncProjects(): Promise<void> {
   const projectsConfig = await loadProjectsConfig(PROJECTS_FILE);
 
@@ -19,7 +29,7 @@ async function syncProjects(): Promise<void> {
 
       for await (
         const entry of fs.walk(projectDir, {
-          exts: [".zip"],
+          exts: PROJECT_DOCS_FILE_EXTS,
           followSymlinks: true,
           includeSymlinks: true,
           includeFiles: true,
@@ -27,9 +37,15 @@ async function syncProjects(): Promise<void> {
           canonicalize: true,
         })
       ) {
-        const targetDirname = entry.name.slice(0, -4); // Remove .zip extension
-        const targetDir = path.join(projectDistDir, targetDirname);
-        await unzip(entry.path, targetDir);
+        const ext = path.extname(entry.path);
+        const targetDirname = path.basename(entry.path, ext);
+        if (ext === ProjectDocsFileExt.zip) {
+          const targetDir = path.join(projectDistDir, targetDirname);
+          await unzip(entry.path, targetDir);
+        } else if (ext === ProjectDocsFileExt.json) {
+          const targetPath = path.join(projectDistDir, entry.name);
+          await fs.copy(entry.path, targetPath, { overwrite: true });
+        }
       }
     }),
   );
