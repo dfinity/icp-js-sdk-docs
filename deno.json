@@ -1,6 +1,7 @@
 {
   "tasks": {
     "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public,./projects.json\" --allow-write=\"./dist\" scripts/predeploy.ts",
+    "sync-project-docs": "deno run --no-prompt --allow-read=\"./.tmp,./public,./projects.json\" --allow-write=\"./public\" --allow-env scripts/sync-project-docs.ts",
     "juno": "deno run --allow-all @junobuild/cli"
   },
   "imports": {

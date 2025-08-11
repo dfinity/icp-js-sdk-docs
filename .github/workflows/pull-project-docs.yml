@@ -1,1 +1,63 @@
+name: Pull Project Documentation
 
+on:
+  repository_dispatch:
+    types: [submit-project-docs]
+  workflow_dispatch:
+    inputs:
+      repository:
+        description: 'The repository to update. Format: "{owner}/{repo}"'
+        required: true
+      branch:
+        description: The branch to update
+        required: false
+        default: "icp-pages"
+
+jobs:
+  pull-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e # v2.0.6
+        id: generate_token
+        with:
+          app-id: ${{ vars.PR_AUTOMATION_BOT_PUBLIC_APP_ID }}
+          private-key: ${{ secrets.PR_AUTOMATION_BOT_PUBLIC_PRIVATE_KEY }}
+
+      - name: Checkout this repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Setup Deno
+        uses: dfinity/ci-tools/actions/setup-deno@main
+
+      - name: Prepare parameters
+        id: params
+        run: |
+          echo "repository=${{ github.event.client_payload.repository || inputs.repository }}" >> $GITHUB_OUTPUT
+          echo "repository_dir=.tmp/source-repo" >> $GITHUB_OUTPUT
+          echo "branch=${{ github.event.client_payload.branch || inputs.branch || 'icp-pages' }}" >> $GITHUB_OUTPUT
+
+      - name: Checkout source repositories
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          repository: ${{ steps.params.outputs.repository }}
+          ref: ${{ steps.params.outputs.branch }}
+          path: ${{ steps.params.outputs.repository_dir }}
+
+      - name: Process documentation
+        env:
+          SOURCE_REPO_DIR: ${{ steps.params.outputs.repository_dir }}
+          SOURCE_REPO: ${{ steps.params.outputs.repository }}
+        run: |
+          deno task sync-project-docs
+
+      - name: Create pull request
+        uses: dfinity/ci-tools/actions/create-pr@main
+        with:
+          branch_name: "build/docs-update"
+          base_branch_name: "main"
+          pull_request_title: "build: update project docs"
+          pull_request_body: "This pull request was automatically created by a GitHub Action to update the project documentation from ${{ github.event.client_payload.repository }}."
+          commit_message: "build: update docs for ${{ github.event.client_payload.repository }}"
+          token: ${{ steps.generate_token.outputs.token }}
