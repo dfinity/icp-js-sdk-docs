@@ -58,6 +58,6 @@ jobs:
           branch_name: "build/docs-update"
           base_branch_name: "main"
           pull_request_title: "build: update project docs"
-          pull_request_body: "This pull request was automatically created by a GitHub Action to update the project documentation from ${{ github.event.client_payload.repository }}."
-          commit_message: "build: update docs for ${{ github.event.client_payload.repository }}"
+          pull_request_body: "This pull request was automatically created by a GitHub Action to update the project documentation from ${{ steps.params.outputs.repository }}."
+          commit_message: "build: update docs for ${{ steps.params.outputs.repository }}"
           token: ${{ steps.generate_token.outputs.token }}
