@@ -9,9 +9,9 @@ on:
         description: 'The repository to pull docs from. Format: "{owner}/{repo}"'
         required: true
       branch:
-        description: 'The branch to pull docs from'
+        description: The branch to pull docs from
         required: false
-        default: 'icp-pages'
+        default: icp-pages
 
 jobs:
   pull-docs:
