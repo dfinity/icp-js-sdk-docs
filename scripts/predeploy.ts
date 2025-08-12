@@ -1,23 +1,18 @@
 import * as path from "@std/path";
 import * as fs from "@std/fs";
 import { unzip } from "./utils/unzip.ts";
-import { loadProjectsConfig, PROJECTS_FILE_NAME } from "./utils/projects.ts";
+import {
+  ALLOWED_PROJECT_DOCS_FILE_EXTS,
+  loadProjectsConfig,
+  ProjectDocsFileExt,
+  PROJECTS_FILE_NAME,
+} from "./utils/projects.ts";
 
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
 const ROOT_DIR = path.join(SCRIPT_DIR, "..");
 const SRC_DIR = path.join(ROOT_DIR, "public");
 const DIST_DIR = path.join(ROOT_DIR, "dist");
 const PROJECTS_FILE = path.join(ROOT_DIR, PROJECTS_FILE_NAME);
-
-enum ProjectDocsFileExt {
-  zip = ".zip",
-  json = ".json",
-}
-
-const PROJECT_DOCS_FILE_EXTS = [
-  ProjectDocsFileExt.zip,
-  ProjectDocsFileExt.json,
-];
 
 async function syncProjects(): Promise<void> {
   const projectsConfig = await loadProjectsConfig(PROJECTS_FILE);
@@ -31,7 +26,7 @@ async function syncProjects(): Promise<void> {
 
       for await (
         const entry of fs.walk(projectDir, {
-          exts: PROJECT_DOCS_FILE_EXTS,
+          exts: ALLOWED_PROJECT_DOCS_FILE_EXTS,
           followSymlinks: true,
           includeSymlinks: true,
           includeFiles: true,
@@ -44,7 +39,7 @@ async function syncProjects(): Promise<void> {
         if (ext === ProjectDocsFileExt.zip) {
           const targetDir = path.join(projectDistDir, targetDirname);
           await unzip(entry.path, targetDir);
-        } else if (ext === ProjectDocsFileExt.json) {
+        } else {
           const targetPath = path.join(projectDistDir, entry.name);
           await fs.copy(entry.path, targetPath, { overwrite: true });
         }

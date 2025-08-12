@@ -3,7 +3,13 @@ import * as fs from "@std/fs";
 import { createWriteStream } from "node:fs";
 import * as yauzl from "yauzl";
 
-export function unzip(zipFilePath: string, destDir: string): Promise<void> {
+const isDirectoryEntry = (entry: yauzl.Entry) => /\/$/.test(entry.fileName);
+
+export function unzip(
+  zipFilePath: string,
+  destDir: string,
+  whitelistFn?: (fileName: string) => boolean,
+): Promise<void> {
   return new Promise((resolve, reject) => {
     yauzl.open(zipFilePath, { lazyEntries: true }, (err, zipFile) => {
       if (err) {
@@ -14,7 +20,8 @@ export function unzip(zipFilePath: string, destDir: string): Promise<void> {
       zipFile.on("end", resolve);
 
       zipFile.on("entry", (entry) => {
-        if (/\/$/.test(entry.fileName)) {
+        console.log(`Processing entry: ${entry.fileName}`);
+        if (isDirectoryEntry(entry)) {
           // Directory entry
           zipFile.readEntry();
         } else {
@@ -24,7 +31,13 @@ export function unzip(zipFilePath: string, destDir: string): Promise<void> {
               return reject(err);
             }
 
-            const destPath = path.join(destDir, entry.fileName);
+            if (whitelistFn && !whitelistFn(entry.fileName)) {
+              zipFile.readEntry();
+              return;
+            }
+
+            const fileName = path.basename(entry.fileName);
+            const destPath = path.join(destDir, fileName);
             fs.ensureDir(path.dirname(destPath))
               .then(() =>
                 readStream

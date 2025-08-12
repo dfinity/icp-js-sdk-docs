@@ -24,6 +24,11 @@
           "description": "The repository from which to pull the static assets",
           "examples": ["dfinity/icp-sdk-js-core"]
         },
+        "branch": {
+          "type": "string",
+          "description": "The branch to pull the static assets from",
+          "examples": ["icp-pages"]
+        },
         "subdirectory": {
           "type": "string",
           "description": "The public/... subdirectory where to save the static assets pulled from the repository",
