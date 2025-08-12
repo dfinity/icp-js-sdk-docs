@@ -2,28 +2,15 @@ import * as path from "@std/path";
 import * as fs from "@std/fs";
 import { syncFile } from "./utils/fs.ts";
 import { unzip } from "./utils/unzip.ts";
+import { loadProjectsConfig } from "./utils/project.ts";
 
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
 const ROOT_DIR = path.join(SCRIPT_DIR, "..");
 const SRC_DIR = path.join(ROOT_DIR, "public");
 const DIST_DIR = path.join(ROOT_DIR, "dist");
 
-const PROJECTS_FILE = path.join(ROOT_DIR, "projects.json");
-
-interface ProjectsConfig {
-  projects: Project[];
-}
-
-interface Project {
-  repository: string;
-  subdirectory: string;
-}
-
 async function syncProjects(): Promise<void> {
-  const projectsData = await Deno.readFile(PROJECTS_FILE);
-  const projectsConfig: ProjectsConfig = JSON.parse(
-    new TextDecoder().decode(projectsData),
-  );
+  const projectsConfig = await loadProjectsConfig();
 
   await Promise.all(
     projectsConfig.projects.map(async (project) => {

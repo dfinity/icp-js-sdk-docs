@@ -141,3 +141,11 @@ of projects in the [`projects.json`](../projects.json) file:
   }
 ]
 ```
+
+On your own repository, create an orphaned `icp-pages` branch:
+
+```shell
+git checkout --orphan icp-pages
+git reset
+git clean -fdx
+```
