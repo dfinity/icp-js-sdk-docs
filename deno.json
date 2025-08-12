@@ -1,12 +1,13 @@
 {
   "tasks": {
     "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public,./projects.json\" --allow-write=\"./dist\" scripts/predeploy.ts",
-    "sync-project-docs": "deno run --no-prompt --allow-read=\"./.tmp,./public,./projects.json\" --allow-write=\"./public\" --allow-env scripts/sync-project-docs.ts",
+    "pull-project-docs": "deno run --no-prompt --allow-net --allow-read=\"./public,./projects.json,$TMPDIR\" --allow-write=\"./public,$TMPDIR\" --allow-env scripts/pull-project-docs.ts",
     "juno": "deno run --allow-all @junobuild/cli"
   },
   "imports": {
     "@junobuild/cli": "npm:@junobuild/cli@0.7.4",
     "@junobuild/config": "npm:@junobuild/config@^1.0.1",
+    "@std/cli": "jsr:@std/cli@^1.0.21",
     "@std/fs": "jsr:@std/fs@^1.0.19",
     "@std/path": "jsr:@std/path@^1.0.19",
     "@types/yauzl": "npm:@types/yauzl@^2.10.3",

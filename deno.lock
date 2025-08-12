@@ -1,6 +1,7 @@
 {
   "version": "5",
   "specifiers": {
+    "jsr:@std/cli@^1.0.21": "1.0.21",
     "jsr:@std/fs@^1.0.19": "1.0.19",
     "jsr:@std/internal@^1.0.9": "1.0.10",
     "jsr:@std/path@*": "1.1.1",
@@ -13,6 +14,9 @@
     "npm:yauzl@^3.2.0": "3.2.0"
   },
   "jsr": {
+    "@std/cli@1.0.21": {
+      "integrity": "cd25b050bdf6282e321854e3822bee624f07aca7636a3a76d95f77a3a919ca2a"
+    },
     "@std/fs@1.0.19": {
       "integrity": "051968c2b1eae4d2ea9f79a08a3845740ef6af10356aff43d3e2ef11ed09fb06",
       "dependencies": [
@@ -1457,6 +1461,7 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@std/cli@^1.0.21",
       "jsr:@std/fs@^1.0.19",
       "jsr:@std/path@^1.0.19",
       "npm:@junobuild/cli@0.7.4",

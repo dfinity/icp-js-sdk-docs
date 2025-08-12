@@ -3,6 +3,7 @@
   "projects": [
     {
       "repository": "dfinity/agent-js",
+      "branch": "icp-pages",
       "subdirectory": "core"
     }
   ]
