@@ -33,6 +33,8 @@ jobs:
           echo "project_repository=${{ github.event.client_payload.project_repository || inputs.project_repository }}" >> $GITHUB_OUTPUT
 
       - name: Pull project documentation
+        env:
+          TMPDIR: ${{ runner.temp }}
         run: |
           deno task pull-project-docs --project "${{ steps.params.outputs.project_repository }}"
 
