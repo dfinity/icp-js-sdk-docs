@@ -60,8 +60,6 @@ async function main() {
     );
   }
 
-  // TODO: remove me
-
   const downloadUrl =
     `https://github.com/${project.repository}/archive/refs/heads/${project.branch}.zip`;
 
