@@ -4,6 +4,11 @@
     {
       "repository": "dfinity/agent-js",
       "branch": "icp-pages",
+      "subdirectory": "agent"
+    },
+    {
+      "repository": "dfinity/icp-sdk-js-core",
+      "branch": "icp-pages",
       "subdirectory": "core"
     }
   ]
