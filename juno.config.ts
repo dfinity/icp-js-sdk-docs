@@ -1,4 +1,5 @@
 import { defineConfig } from "@junobuild/config";
+import { REDIRECTS } from "./redirects.ts";
 
 export default defineConfig({
   satellite: {
@@ -8,13 +9,7 @@ export default defineConfig({
     predeploy: ["deno task predeploy"],
     source: "dist",
     storage: {
-      redirects: [
-        {
-          source: "/",
-          location: "/core/latest",
-          code: 302,
-        },
-      ],
+      redirects: REDIRECTS,
     },
   },
 });
