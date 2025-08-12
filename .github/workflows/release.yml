@@ -25,12 +25,7 @@ jobs:
       - name: Install dependencies
         run: deno i
 
-      - name: Apply Juno config
-        env:
-          JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
-        run: deno task juno config --mode production
-
       - name: Deploy Docs to Juno satellite
         env:
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
-        run: deno task juno deploy --mode production --immediate
+        run: deno task juno deploy --config --mode production --immediate
