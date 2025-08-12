@@ -1,7 +1,7 @@
 {
   "tasks": {
     "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public,./projects.json\" --allow-write=\"./dist\" scripts/predeploy.ts",
-    "pull-project-docs": "deno run --no-prompt --allow-net=\"github.com,codeload.github.com\" --allow-read=\"./public,./projects.json,$TMPDIR\" --allow-write=\"./public,$TMPDIR\" scripts/pull-project-docs.ts",
+    "pull-project-docs": "deno run --no-prompt --allow-env --allow-net=\"github.com,api.github.com,codeload.github.com\" --allow-read=\"./public,./projects.json,$TMPDIR\" --allow-write=\"./public,$TMPDIR\" scripts/pull-project-docs.ts",
     "juno": "deno run --allow-all @junobuild/cli"
   },
   "imports": {
