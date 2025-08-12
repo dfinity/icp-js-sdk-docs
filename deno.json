@@ -2,9 +2,12 @@
   "tasks": {
     "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public,./projects.json\" --allow-write=\"./dist\" scripts/predeploy.ts",
     "pull-project-docs": "deno run --no-prompt --allow-net=\"github.com,codeload.github.com\" --allow-read=\"./public,./projects.json,$TMPDIR\" --allow-write=\"./public,$TMPDIR\" scripts/pull-project-docs.ts",
+    "fetch-project-commit": "deno run --no-prompt --allow-env --allow-net=\"github.com,api.github.com\" --allow-read=\"./projects.json\" scripts/fetch-project-commit.ts",
     "juno": "deno run --allow-all @junobuild/cli"
   },
   "imports": {
+    "@actions/core": "npm:@actions/core@^1.11.1",
+    "@actions/github": "npm:@actions/github@^6.0.1",
     "@junobuild/cli": "npm:@junobuild/cli@0.7.4",
     "@junobuild/config": "npm:@junobuild/config@^1.0.1",
     "@std/cli": "jsr:@std/cli@^1.0.21",
