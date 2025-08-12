@@ -1,6 +1,8 @@
 import * as path from "@std/path";
 import * as fs from "@std/fs";
 import * as cli from "@std/cli";
+import { setOutput } from "@actions/core";
+import { getOctokit } from "@actions/github";
 import {
   isAllowedFile,
   loadProjectConfig,
@@ -45,7 +47,7 @@ async function downloadAndExtractZip(
 
 async function main() {
   const args = cli.parseArgs(Deno.args, {
-    string: ["project"],
+    string: ["project", "token"],
   });
   if (!args.project) {
     throw new Error("Error: --project argument is required");
@@ -69,6 +71,21 @@ async function main() {
   await fs.emptyDir(destDir);
 
   await downloadAndExtractZip(downloadUrl, destDir);
+
+  if (args.token) {
+    const octokit = getOctokit(args.token);
+    const [owner, repo] = project.repository.split("/");
+    const { data: contents } = await octokit.rest.repos.listCommits({
+      owner,
+      repo,
+      sha: project.branch,
+      page: 1,
+      per_page: 1,
+    });
+
+    const latestCommitSha = contents[0].sha;
+    setOutput("commit_sha", latestCommitSha);
+  }
 
   console.log(`Done!`);
 }

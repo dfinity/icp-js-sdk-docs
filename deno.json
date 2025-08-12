@@ -5,6 +5,8 @@
     "juno": "deno run --allow-all @junobuild/cli"
   },
   "imports": {
+    "@actions/core": "npm:@actions/core@^1.11.1",
+    "@actions/github": "npm:@actions/github@^6.0.1",
     "@junobuild/cli": "npm:@junobuild/cli@0.7.4",
     "@junobuild/config": "npm:@junobuild/config@^1.0.1",
     "@std/cli": "jsr:@std/cli@^1.0.21",
