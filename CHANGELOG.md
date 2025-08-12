@@ -2,6 +2,7 @@
 
 ### Feat
 
+- agent folder (#31)
 - add commit hash to the automated PR (#29)
 - pull project docs action (#12)
 - temporary root files (#8)
