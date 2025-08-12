@@ -6,6 +6,7 @@ export const REDIRECTS: StorageConfigRedirect[] = [
     location: "/core/latest",
     code: 302,
   },
+  // Legacy pages where the agent-js docs were hosted
   {
     source: "/core/libs/**",
     location: "/agent/latest",
