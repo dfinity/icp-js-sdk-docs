@@ -37,7 +37,9 @@ async function main() {
   });
 
   const latestCommitSha = contents[0].sha;
+  const latestCommitShortSha = latestCommitSha.slice(0, 7);
   setOutput("commit_sha", latestCommitSha);
+  setOutput("commit_short_sha", latestCommitShortSha);
 }
 
 if (import.meta.main) {
