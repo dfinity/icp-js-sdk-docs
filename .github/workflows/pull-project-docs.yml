@@ -40,6 +40,8 @@ jobs:
 
       - name: Fetch project commit
         id: fetch-commit
+        env:
+          TMPDIR: ${{ runner.temp }}
         run: |
           deno task fetch-project-commit --project "${{ steps.params.outputs.project_repository }}" --token "${{ steps.generate_token.outputs.token }}"
 
