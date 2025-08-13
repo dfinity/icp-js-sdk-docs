@@ -27,5 +27,7 @@ jobs:
 
       - name: Deploy Docs to Juno satellite
         env:
+          # The identity corresponding to this token must be an Administrator of the satellite
+          # in order to have permissions to apply the config (what the --config flag does)
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
         run: deno task juno deploy --config --mode production --immediate
