@@ -11,11 +11,7 @@ export async function syncFile(
 
 export async function syncDir(srcDir: string, destDir: string): Promise<void> {
   await fs.ensureDir(destDir);
-  for await (const entry of Deno.readDir(srcDir)) {
-    const src = path.join(srcDir, entry.name);
-    const dest = path.join(destDir, entry.name);
-    await sync(src, dest);
-  }
+  await sync(srcDir, destDir);
 }
 
 async function sync(src: string, dest: string): Promise<void> {
