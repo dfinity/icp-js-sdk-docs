@@ -50,7 +50,7 @@ jobs:
         with:
           branch_name: "build/docs-update"
           base_branch_name: "main"
-          pull_request_title: "build: update project docs from ${{ steps.params.outputs.project_repository }}@${{ steps.fetch-commit.outputs.commit_sha }}"
+          pull_request_title: "build: update project docs from ${{ steps.params.outputs.project_repository }}@${{ steps.fetch-commit.outputs.commit_short_sha }}"
           pull_request_body: "This pull request was automatically created to update the project documentation from ${{ steps.params.outputs.project_repository }}@${{ steps.fetch-commit.outputs.commit_sha }}."
           commit_message: "build: update docs from ${{ steps.params.outputs.project_repository }}@${{ steps.fetch-commit.outputs.commit_sha }}"
           token: ${{ steps.generate_token.outputs.token }}
