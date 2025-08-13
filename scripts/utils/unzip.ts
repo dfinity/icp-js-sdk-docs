@@ -36,8 +36,7 @@ export function unzip(
               return;
             }
 
-            const fileName = path.basename(entry.fileName);
-            const destPath = path.join(destDir, fileName);
+            const destPath = path.join(destDir, entry.fileName);
             fs.ensureDir(path.dirname(destPath))
               .then(() =>
                 readStream
