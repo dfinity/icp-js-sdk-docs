@@ -11,6 +11,7 @@
 
 ### Fix
 
+- give permissions to script (#35)
 - make sure the dist/{project} directory exists (#18)
 - sync project json files (#15)
 
