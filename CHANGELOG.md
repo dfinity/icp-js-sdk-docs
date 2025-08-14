@@ -11,6 +11,7 @@
 
 ### Fix
 
+- skip github zipball top level directory (#50)
 - unzip file at the proper path (#46)
 - give permissions to script (#35)
 - make sure the dist/{project} directory exists (#18)
