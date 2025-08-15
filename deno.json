@@ -8,11 +8,11 @@
   "imports": {
     "@actions/core": "npm:@actions/core@^1.11.1",
     "@actions/github": "npm:@actions/github@^6.0.1",
-    "@junobuild/cli": "npm:@junobuild/cli@0.7.4",
-    "@junobuild/config": "npm:@junobuild/config@^1.0.1",
+    "@junobuild/cli": "npm:@junobuild/cli@0.8.1",
+    "@junobuild/config": "npm:@junobuild/config@^2.0.0",
     "@std/cli": "jsr:@std/cli@^1.0.21",
     "@std/fs": "jsr:@std/fs@^1.0.19",
-    "@std/path": "jsr:@std/path@^1.0.19",
+    "@std/path": "jsr:@std/path@^1.1.2",
     "@types/yauzl": "npm:@types/yauzl@^2.10.3",
     "yauzl": "npm:yauzl@^3.2.0"
   }

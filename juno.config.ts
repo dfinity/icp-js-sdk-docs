@@ -11,5 +11,9 @@ export default defineConfig({
     storage: {
       redirects: REDIRECTS,
     },
+    precompress: {
+      mode: "replace", // only upload the compressed version of the file
+      algorithm: "brotli",
+    },
   },
 });
