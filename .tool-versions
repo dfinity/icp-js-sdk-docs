@@ -1,0 +1,3 @@
+# Brotli compression does not work with Deno 2.4.4, so pin the version for now
+# TODO: remove once Deno 2.4.4 is fixed, see https://github.com/denoland/deno/issues/30259#issuecomment-3191140500
+deno 2.4.3
