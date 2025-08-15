@@ -26,6 +26,8 @@ jobs:
 
       - name: Setup Deno
         uses: dfinity/ci-tools/actions/setup-deno@main
+        with:
+          deno_version_file: .tool-versions
 
       - name: Prepare parameters
         id: params

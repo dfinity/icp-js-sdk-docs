@@ -18,6 +18,8 @@ jobs:
 
       - name: Setup Deno
         uses: dfinity/ci-tools/actions/setup-deno@main
+        with:
+          deno_version_file: .tool-versions
 
       - name: Check Linting
         run: deno lint
@@ -31,6 +33,8 @@ jobs:
 
       - name: Setup Deno
         uses: dfinity/ci-tools/actions/setup-deno@main
+        with:
+          deno_version_file: .tool-versions
 
       - name: Check Formatting
         run: deno fmt --check

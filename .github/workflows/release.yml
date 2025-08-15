@@ -21,6 +21,8 @@ jobs:
 
       - name: Setup Deno
         uses: dfinity/ci-tools/actions/setup-deno@main
+        with:
+          deno_version_file: .tool-versions
 
       - name: Install dependencies
         run: deno i
@@ -35,4 +37,4 @@ jobs:
           # The identity corresponding to this token must be an Administrator of the satellite
           # in order to have permissions to apply the config
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
-        run: deno task juno config --mode production
+        run: deno task juno config --force --mode production
