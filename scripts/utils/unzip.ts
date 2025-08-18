@@ -31,6 +31,7 @@ export function unzip(
             }
 
             if (whitelistFn && !whitelistFn(entry.fileName)) {
+              console.log(`Skipping file entry: ${entry.fileName}`);
               zipFile.readEntry();
               return;
             }

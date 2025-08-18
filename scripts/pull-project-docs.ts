@@ -7,6 +7,7 @@ import {
   PROJECTS_FILE_NAME,
 } from "./utils/projects.ts";
 import { unzip } from "./utils/unzip.ts";
+import { syncDir, topLevelDir } from "./utils/fs.ts";
 
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
 const ROOT_DIR = path.join(SCRIPT_DIR, "..");
@@ -58,17 +59,27 @@ async function main() {
     );
   }
 
+  const destDir = path.join(PUBLIC_DIR, project.subdirectory);
+
   const downloadUrl =
     `https://github.com/${project.repository}/archive/refs/heads/${project.branch}.zip`;
 
-  console.log(`Downloading and extracting project docs from ${downloadUrl}...`);
-
-  const destDir = path.join(PUBLIC_DIR, project.subdirectory);
+  console.log(
+    `Downloading and extracting project docs from ${downloadUrl} to ${destDir}...`,
+  );
 
   console.log(`Emptying existing public/${project.subdirectory}...`);
   await fs.emptyDir(destDir);
 
-  await downloadAndExtractZip(downloadUrl, destDir);
+  const tempDir = await Deno.makeTempDir();
+  await downloadAndExtractZip(downloadUrl, tempDir);
+
+  // Copy only the contents of the extracted top-level directory
+  // (GitHub zips contain a single top level directory like "<repo>-<branch>")
+  const filesDir = await topLevelDir(tempDir);
+  await syncDir(path.join(tempDir, filesDir), destDir);
+
+  await Deno.remove(tempDir, { recursive: true });
 
   console.log(`Done!`);
 }

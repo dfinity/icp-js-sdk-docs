@@ -2,6 +2,7 @@
 
 ### Feat
 
+- agent folder (#31)
 - add commit hash to the automated PR (#29)
 - pull project docs action (#12)
 - temporary root files (#8)
@@ -10,6 +11,9 @@
 
 ### Fix
 
+- skip github zipball top level directory (#50)
+- unzip file at the proper path (#46)
+- give permissions to script (#35)
 - make sure the dist/{project} directory exists (#18)
 - sync project json files (#15)
 
