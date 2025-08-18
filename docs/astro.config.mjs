@@ -7,7 +7,7 @@ export default defineConfig({
   site: "https://js.icp.build/",
   integrations: [
     starlight({
-      title: "ICP JS",
+      title: "ICP JavaScript SDK Docs",
       logo: {
         src: "./src/assets/icp.svg",
         alt: "Internet Computer Logo",
