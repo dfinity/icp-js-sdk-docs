@@ -10,7 +10,9 @@ import {
 
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
 const ROOT_DIR = path.join(SCRIPT_DIR, "..");
-const SRC_DIR = path.join(ROOT_DIR, "public");
+const DOCS_DIR = path.join(ROOT_DIR, "docs");
+const DOCS_DIST_DIR = path.join(DOCS_DIR, "dist");
+const PUB_DIR = path.join(ROOT_DIR, "public");
 const DIST_DIR = path.join(ROOT_DIR, "dist");
 const PROJECTS_FILE = path.join(ROOT_DIR, PROJECTS_FILE_NAME);
 
@@ -19,7 +21,8 @@ async function syncProjects(): Promise<void> {
 
   await Promise.all(
     projectsConfig.projects.map(async (project) => {
-      const projectDir = path.join(SRC_DIR, project.subdirectory);
+      console.log(`Syncing project: ${project.repository}...`);
+      const projectDir = path.join(PUB_DIR, project.subdirectory);
       const projectDistDir = path.join(DIST_DIR, project.subdirectory);
 
       await fs.ensureDir(projectDistDir);
@@ -34,6 +37,7 @@ async function syncProjects(): Promise<void> {
           canonicalize: true,
         })
       ) {
+        console.log(`Syncing file: ${entry.path}...`);
         const ext = path.extname(entry.path);
         const targetDirname = path.basename(entry.path, ext);
         if (ext === ProjectDocsFileExt.zip) {
@@ -48,24 +52,14 @@ async function syncProjects(): Promise<void> {
   );
 }
 
-async function syncRootFiles(): Promise<void> {
-  for await (
-    const entry of fs.walk(SRC_DIR, {
-      followSymlinks: true,
-      includeSymlinks: true,
-      includeFiles: true,
-      includeDirs: false,
-      maxDepth: 1, // we only want the root files
-    })
-  ) {
-    const targetPath = path.join(DIST_DIR, entry.path.slice(SRC_DIR.length));
-    await fs.ensureDir(path.dirname(targetPath));
-    await fs.copy(entry.path, targetPath, { overwrite: true });
-  }
-}
-
 async function main(): Promise<void> {
-  await syncRootFiles();
+  console.log("Emptying dist directory...");
+  await fs.emptyDir(DIST_DIR);
+
+  console.log("Copying docs dist directory to dist...");
+  await fs.copy(DOCS_DIST_DIR, DIST_DIR, { overwrite: true });
+
+  console.log("Syncing projects...");
   await syncProjects();
 }
 
@@ -73,8 +67,7 @@ if (import.meta.main) {
   try {
     await main();
   } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error("Error in predeploy script:", message);
+    console.error("Error in predeploy script:", error);
 
     Deno.exit(1);
   }

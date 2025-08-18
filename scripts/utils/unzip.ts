@@ -20,7 +20,6 @@ export function unzip(
       zipFile.on("end", resolve);
 
       zipFile.on("entry", (entry) => {
-        console.log(`Processing entry: ${entry.fileName}`);
         if (isDirectoryEntry(entry)) {
           // Directory entry
           zipFile.readEntry();

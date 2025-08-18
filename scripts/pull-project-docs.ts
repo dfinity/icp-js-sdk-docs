@@ -88,8 +88,7 @@ if (import.meta.main) {
   try {
     await main();
   } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error("Error in sync-project-docs script:", message);
+    console.error("Error in sync-project-docs script:", error);
 
     Deno.exit(1);
   }

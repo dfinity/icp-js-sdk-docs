@@ -5,8 +5,9 @@ export default defineConfig({
   satellite: {
     ids: {
       production: "tdg7b-baaaa-aaaal-asj3a-cai",
+      development: "jx5yt-yyaaa-aaaal-abzbq-cai",
     },
-    predeploy: ["deno task predeploy"],
+    predeploy: ["deno task docs:build", "deno task predeploy"],
     source: "dist",
     storage: {
       redirects: REDIRECTS,
@@ -15,5 +16,8 @@ export default defineConfig({
       mode: "replace", // only upload the compressed version of the file
       algorithm: "brotli",
     },
+  },
+  emulator: {
+    satellite: {},
   },
 });

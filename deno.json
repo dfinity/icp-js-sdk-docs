@@ -1,19 +1,27 @@
 {
   "tasks": {
-    "predeploy": "deno run --no-prompt --allow-read=\"./dist,./public,./projects.json\" --allow-write=\"./dist\" scripts/predeploy.ts",
-    "pull-project-docs": "deno run --no-prompt --allow-net=\"github.com,codeload.github.com\" --allow-read=\"./public,./projects.json,$TMPDIR\" --allow-write=\"./public,$TMPDIR\" scripts/pull-project-docs.ts",
-    "fetch-project-commit": "deno run --no-prompt --allow-env --allow-net=\"github.com,api.github.com\" --allow-read=\"./projects.json,$TMPDIR\" --allow-write=\"$TMPDIR\" scripts/fetch-project-commit.ts",
-    "juno": "deno run --allow-all @junobuild/cli"
+    "predeploy": "deno run --no-prompt --allow-read --allow-write=\"./dist\" scripts/predeploy.ts",
+    "pull-project-docs": "deno run --no-prompt --allow-read --allow-net=\"github.com,codeload.github.com\" --allow-write=\"./public,$TMPDIR\" scripts/pull-project-docs.ts",
+    "fetch-project-commit": "deno run --no-prompt --allow-read --allow-env --allow-net=\"github.com,api.github.com\" --allow-write=\"$TMPDIR\" scripts/fetch-project-commit.ts",
+    "docs:build": "astro build --root ./docs",
+    "docs:start": "astro dev --root ./docs",
+    "juno": "juno"
   },
   "imports": {
+    "fs": "node:fs",
+    "url": "node:url",
+    "path": "node:path",
     "@actions/core": "npm:@actions/core@^1.11.1",
     "@actions/github": "npm:@actions/github@^6.0.1",
+    "@astrojs/starlight": "npm:@astrojs/starlight@^0.35.2",
     "@junobuild/cli": "npm:@junobuild/cli@0.8.1",
     "@junobuild/config": "npm:@junobuild/config@^2.0.0",
     "@std/cli": "jsr:@std/cli@^1.0.21",
     "@std/fs": "jsr:@std/fs@^1.0.19",
     "@std/path": "jsr:@std/path@^1.1.2",
     "@types/yauzl": "npm:@types/yauzl@^2.10.3",
+    "astro": "npm:astro@^5.13.0",
     "yauzl": "npm:yauzl@^3.2.0"
-  }
+  },
+  "nodeModulesDir": "auto"
 }
