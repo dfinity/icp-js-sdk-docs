@@ -1,2 +1,12 @@
+# Build output
+.dfx/
+.astro/
 dist/
 node_modules/
+
+# env files
+.env
+
+# MacOS
+.DS_Store
+

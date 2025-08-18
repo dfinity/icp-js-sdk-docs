@@ -20,7 +20,6 @@ export function unzip(
       zipFile.on("end", resolve);
 
       zipFile.on("entry", (entry) => {
-        console.log(`Processing entry: ${entry.fileName}`);
         if (isDirectoryEntry(entry)) {
           // Directory entry
           zipFile.readEntry();
@@ -36,8 +35,7 @@ export function unzip(
               return;
             }
 
-            const fileName = path.basename(entry.fileName);
-            const destPath = path.join(destDir, fileName);
+            const destPath = path.join(destDir, entry.fileName);
             fs.ensureDir(path.dirname(destPath))
               .then(() =>
                 readStream

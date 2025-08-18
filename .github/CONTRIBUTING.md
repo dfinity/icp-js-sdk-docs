@@ -88,7 +88,7 @@ summary of what you need to do:
 1. Install [Deno](https://docs.deno.com/runtime/#quick-install).
 2. Install Deno dependencies:
    ```bash
-   deno i
+   deno i --allow-scripts=npm:sharp@0.33.5
    ```
 
 ### Making a pull request
@@ -140,4 +140,52 @@ of projects in the [`projects.json`](../projects.json) file:
     "subdirectory": "$YOUR_PROJECT_NAME"
   }
 ]
+```
+
+## Commands
+
+### Serve root docs project
+
+To serve the root docs project, run:
+
+```shell
+deno task docs:start
+```
+
+### Build root docs project
+
+To build the root docs project, run:
+
+```shell
+deno task docs:build
+```
+
+### Serve all docs
+
+To start the Juno emulator, run:
+
+```shell
+deno task juno dev start
+```
+
+In another terminal, to login to the Juno emulator, run:
+
+```shell
+deno task juno login --mode development --emulator
+```
+
+To deploy the canister, run:
+
+```shell
+deno task juno deploy --mode development --immediate
+```
+
+### Manually pull sub-project assets
+
+To manually pull assets from a sub-project (where `$YOUR_PROJECT_REPOSITORY` is
+the `repository` attribute from a project listed in the `projects.json` file),
+run:
+
+```shell
+deno task pull-project-docs --project $YOUR_PROJECT_REPOSITORY
 ```
