@@ -1,6 +1,9 @@
 import * as path from "@std/path";
 
-export const PROJECTS_FILE_NAME = "projects.json";
+const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
+const ROOT_DIR = path.join(SCRIPT_DIR, "..", "..");
+const PROJECTS_FILE_NAME = "projects.json";
+const PROJECTS_FILE = path.join(ROOT_DIR, PROJECTS_FILE_NAME);
 
 export enum ProjectDocsFileExt {
   zip = ".zip",
@@ -29,17 +32,14 @@ interface Project {
   subdirectory: string;
 }
 
-export async function loadProjectsConfig(
-  path: string,
-): Promise<ProjectsConfig> {
-  const projectsData = await Deno.readFile(path);
+export async function loadProjectsConfig(): Promise<ProjectsConfig> {
+  const projectsData = await Deno.readFile(PROJECTS_FILE);
   return JSON.parse(new TextDecoder().decode(projectsData));
 }
 
 export async function loadProjectConfig(
-  path: string,
   repository: string,
 ): Promise<Project | undefined> {
-  const projectsConfig = await loadProjectsConfig(path);
+  const projectsConfig = await loadProjectsConfig();
   return projectsConfig.projects.find((p) => p.repository === repository);
 }

@@ -88,7 +88,7 @@ summary of what you need to do:
 1. Install [Deno](https://docs.deno.com/runtime/#quick-install).
 2. Install Deno dependencies:
    ```bash
-   deno i --allow-scripts=npm:sharp@0.33.5
+   deno i --allow-scripts
    ```
 
 ### Making a pull request
@@ -123,25 +123,6 @@ summary of what you need to do:
     commit message will be used.
 11. Celebrate your success after your pull request is merged!
 
-## Adding a new sub-site
-
-To add a new sub-site to the documentation, add `$YOUR_PROJECT_NAME` to the list
-of projects in the [`projects.json`](../projects.json) file:
-
-```json
-[
-  {
-    "repository": "dfinity/agent-js",
-    "subdirectory": "core"
-  },
-  // other entries...
-  {
-    "repository": "$YOUR_GITHUB_ORGANIZATION/$YOUR_PROJECT_NAME",
-    "subdirectory": "$YOUR_PROJECT_NAME"
-  }
-]
-```
-
 ## Commands
 
 ### Serve root docs project
@@ -160,7 +141,7 @@ To build the root docs project, run:
 deno task docs:build
 ```
 
-### Serve all docs
+### Serve all docs using Juno
 
 To start the Juno emulator, run:
 
@@ -178,6 +159,20 @@ To deploy the canister, run:
 
 ```shell
 deno task juno deploy --mode development --immediate
+```
+
+### Server all docs using DFX
+
+Alternatively, to use DFX, first start the local replica:
+
+```shell
+dfx start --background
+```
+
+Then deploy the canister:
+
+```shell
+dfx deploy
 ```
 
 ### Manually pull sub-project assets

@@ -1,12 +1,7 @@
 import * as cli from "@std/cli";
-import * as path from "@std/path";
 import { setOutput } from "@actions/core";
 import { getOctokit } from "@actions/github";
-import { loadProjectConfig, PROJECTS_FILE_NAME } from "./utils/projects.ts";
-
-const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
-const ROOT_DIR = path.join(SCRIPT_DIR, "..");
-const PROJECTS_FILE = path.join(ROOT_DIR, PROJECTS_FILE_NAME);
+import { loadProjectConfig } from "./utils/projects.ts";
 
 async function main() {
   const args = cli.parseArgs(Deno.args, {
@@ -19,7 +14,7 @@ async function main() {
     throw new Error("Error: --token argument is required");
   }
 
-  const project = await loadProjectConfig(PROJECTS_FILE, args.project);
+  const project = await loadProjectConfig(args.project);
   if (!project) {
     throw new Error(
       `Error: Project "${args.project}" not found in projects.json`,
