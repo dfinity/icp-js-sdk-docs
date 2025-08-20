@@ -58,7 +58,7 @@ This repository contains the documentation for the ICP JavaScript SDK hosted on
    ```
 
 3. Optionally add any necessary redirects for your project in the
-   [`redirects.ts`](./projects.ts) file:
+   [`redirects.ts`](./redirects.ts) file:
    ```ts
    import { type StorageConfigRedirect } from "@junobuild/config";
 

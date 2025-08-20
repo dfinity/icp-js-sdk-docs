@@ -141,7 +141,7 @@ To build the root docs project, run:
 deno task docs:build
 ```
 
-### Serve all docs
+### Serve all docs using Juno
 
 To start the Juno emulator, run:
 
@@ -159,6 +159,20 @@ To deploy the canister, run:
 
 ```shell
 deno task juno deploy --mode development --immediate
+```
+
+### Server all docs using DFX
+
+Alternatively, to use DFX, first start the local replica:
+
+```shell
+dfx start --background
+```
+
+Then deploy the canister:
+
+```shell
+dfx deploy
 ```
 
 ### Manually pull sub-project assets
