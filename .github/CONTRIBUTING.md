@@ -88,7 +88,7 @@ summary of what you need to do:
 1. Install [Deno](https://docs.deno.com/runtime/#quick-install).
 2. Install Deno dependencies:
    ```bash
-   deno i --allow-scripts=npm:sharp@0.33.5
+   deno i --allow-scripts
    ```
 
 ### Making a pull request
@@ -122,25 +122,6 @@ summary of what you need to do:
     commits, you no longer need to follow conventional commits. Only the first
     commit message will be used.
 11. Celebrate your success after your pull request is merged!
-
-## Adding a new sub-site
-
-To add a new sub-site to the documentation, add `$YOUR_PROJECT_NAME` to the list
-of projects in the [`projects.json`](../projects.json) file:
-
-```json
-[
-  {
-    "repository": "dfinity/agent-js",
-    "subdirectory": "core"
-  },
-  // other entries...
-  {
-    "repository": "$YOUR_GITHUB_ORGANIZATION/$YOUR_PROJECT_NAME",
-    "subdirectory": "$YOUR_PROJECT_NAME"
-  }
-]
-```
 
 ## Commands
 

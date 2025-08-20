@@ -1,0 +1,19 @@
+{
+  "dfx": "0.28.0",
+  "version": 1,
+  "output_env_file": ".env",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "canisters": {
+    "docs": {
+      "type": "assets",
+      "build": ["deno task docs:build", "deno task predeploy"],
+      "source": ["dist"],
+      "frontend": {}
+    }
+  }
+}

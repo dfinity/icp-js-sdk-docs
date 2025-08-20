@@ -1,18 +1,13 @@
 import * as path from "@std/path";
 import * as fs from "@std/fs";
 import * as cli from "@std/cli";
-import {
-  isAllowedFile,
-  loadProjectConfig,
-  PROJECTS_FILE_NAME,
-} from "./utils/projects.ts";
+import { isAllowedFile, loadProjectConfig } from "./utils/projects.ts";
 import { unzip } from "./utils/unzip.ts";
 import { syncDir, topLevelDir } from "./utils/fs.ts";
 
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
 const ROOT_DIR = path.join(SCRIPT_DIR, "..");
 const PUBLIC_DIR = path.join(ROOT_DIR, "public");
-const PROJECTS_FILE = path.join(ROOT_DIR, PROJECTS_FILE_NAME);
 
 async function downloadAndExtractZip(
   url: string,
@@ -52,7 +47,7 @@ async function main() {
     throw new Error("Error: --project argument is required");
   }
 
-  const project = await loadProjectConfig(PROJECTS_FILE, args.project);
+  const project = await loadProjectConfig(args.project);
   if (!project) {
     throw new Error(
       `Error: Project "${args.project}" not found in projects.json`,

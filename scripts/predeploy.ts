@@ -5,7 +5,6 @@ import {
   ALLOWED_PROJECT_DOCS_FILE_EXTS,
   loadProjectsConfig,
   ProjectDocsFileExt,
-  PROJECTS_FILE_NAME,
 } from "./utils/projects.ts";
 
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
@@ -14,10 +13,9 @@ const DOCS_DIR = path.join(ROOT_DIR, "docs");
 const DOCS_DIST_DIR = path.join(DOCS_DIR, "dist");
 const PUB_DIR = path.join(ROOT_DIR, "public");
 const DIST_DIR = path.join(ROOT_DIR, "dist");
-const PROJECTS_FILE = path.join(ROOT_DIR, PROJECTS_FILE_NAME);
 
 async function syncProjects(): Promise<void> {
-  const projectsConfig = await loadProjectsConfig(PROJECTS_FILE);
+  const projectsConfig = await loadProjectsConfig();
 
   await Promise.all(
     projectsConfig.projects.map(async (project) => {
