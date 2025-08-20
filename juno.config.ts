@@ -1,5 +1,6 @@
 import { defineConfig } from "@junobuild/config";
 import { REDIRECTS } from "./redirects.ts";
+import { REWRITES } from "./rewrites.ts";
 
 export default defineConfig({
   satellite: {
@@ -11,6 +12,7 @@ export default defineConfig({
     source: "dist",
     storage: {
       redirects: REDIRECTS,
+      rewrites: REWRITES,
     },
     precompress: {
       mode: "replace", // only upload the compressed version of the file

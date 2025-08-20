@@ -14,6 +14,7 @@
     "npm:@junobuild/config@2": "2.0.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76",
     "npm:@types/node@*": "24.2.0",
     "npm:@types/yauzl@^2.10.3": "2.10.3",
+    "npm:astro@5.13.2": "5.13.2_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@24.2.0",
     "npm:astro@^5.13.0": "5.13.2_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@24.2.0",
     "npm:yauzl@^3.2.0": "3.2.0"
   },
