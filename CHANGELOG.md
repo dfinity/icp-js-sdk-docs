@@ -2,6 +2,7 @@
 
 ### Feat
 
+- add root site content (#70)
 - add root starlight docs website (#62)
 - agent folder (#31)
 - add commit hash to the automated PR (#29)
