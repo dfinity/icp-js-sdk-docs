@@ -24,9 +24,6 @@ jobs:
         with:
           deno_version_file: .tool-versions
 
-      - name: Install dependencies
-        run: deno i
-
       - name: Deploy Docs to Juno satellite
         env:
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
