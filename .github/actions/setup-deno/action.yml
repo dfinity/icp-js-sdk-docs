@@ -4,7 +4,7 @@ runs:
   using: composite
   steps:
     - name: Setup Deno
-      uses: dfinity/ci-tools/actions/setup-deno@0ecf2eb4ee2965f601c8a3f89d4c55dfbe4d9c8c
+      uses: dfinity/ci-tools/actions/setup-deno@958c448b3352d872dd6fd1e0b44d3d4489d1382c
       with:
         deno_version_file: .tool-versions
         install_allow_scripts: npm:sharp@0.33.5
