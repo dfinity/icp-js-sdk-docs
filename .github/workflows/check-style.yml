@@ -16,10 +16,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - name: Setup Deno
-        uses: dfinity/ci-tools/actions/setup-deno@main
-        with:
-          deno_version_file: .tool-versions
+      - uses: ./.github/actions/setup-deno
 
       - name: Check Linting
         run: deno lint
@@ -31,10 +28,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - name: Setup Deno
-        uses: dfinity/ci-tools/actions/setup-deno@main
-        with:
-          deno_version_file: .tool-versions
+      - uses: ./.github/actions/setup-deno
 
       - name: Check Formatting
         run: deno fmt --check
