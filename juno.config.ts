@@ -5,7 +5,7 @@ import { REWRITES } from "./rewrites.ts";
 export default defineConfig({
   satellite: {
     ids: {
-      production: "tdg7b-baaaa-aaaal-asj3a-cai",
+      production: "bmsnr-hiaaa-aaaal-ask2q-cai",
       development: "jx5yt-yyaaa-aaaal-abzbq-cai",
     },
     predeploy: ["deno task docs:build", "deno task predeploy"],
