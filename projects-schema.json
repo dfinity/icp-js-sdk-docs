@@ -22,7 +22,7 @@
         "repository": {
           "type": "string",
           "description": "The repository from which to pull the static assets",
-          "examples": ["dfinity/icp-sdk-js-core"]
+          "examples": ["dfinity/icp-js-core"]
         },
         "branch": {
           "type": "string",
