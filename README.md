@@ -11,7 +11,7 @@ This repository contains the documentation for the ICP JavaScript SDK hosted on
    ```json
    [
      {
-       "repository": "dfinity/agent-js",
+       "repository": "dfinity/icp-sdk-js-core",
        "subdirectory": "core"
      },
      // other entries...
