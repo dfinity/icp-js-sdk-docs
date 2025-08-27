@@ -19,6 +19,8 @@ export default defineConfig({
         pattern: "**/*.+(js|mjs|css)",
         algorithm: "brotli",
         // only upload the compressed version for these files
+        // since all browsers support this encoding, it reduces
+        // upload time and saves heap memory
         mode: "replace",
       },
       {
