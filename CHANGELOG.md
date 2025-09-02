@@ -13,6 +13,7 @@
 
 ### Fix
 
+- add both trailing slash and non trailing slash to redirects for `/core` (#87)
 - upload both compressed and uncompressed html files (#83)
 - skip github zipball top level directory (#50)
 - unzip file at the proper path (#46)
