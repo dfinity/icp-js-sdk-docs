@@ -77,6 +77,9 @@ This repository contains the documentation for the ICP JavaScript SDK hosted on
    ];
    ```
 
+   > Note: you may need to add both the exact path and the path with a trailing
+   > slash for the redirect to work.
+
 4. Optionally add any necessary rewrites for your project in the
    [`rewrites.ts`](./rewrites.ts) file:
 
