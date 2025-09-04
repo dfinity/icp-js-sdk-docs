@@ -1,0 +1,22 @@
+---
+import DefaultSidebar from "@astrojs/starlight/components/Sidebar.astro";
+import { getCurrentPathComponents } from '../../shared/path.ts';
+
+const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
+const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;
+
+const sidebar = Astro.locals.starlightRoute.sidebar;
+
+function isInCurrentSidebar(entry: App.Locals["starlightRoute"]["sidebar"][number]): boolean {
+  return entry.type === 'group' &&
+    entry.entries.some(
+      (subEntry) => subEntry.type === 'link' && subEntry.href.startsWith(currentBase) || subEntry.type === 'group' && isInCurrentSidebar(subEntry)
+    );
+}
+
+const filteredSidebar = sidebar.filter(isInCurrentSidebar);
+
+Astro.locals.starlightRoute.sidebar = filteredSidebar;
+---
+
+<DefaultSidebar />
