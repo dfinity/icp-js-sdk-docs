@@ -2,6 +2,8 @@
   "$schema": "./projects-schema.json",
   "projects": [
     {
+      "title": "Core",
+      "description": "Base library for Internet Computer apps.",
       "repository": "dfinity/icp-js-core",
       "branch": "icp-pages",
       "subdirectory": "core"

@@ -5,6 +5,7 @@
     "fetch-project-commit": "deno run --no-prompt --allow-read --allow-env --allow-net=\"github.com,api.github.com\" --allow-write=\"$TMPDIR\" scripts/fetch-project-commit.ts",
     "docs:build": "astro build --root ./docs",
     "docs:start": "astro dev --root ./docs",
+    "types:projects": "deno run --no-prompt --allow-read --allow-write=\"projects-schema.d.ts\" --allow-env --allow-sys=\"cpus\" json-schema-to-typescript --input projects-schema.json --output projects-schema.d.ts",
     "juno": "juno"
   },
   "imports": {
@@ -13,6 +14,7 @@
     "@types/react": "npm:@types/react@^19.1.12",
     "astro-integration-kit": "npm:astro-integration-kit@^0.19.0",
     "fs": "node:fs",
+    "json-schema-to-typescript": "npm:json-schema-to-typescript@^15.0.4",
     "react": "npm:react@^19.1.1",
     "react-dom": "npm:react-dom@^19.1.1",
     "url": "node:url",

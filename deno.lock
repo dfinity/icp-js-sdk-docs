@@ -9,19 +9,17 @@
     "jsr:@std/path@^1.1.2": "1.1.2",
     "npm:@actions/core@^1.11.1": "1.11.1",
     "npm:@actions/github@^6.0.1": "6.0.1_@octokit+core@5.2.2",
-    "npm:@astrojs/react@*": "4.3.0_@types+react@19.1.12_@types+react-dom@19.1.9__@types+react@19.1.12_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.5__@types+node@22.15.15__picomatch@4.0.3_@types+node@22.15.15",
-    "npm:@astrojs/react@^4.3.0": "4.3.0_@types+react@19.1.12_@types+react-dom@19.1.9__@types+react@19.1.12_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.5__@types+node@22.15.15__picomatch@4.0.3_@types+node@22.15.15",
-    "npm:@astrojs/starlight@~0.35.2": "0.35.2_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+    "npm:@astrojs/react@^4.3.0": "4.3.0_@types+react@19.1.12_@types+react-dom@19.1.9__@types+react@19.1.12_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.5__picomatch@4.0.3",
+    "npm:@astrojs/starlight@~0.35.2": "0.35.2_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76",
     "npm:@junobuild/cli@~0.8.4": "0.8.4_@dfinity+candid@2.4.1__@dfinity+principal@2.4.1_@dfinity+principal@2.4.1_@dfinity+agent@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@dfinity+identity@2.4.1__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1_@dfinity+ic-management@6.2.2__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+utils@2.14.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1_@junobuild+config@2.1.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@2.4.1___zod@3.25.76__zod@3.25.76__@dfinity+principal@2.4.1_@junobuild+ic-client@2.0.0__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+identity@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_semver@7.7.2_@junobuild+storage@1.2.0__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+identity@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+utils@2.14.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@junobuild+ic-client@2.0.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+identity@2.4.1____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@junobuild+utils@0.1.4___@dfinity+utils@2.14.0____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1_@junobuild+cdn@1.2.1__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+ic-management@6.2.2___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+utils@2.14.0____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1__@dfinity+identity@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+utils@2.14.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@junobuild+config@2.1.0___@dfinity+zod-schemas@1.1.0____@dfinity+principal@2.4.1____zod@3.25.76___zod@3.25.76___@dfinity+principal@2.4.1__@junobuild+ic-client@2.0.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+identity@2.4.1____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@junobuild+storage@1.2.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+identity@2.4.1____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+utils@2.14.0____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@junobuild+ic-client@2.0.0____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+identity@2.4.1_____@dfinity+agent@2.4.1______@dfinity+candid@2.4.1_______@dfinity+principal@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@junobuild+utils@0.1.4____@dfinity+utils@2.14.0_____@dfinity+agent@2.4.1______@dfinity+candid@2.4.1_______@dfinity+principal@2.4.1______@dfinity+principal@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@2.4.1___zod@3.25.76__@junobuild+utils@0.1.4___@dfinity+utils@2.14.0____@dfinity+agent@2.4.1_____@dfinity+candid@2.4.1______@dfinity+principal@2.4.1_____@dfinity+principal@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1_ora@8.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_@dfinity+auth-client@2.4.1__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+identity@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1_@junobuild+utils@0.1.4__@dfinity+utils@2.14.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1",
-    "npm:@junobuild/config@^2.1.0": "2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.2__zod@3.25.76_zod@3.25.76",
+    "npm:@junobuild/config@^2.1.0": "2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76",
     "npm:@radix-ui/react-navigation-menu@^1.2.14": "1.2.14_@types+react@19.1.12_react@19.1.1_react-dom@19.1.1__react@19.1.1",
-    "npm:@types/node@*": "22.15.15",
     "npm:@types/react@^19.1.12": "19.1.12",
     "npm:@types/yauzl@^2.10.3": "2.10.3",
-    "npm:astro-integration-kit@0.19": "0.19.0_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76__@types+node@22.15.15_@types+node@22.15.15",
-    "npm:astro@5.13.3": "5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-    "npm:astro@^5.13.0": "5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-    "npm:js-yaml@*": "4.1.0",
+    "npm:astro-integration-kit@0.19": "0.19.0_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76",
+    "npm:astro@5.13.3": "5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76",
+    "npm:astro@^5.13.0": "5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76",
+    "npm:json-schema-to-typescript@^15.0.4": "15.0.4",
     "npm:react-dom@^19.1.1": "19.1.1_react@19.1.1",
     "npm:react@^19.1.1": "19.1.1",
     "npm:yauzl@^3.2.0": "3.2.0"
@@ -90,6 +88,14 @@
         "@jridgewell/trace-mapping"
       ]
     },
+    "@apidevtools/json-schema-ref-parser@11.9.3": {
+      "integrity": "sha512-60vepv88RwcJtSHrD6MjIL6Ta3SOYbgfnkHb+ppAVK+o9mXprRtulx7VlRl3lN3bbvysAfCS7WMVfhUYemB0IQ==",
+      "dependencies": [
+        "@jsdevtools/ono",
+        "@types/json-schema",
+        "js-yaml"
+      ]
+    },
     "@astrojs/compiler@2.12.2": {
       "integrity": "sha512-w2zfvhjNCkNMmMMOn5b0J8+OmUaBL1o40ipMvqcG6NRpdC+lKxmTi48DT8Xw0SzJ3AfmeFLB45zXZXtmbsjcgw=="
     },
@@ -128,26 +134,7 @@
         "@astrojs/markdown-remark",
         "@mdx-js/mdx",
         "acorn",
-        "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76",
-        "es-module-lexer",
-        "estree-util-visit",
-        "hast-util-to-html",
-        "kleur@4.1.5",
-        "rehype-raw",
-        "remark-gfm",
-        "remark-smartypants",
-        "source-map",
-        "unist-util-visit",
-        "vfile"
-      ]
-    },
-    "@astrojs/mdx@4.3.4_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76_acorn@8.15.0_@types+node@22.15.15": {
-      "integrity": "sha512-Ew3iP+6zuzzJWNEH5Qr1iknrue1heEfgmfuMpuwLaSwqlUiJQ0NDb2oxKosgWU1ROYmVf1H4KCmS6QdMWKyFjw==",
-      "dependencies": [
-        "@astrojs/markdown-remark",
-        "@mdx-js/mdx",
-        "acorn",
-        "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
+        "astro",
         "es-module-lexer",
         "estree-util-visit",
         "hast-util-to-html",
@@ -166,7 +153,7 @@
         "prismjs"
       ]
     },
-    "@astrojs/react@4.3.0_@types+react@19.1.12_@types+react-dom@19.1.9__@types+react@19.1.12_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.5__@types+node@22.15.15__picomatch@4.0.3_@types+node@22.15.15": {
+    "@astrojs/react@4.3.0_@types+react@19.1.12_@types+react-dom@19.1.9__@types+react@19.1.12_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.5__picomatch@4.0.3": {
       "integrity": "sha512-N02aj52Iezn69qHyx5+XvPqgsPMEnel9mI5JMbGiRMTzzLMuNaxRVoQTaq2024Dpr7BLsxCjqMkNvelqMDhaHA==",
       "dependencies": [
         "@types/react",
@@ -175,7 +162,7 @@
         "react",
         "react-dom",
         "ultrahtml",
-        "vite@6.3.5_@types+node@22.15.15_picomatch@4.0.3"
+        "vite"
       ]
     },
     "@astrojs/sitemap@3.5.1": {
@@ -190,47 +177,14 @@
       "integrity": "sha512-curGghoW4s5pCbW2tINsJPoxEYPan87ptCOv7GZ+S24N3J6AyaOu/OsjZDEMaIpo3ZlObM5DQn+w7iXl3drDhQ==",
       "dependencies": [
         "@astrojs/markdown-remark",
-        "@astrojs/mdx@4.3.4_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76_acorn@8.15.0",
+        "@astrojs/mdx",
         "@astrojs/sitemap",
         "@pagefind/default-ui",
         "@types/hast",
         "@types/js-yaml",
         "@types/mdast",
-        "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76",
-        "astro-expressive-code@0.41.3_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76",
-        "bcp-47",
-        "hast-util-from-html",
-        "hast-util-select",
-        "hast-util-to-string",
-        "hastscript",
-        "i18next",
-        "js-yaml",
-        "klona",
-        "mdast-util-directive",
-        "mdast-util-to-markdown",
-        "mdast-util-to-string",
-        "pagefind",
-        "rehype",
-        "rehype-format",
-        "remark-directive",
-        "ultrahtml",
-        "unified",
-        "unist-util-visit",
-        "vfile"
-      ]
-    },
-    "@astrojs/starlight@0.35.2_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-curGghoW4s5pCbW2tINsJPoxEYPan87ptCOv7GZ+S24N3J6AyaOu/OsjZDEMaIpo3ZlObM5DQn+w7iXl3drDhQ==",
-      "dependencies": [
-        "@astrojs/markdown-remark",
-        "@astrojs/mdx@4.3.4_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76_acorn@8.15.0_@types+node@22.15.15",
-        "@astrojs/sitemap",
-        "@pagefind/default-ui",
-        "@types/hast",
-        "@types/js-yaml",
-        "@types/mdast",
-        "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-        "astro-expressive-code@0.41.3_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+        "astro",
+        "astro-expressive-code",
         "bcp-47",
         "hast-util-from-html",
         "hast-util-select",
@@ -514,7 +468,7 @@
       "integrity": "sha512-IczFFOUDGfMTdQ83yiCvGtvHr1IIB80lWBP0ZYRLogs6NVt8t6HYcMlu1sgT+9VivhT7iwX4pktPFxxOkO3COw==",
       "dependencies": [
         "@dfinity/candid",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "@noble/curves",
         "@noble/hashes",
         "base64-arraybuffer",
@@ -528,14 +482,14 @@
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/identity",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "idb"
       ]
     },
     "@dfinity/candid@2.4.1_@dfinity+principal@2.4.1": {
       "integrity": "sha512-kOaIKfhR2PYN8vD4M0Pc4s/7wb1nKjlTJUw+5E9jh26T03fITIZmaafIuwlX+wmdxwIT9Xoy7PlsxOEpzv203A==",
       "dependencies": [
-        "@dfinity/principal@2.4.1"
+        "@dfinity/principal"
       ]
     },
     "@dfinity/ic-management@6.2.2_@dfinity+agent@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@dfinity+candid@2.4.1__@dfinity+principal@2.4.1_@dfinity+principal@2.4.1_@dfinity+utils@2.14.0__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1": {
@@ -543,7 +497,7 @@
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/candid",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "@dfinity/utils"
       ]
     },
@@ -551,7 +505,7 @@
       "integrity": "sha512-CXhTmdtqkA0vE6ue2GaF9ZwD0OQ5OinrGj77Eg0dX0zPZpxJQ+NCjyYNWkaIvsKxmnCaW+5yrCcchN8Sqk8uIA==",
       "dependencies": [
         "@dfinity/agent",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "@noble/curves",
         "@noble/hashes",
         "borc"
@@ -563,31 +517,18 @@
         "@noble/hashes"
       ]
     },
-    "@dfinity/principal@3.2.2": {
-      "integrity": "sha512-e5tHOYfpMvUkCOdJn9H+7iJk+eYJ8xpHNKMOCQQTSRMo9BZOU0SBxDBk+4gpKaI42KSd9TbnxEJ/+1/zE2pemA==",
-      "dependencies": [
-        "@noble/hashes"
-      ]
-    },
     "@dfinity/utils@2.14.0_@dfinity+agent@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@dfinity+candid@2.4.1__@dfinity+principal@2.4.1_@dfinity+principal@2.4.1": {
       "integrity": "sha512-WGwME4891K9TU7SXchhUVtdSbU3jUxnndblcrNJH0/QLPuQGnvP/7YhFL1b6MhI5GRpTWh0qLsyvMpEpdw7Faw==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/candid",
-        "@dfinity/principal@2.4.1"
+        "@dfinity/principal"
       ]
     },
     "@dfinity/zod-schemas@1.1.0_@dfinity+principal@2.4.1_zod@3.25.76": {
       "integrity": "sha512-lhZTMN5bwbk+BgWA+tFto4ltrJVa+14KLssOwBtuFD980hqgP+dpAIEZQnIEZDU8x/51u2yGEpMDFubHjW2C5g==",
       "dependencies": [
-        "@dfinity/principal@2.4.1",
-        "zod"
-      ]
-    },
-    "@dfinity/zod-schemas@1.1.0_@dfinity+principal@3.2.2_zod@3.25.76": {
-      "integrity": "sha512-lhZTMN5bwbk+BgWA+tFto4ltrJVa+14KLssOwBtuFD980hqgP+dpAIEZQnIEZDU8x/51u2yGEpMDFubHjW2C5g==",
-      "dependencies": [
-        "@dfinity/principal@3.2.2",
+        "@dfinity/principal",
         "zod"
       ]
     },
@@ -913,6 +854,9 @@
         "@jridgewell/sourcemap-codec"
       ]
     },
+    "@jsdevtools/ono@7.1.3": {
+      "integrity": "sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg=="
+    },
     "@junobuild/admin@2.1.0_@dfinity+agent@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@dfinity+candid@2.4.1__@dfinity+principal@2.4.1_@dfinity+ic-management@6.2.2__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+utils@2.14.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1_@dfinity+identity@2.4.1__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1_@dfinity+principal@2.4.1_@dfinity+utils@2.14.0__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@junobuild+config@2.1.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@2.4.1___zod@3.25.76__zod@3.25.76__@dfinity+principal@2.4.1_@junobuild+ic-client@2.0.0__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+identity@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_semver@7.7.2_zod@3.25.76_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76": {
       "integrity": "sha512-SqMYsQLh4UPK5wsoPSPgscIA3oLmyLfw04sS5yrRtV6PkYyr0D4dKlY38VhOj/4VSl9hzophz6i8+RNwPMCZTg==",
       "dependencies": [
@@ -920,7 +864,7 @@
         "@dfinity/candid",
         "@dfinity/ic-management",
         "@dfinity/identity",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "@dfinity/utils",
         "@junobuild/config@2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76_@dfinity+principal@2.4.1",
         "@junobuild/ic-client",
@@ -935,7 +879,7 @@
         "@dfinity/candid",
         "@dfinity/ic-management",
         "@dfinity/identity",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "@dfinity/utils",
         "@junobuild/config@2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76_@dfinity+principal@2.4.1",
         "@junobuild/ic-client",
@@ -966,8 +910,8 @@
         "@dfinity/candid",
         "@dfinity/ic-management",
         "@dfinity/identity",
-        "@dfinity/principal@2.4.1",
-        "@dfinity/zod-schemas@1.1.0_@dfinity+principal@2.4.1_zod@3.25.76",
+        "@dfinity/principal",
+        "@dfinity/zod-schemas",
         "@junobuild/admin",
         "@junobuild/cdn",
         "@junobuild/cli-tools",
@@ -998,17 +942,17 @@
         "@junobuild/config@2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76_@dfinity+principal@2.4.1"
       ]
     },
-    "@junobuild/config@2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76_@dfinity+principal@2.4.1": {
+    "@junobuild/config@2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76": {
       "integrity": "sha512-FNeRpnxcIm6iNCGHWWCoH0ZKm5nfbCvBXkfE0U90HCJnyJi4jfKSbfOcn7SrujyKkNyKQum9R9kEspc9JBv2sQ==",
       "dependencies": [
-        "@dfinity/zod-schemas@1.1.0_@dfinity+principal@2.4.1_zod@3.25.76",
+        "@dfinity/zod-schemas",
         "zod"
       ]
     },
-    "@junobuild/config@2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.2__zod@3.25.76_zod@3.25.76": {
+    "@junobuild/config@2.1.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@2.4.1__zod@3.25.76_zod@3.25.76_@dfinity+principal@2.4.1": {
       "integrity": "sha512-FNeRpnxcIm6iNCGHWWCoH0ZKm5nfbCvBXkfE0U90HCJnyJi4jfKSbfOcn7SrujyKkNyKQum9R9kEspc9JBv2sQ==",
       "dependencies": [
-        "@dfinity/zod-schemas@1.1.0_@dfinity+principal@3.2.2_zod@3.25.76",
+        "@dfinity/zod-schemas",
         "zod"
       ]
     },
@@ -1019,7 +963,7 @@
         "@dfinity/auth-client",
         "@dfinity/candid",
         "@dfinity/identity",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "@dfinity/utils",
         "@junobuild/errors",
         "@junobuild/ic-client",
@@ -1048,7 +992,7 @@
         "@dfinity/agent",
         "@dfinity/candid",
         "@dfinity/identity",
-        "@dfinity/principal@2.4.1"
+        "@dfinity/principal"
       ]
     },
     "@junobuild/storage@1.2.0_@dfinity+agent@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@dfinity+candid@2.4.1__@dfinity+principal@2.4.1_@dfinity+identity@2.4.1__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1_@dfinity+principal@2.4.1_@dfinity+utils@2.14.0__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@junobuild+ic-client@2.0.0__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+identity@2.4.1___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1__@dfinity+principal@2.4.1_@junobuild+utils@0.1.4__@dfinity+utils@2.14.0___@dfinity+agent@2.4.1____@dfinity+candid@2.4.1_____@dfinity+principal@2.4.1____@dfinity+principal@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+agent@2.4.1___@dfinity+candid@2.4.1____@dfinity+principal@2.4.1___@dfinity+principal@2.4.1__@dfinity+candid@2.4.1___@dfinity+principal@2.4.1__@dfinity+principal@2.4.1": {
@@ -1057,7 +1001,7 @@
         "@dfinity/agent",
         "@dfinity/candid",
         "@dfinity/identity",
-        "@dfinity/principal@2.4.1",
+        "@dfinity/principal",
         "@dfinity/utils",
         "@junobuild/ic-client",
         "@junobuild/utils"
@@ -1662,6 +1606,12 @@
     "@types/js-yaml@4.0.9": {
       "integrity": "sha512-k4MGaQl5TGo/iipqb2UDG2UwjXziSWkh0uysQelTlJpX1qGlpUZYm8PnO4DxG1qBomtJUdYJ6qR6xdIah10JLg=="
     },
+    "@types/json-schema@7.0.15": {
+      "integrity": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA=="
+    },
+    "@types/lodash@4.17.20": {
+      "integrity": "sha512-H3MHACvFUEiujabxhaI/ImO6gUrd8oOurg7LQtS7mbwIXA/cUqWrvBsaeJ23aZEPk1TAYkurjfMbSELfoCXlGA=="
+    },
     "@types/mdast@4.0.4": {
       "integrity": "sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==",
       "dependencies": [
@@ -1722,7 +1672,7 @@
     "@ungap/structured-clone@1.3.0": {
       "integrity": "sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g=="
     },
-    "@vitejs/plugin-react@4.7.0_vite@6.3.5__@types+node@22.15.15__picomatch@4.0.3_@babel+core@7.28.3_@types+node@22.15.15": {
+    "@vitejs/plugin-react@4.7.0_vite@6.3.5__picomatch@4.0.3_@babel+core@7.28.3": {
       "integrity": "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA==",
       "dependencies": [
         "@babel/core",
@@ -1731,7 +1681,7 @@
         "@rolldown/pluginutils",
         "@types/babel__core",
         "react-refresh",
-        "vite@6.3.5_@types+node@22.15.15_picomatch@4.0.3"
+        "vite"
       ]
     },
     "acorn-jsx@5.3.2_acorn@8.15.0": {
@@ -1809,21 +1759,14 @@
     "astro-expressive-code@0.41.3_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76": {
       "integrity": "sha512-u+zHMqo/QNLE2eqYRCrK3+XMlKakv33Bzuz+56V1gs8H0y6TZ0hIi3VNbIxeTn51NLn+mJfUV/A0kMNfE4rANw==",
       "dependencies": [
-        "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76",
+        "astro",
         "rehype-expressive-code"
       ]
     },
-    "astro-expressive-code@0.41.3_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-u+zHMqo/QNLE2eqYRCrK3+XMlKakv33Bzuz+56V1gs8H0y6TZ0hIi3VNbIxeTn51NLn+mJfUV/A0kMNfE4rANw==",
-      "dependencies": [
-        "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-        "rehype-expressive-code"
-      ]
-    },
-    "astro-integration-kit@0.19.0_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76__@types+node@22.15.15_@types+node@22.15.15": {
+    "astro-integration-kit@0.19.0_astro@5.13.3__vite@6.3.5___picomatch@4.0.3__zod@3.25.76": {
       "integrity": "sha512-ftDrem91kJZoenhpJJfRtB29D/bmNglEp2oOXqF1uL5yODZauGIy3tDgIbec0UEMp6tNuky4tfWseUXpej5Dng==",
       "dependencies": [
-        "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
+        "astro",
         "pathe"
       ]
     },
@@ -1884,79 +1827,8 @@
         "unist-util-visit",
         "unstorage",
         "vfile",
-        "vite@6.3.5_picomatch@4.0.3",
-        "vitefu@1.1.1_vite@6.3.5__picomatch@4.0.3",
-        "xxhash-wasm",
-        "yargs-parser",
-        "yocto-spinner",
-        "zod",
-        "zod-to-json-schema",
-        "zod-to-ts"
-      ],
-      "optionalDependencies": [
-        "sharp"
-      ],
-      "bin": true
-    },
-    "astro@5.13.3_vite@6.3.5__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-V0mUOUK70UZ7xqXp5Noqse/SREU0P756KgFufBEluq5LkmBejzC2GENMUA2Na+PFwUjemElJtRlpKyrnKpFhSQ==",
-      "dependencies": [
-        "@astrojs/compiler",
-        "@astrojs/internal-helpers",
-        "@astrojs/markdown-remark",
-        "@astrojs/telemetry",
-        "@capsizecss/unpack",
-        "@oslojs/encoding",
-        "@rollup/pluginutils",
-        "acorn",
-        "aria-query",
-        "axobject-query",
-        "boxen",
-        "ci-info",
-        "clsx",
-        "common-ancestor-path",
-        "cookie",
-        "cssesc",
-        "debug",
-        "deterministic-object-hash",
-        "devalue",
-        "diff",
-        "dlv",
-        "dset",
-        "es-module-lexer",
-        "esbuild",
-        "estree-walker@3.0.3",
-        "flattie",
-        "fontace",
-        "github-slugger",
-        "html-escaper",
-        "http-cache-semantics",
-        "import-meta-resolve",
-        "js-yaml",
-        "kleur@4.1.5",
-        "magic-string",
-        "magicast",
-        "mrmime",
-        "neotraverse",
-        "p-limit",
-        "p-queue",
-        "package-manager-detector",
-        "picomatch@4.0.3",
-        "prompts",
-        "rehype",
-        "semver@7.7.2",
-        "shiki",
-        "smol-toml",
-        "tinyexec",
-        "tinyglobby",
-        "tsconfck",
-        "ultrahtml",
-        "unifont",
-        "unist-util-visit",
-        "unstorage",
-        "vfile",
-        "vite@6.3.5_picomatch@4.0.3_@types+node@22.15.15",
-        "vitefu@1.1.1_vite@6.3.5__picomatch@4.0.3_@types+node@22.15.15",
+        "vite",
+        "vitefu",
         "xxhash-wasm",
         "yargs-parser",
         "yocto-spinner",
@@ -2820,6 +2692,9 @@
       "integrity": "sha512-eljcgEDlEns/7AXFosB5K/2nCM4P7FQPkGc/DWLy5rmFEWvZayGrik1d9/QIY5nJ4f9YsVvBkA6kJpHn9rISdQ==",
       "bin": true
     },
+    "is-extglob@2.1.1": {
+      "integrity": "sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ=="
+    },
     "is-fullwidth-code-point@3.0.0": {
       "integrity": "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg=="
     },
@@ -2830,6 +2705,12 @@
       "integrity": "sha512-OVa3u9kkBbw7b8Xw5F9P+D/T9X+Z4+JruYVNapTjPYZYUznQ5YfWeFkOj606XYYW8yugTfC8Pj0hYqvi4ryAhA==",
       "dependencies": [
         "get-east-asian-width"
+      ]
+    },
+    "is-glob@4.0.3": {
+      "integrity": "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==",
+      "dependencies": [
+        "is-extglob"
       ]
     },
     "is-hexadecimal@2.0.1": {
@@ -2877,6 +2758,21 @@
       "integrity": "sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==",
       "bin": true
     },
+    "json-schema-to-typescript@15.0.4": {
+      "integrity": "sha512-Su9oK8DR4xCmDsLlyvadkXzX6+GGXJpbhwoLtOGArAG61dvbW4YQmSEno2y66ahpIdmLMg6YUf/QHLgiwvkrHQ==",
+      "dependencies": [
+        "@apidevtools/json-schema-ref-parser",
+        "@types/json-schema",
+        "@types/lodash",
+        "is-glob",
+        "js-yaml",
+        "lodash",
+        "minimist",
+        "prettier",
+        "tinyglobby"
+      ],
+      "bin": true
+    },
     "json-schema-traverse@1.0.0": {
       "integrity": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug=="
     },
@@ -2912,6 +2808,9 @@
         "rfdc",
         "wrap-ansi"
       ]
+    },
+    "lodash@4.17.21": {
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
     },
     "log-symbols@6.0.0": {
       "integrity": "sha512-i24m8rpwhmPIS4zscNzK6MSEhk0DUWa/8iYQWxhffV8jkI4Phvs3F+quL5xvS0gdQR0FyTCMMH33Y78dDTzzIw==",
@@ -3520,6 +3419,9 @@
         "@isaacs/brace-expansion"
       ]
     },
+    "minimist@1.2.8": {
+      "integrity": "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="
+    },
     "mrmime@2.0.1": {
       "integrity": "sha512-Y3wQdFg2Va6etvQ5I82yUhGdsKrcYox6p7FfL1LbK2J4V01F9TGlepTIhnK24t7koZibmg82KGglhA1XK5IsLQ=="
     },
@@ -3725,6 +3627,10 @@
         "picocolors",
         "source-map-js"
       ]
+    },
+    "prettier@3.6.2": {
+      "integrity": "sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==",
+      "bin": true
     },
     "prismjs@1.30.0": {
       "integrity": "sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw=="
@@ -4436,25 +4342,6 @@
         "vfile-message"
       ]
     },
-    "vite@6.3.5_@types+node@22.15.15_picomatch@4.0.3": {
-      "integrity": "sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==",
-      "dependencies": [
-        "@types/node@22.15.15",
-        "esbuild",
-        "fdir",
-        "picomatch@4.0.3",
-        "postcss",
-        "rollup",
-        "tinyglobby"
-      ],
-      "optionalDependencies": [
-        "fsevents"
-      ],
-      "optionalPeers": [
-        "@types/node@22.15.15"
-      ],
-      "bin": true
-    },
     "vite@6.3.5_picomatch@4.0.3": {
       "integrity": "sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==",
       "dependencies": [
@@ -4470,41 +4357,13 @@
       ],
       "bin": true
     },
-    "vite@6.3.5_picomatch@4.0.3_@types+node@22.15.15": {
-      "integrity": "sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==",
-      "dependencies": [
-        "@types/node@22.15.15",
-        "esbuild",
-        "fdir",
-        "picomatch@4.0.3",
-        "postcss",
-        "rollup",
-        "tinyglobby"
-      ],
-      "optionalDependencies": [
-        "fsevents"
-      ],
-      "optionalPeers": [
-        "@types/node@22.15.15"
-      ],
-      "bin": true
-    },
     "vitefu@1.1.1_vite@6.3.5__picomatch@4.0.3": {
       "integrity": "sha512-B/Fegf3i8zh0yFbpzZ21amWzHmuNlLlmJT6n7bu5e+pCHUKQIfXSYokrqOBGEMMe9UG2sostKQF9mml/vYaWJQ==",
       "dependencies": [
-        "vite@6.3.5_picomatch@4.0.3"
+        "vite"
       ],
       "optionalPeers": [
-        "vite@6.3.5_picomatch@4.0.3"
-      ]
-    },
-    "vitefu@1.1.1_vite@6.3.5__picomatch@4.0.3_@types+node@22.15.15": {
-      "integrity": "sha512-B/Fegf3i8zh0yFbpzZ21amWzHmuNlLlmJT6n7bu5e+pCHUKQIfXSYokrqOBGEMMe9UG2sostKQF9mml/vYaWJQ==",
-      "dependencies": [
-        "vite@6.3.5_picomatch@4.0.3_@types+node@22.15.15"
-      ],
-      "optionalPeers": [
-        "vite@6.3.5_picomatch@4.0.3_@types+node@22.15.15"
+        "vite"
       ]
     },
     "web-namespaces@2.0.1": {
@@ -4682,6 +4541,7 @@
       "npm:@types/yauzl@^2.10.3",
       "npm:astro-integration-kit@0.19",
       "npm:astro@^5.13.0",
+      "npm:json-schema-to-typescript@^15.0.4",
       "npm:react-dom@^19.1.1",
       "npm:react@^19.1.1",
       "npm:yauzl@^3.2.0"

@@ -43,9 +43,11 @@ export function VersionDropdown(): React.JSX.Element | null {
         ? pathname.slice(currentPrefix.length)
         : "";
 
-      const nextHref = `${projectPath}/${selectedVersionPath}${_rest}${search}${hash}`;
+      const nextHref =
+        `${projectPath}/${selectedVersionPath}${_rest}${search}${hash}`;
 
-      const hrefToCheck = `${projectPath}/${selectedVersionPath}${_rest}${search}`;
+      const hrefToCheck =
+        `${projectPath}/${selectedVersionPath}${_rest}${search}`;
       const exists = await doesUrlExist(hrefToCheck);
       if (exists) {
         globalThis.location.href = nextHref;
@@ -66,7 +68,7 @@ export function VersionDropdown(): React.JSX.Element | null {
       const { projectPath, subPath } = getCurrentPathComponents(pathname);
 
       const project = pluginConfig.sidebars.find(
-        (p) => p.basePath === projectPath
+        (p) => p.basePath === projectPath,
       );
 
       if (!project) {
@@ -81,10 +83,9 @@ export function VersionDropdown(): React.JSX.Element | null {
       }));
 
       setOptions(dropdownOptions);
-      const selected =
-        dropdownOptions.find(
-          ({ value }) => value.toLowerCase() === (subPath || "").toLowerCase()
-        ) ?? dropdownOptions[0];
+      const selected = dropdownOptions.find(
+        ({ value }) => value.toLowerCase() === (subPath || "").toLowerCase(),
+      ) ?? dropdownOptions[0];
       setSelectedValue(selected?.value || "");
     } catch {
       // Do nothing, but avoid throwing an error

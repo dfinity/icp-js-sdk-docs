@@ -141,6 +141,16 @@ To build the root docs project, run:
 deno task docs:build
 ```
 
+### Update projects schema
+
+If you make changes to the [`projects-schema.json`](../projects-schema.json)
+file, you need to update the [`projects-schema.d.ts`](../projects-schema.d.ts)
+file. To do this, run:
+
+```shell
+deno task types:projects
+```
+
 ### Serve all docs using Juno
 
 To start the Juno emulator, run:
