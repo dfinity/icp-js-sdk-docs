@@ -12,7 +12,9 @@ export function loadSidebars(config: MultiSidebarConfig): Sidebar {
   const sidebar: Sidebar = [];
 
   for (const entry of config.sidebars) {
-    const directory = entry.basePath.replace(/^\/+|\/+$/g, "");
+    const directory = entry.basePath.startsWith("/")
+      ? entry.basePath.slice(1)
+      : entry.basePath;
     const root = path.join(docsDir, directory);
 
     const subdirs = fs.readdirSync(root, { withFileTypes: true });

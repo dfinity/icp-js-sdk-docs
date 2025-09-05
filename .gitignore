@@ -11,6 +11,6 @@ node_modules/
 .DS_Store
 
 # Ignore all unzipped content from projects
-./docs/src/content/docs/**/*
+docs/src/content/docs/**
 # Track any file you want to keep manually here
-# e.g. !docs/src/content/docs/homepage.mdx
+!docs/src/content/docs/index.mdx
