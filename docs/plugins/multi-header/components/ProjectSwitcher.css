@@ -27,8 +27,7 @@
   user-select: none;
   color: var(--sl-color-text-primary);
   background: color-mix(in oklab, var(--sl-color-bg-nav) 92%, transparent);
-  border: 1px solid
-    color-mix(in oklab, var(--sl-color-text-accent) 12%, transparent);
+  border: none;
   padding: 0 0.625rem;
   transition:
     background-color 150ms ease,

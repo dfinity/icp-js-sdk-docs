@@ -10,10 +10,11 @@ type Props = {
 };
 
 export function ProjectSwitcher({ headers, currentHref }: Props) {
-  if (!headers || headers.length === 0) return null;
+  if (!headers || headers.length === 0) {
+    return null;
+  }
 
-  const current =
-    headers.find((h) => currentHref?.startsWith(h.href)) ?? headers[0];
+  const currentHeader = headers.find((h) => currentHref?.startsWith(h.href));
 
   return (
     <React.Fragment>
@@ -33,7 +34,7 @@ export function ProjectSwitcher({ headers, currentHref }: Props) {
               data-slot="navigation-menu-trigger"
               className="project-switcher-trigger"
             >
-              <span>{current.title}</span>
+              <span>{currentHeader?.title || "Packages"}</span>
               <svg
                 className="project-switcher-chevron"
                 width="16"
