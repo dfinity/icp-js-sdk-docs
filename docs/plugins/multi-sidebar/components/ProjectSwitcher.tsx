@@ -1,20 +1,26 @@
 import * as React from "react";
 
-import { type MultiHeaderConfig } from "../config.ts";
+import { type MultiSidebarConfig } from "../config.ts";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
+import pluginConfig from "virtual:starlight-multi-sidebar/config";
 import "./ProjectSwitcher.css";
 
+type Header = MultiSidebarConfig["sidebars"][number]["header"];
+
 type Props = {
-  headers: MultiHeaderConfig["headers"] | undefined;
-  currentHref?: string | undefined;
+  projectPath: string;
+  currentHeader?: Header | undefined;
 };
 
-export function ProjectSwitcher({ headers, currentHref }: Props) {
+const headers = pluginConfig.sidebars.map((sidebar) => ({
+  basePath: sidebar.basePath,
+  header: sidebar.header,
+}));
+
+export function ProjectSwitcherReact({ projectPath, currentHeader }: Props) {
   if (!headers || headers.length === 0) {
     return null;
   }
-
-  const currentHeader = headers.find((h) => currentHref?.startsWith(h.href));
 
   return (
     <React.Fragment>
@@ -51,23 +57,23 @@ export function ProjectSwitcher({ headers, currentHref }: Props) {
             >
               <ul>
                 {headers.map((h) => {
-                  const isActive = currentHref?.startsWith(h.href);
+                  const isActive = projectPath?.startsWith(h.basePath);
                   return (
-                    <li key={h.href}>
+                    <li key={h.basePath}>
                       <NavigationMenu.Link
                         className="project-switcher-link"
                         asChild
                       >
                         <a
-                          href={h.href}
+                          href={h.basePath}
                           className={isActive ? "active" : undefined}
                           role="menuitem"
                         >
                           <div className="project-switcher-link-title">
-                            {h.title}
+                            {h.header.title}
                           </div>
                           <div className="project-switcher-link-description">
-                            {h.description}
+                            {h.header.description}
                           </div>
                         </a>
                       </NavigationMenu.Link>

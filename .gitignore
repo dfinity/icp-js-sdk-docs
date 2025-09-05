@@ -9,3 +9,8 @@ node_modules/
 
 # MacOS
 .DS_Store
+
+# Ignore all unzipped content from projects
+./docs/src/content/docs/**/*
+# Track any file you want to keep manually here
+# e.g. !docs/src/content/docs/homepage.mdx

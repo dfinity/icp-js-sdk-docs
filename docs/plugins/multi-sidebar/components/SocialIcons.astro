@@ -1,12 +1,12 @@
 ---
-import config from 'virtual:starlight-multi-header/config';
+import pluginConfig from 'virtual:starlight-multi-sidebar/config';
 import { type StarlightConfig } from '@astrojs/starlight/types';
 import { Icon } from '@astrojs/starlight/components';
-import { getCurrentPathComponents } from '../../shared/path.ts';
+import { getCurrentPathComponents } from '../path.ts';
 import { getCurrentHeader } from '../config.ts';
 
 const { projectPath } = getCurrentPathComponents(Astro.url.pathname);
-const currentHeader = getCurrentHeader(config, projectPath);
+const currentHeader = getCurrentHeader(pluginConfig, projectPath);
 
 let links: NonNullable<StarlightConfig['social']> = [];
 

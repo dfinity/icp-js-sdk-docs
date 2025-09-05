@@ -1,13 +1,7 @@
 ---
-import pluginConfig from 'virtual:starlight-multi-header/config';
 import config from 'virtual:starlight/user-config';
 import { logos } from 'virtual:starlight/user-images';
-import { getCurrentPathComponents } from '../../shared/path.ts';
-import { ProjectSwitcher } from './ProjectSwitcher.tsx';
-import { getCurrentHeader } from '../config.ts';
-
-const { projectPath } = getCurrentPathComponents(Astro.url.pathname);
-const currentHeader = getCurrentHeader(pluginConfig, projectPath);
+import ProjectSwitcher from './ProjectSwitcher.astro';
 
 const { siteTitle, siteTitleHref } = Astro.locals.starlightRoute;
 ---
@@ -43,11 +37,7 @@ const { siteTitle, siteTitleHref } = Astro.locals.starlightRoute;
     </a>
 
     <div class="sl-hidden md:sl-block">
-        <ProjectSwitcher
-            client:idle
-            headers={pluginConfig.headers}
-            currentHref={currentHeader?.href}
-        />
+        <ProjectSwitcher />
     </div>
 </div>
 

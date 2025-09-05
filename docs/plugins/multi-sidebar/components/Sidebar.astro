@@ -2,10 +2,9 @@
 import MobileMenuFooter from '@astrojs/starlight/components/MobileMenuFooter.astro';
 import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
 import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
-import pluginConfig from 'virtual:starlight-multi-header/config';
-import { getCurrentPathComponents } from '../../shared/path.ts';
-import { getCurrentHeader } from '../../multi-header/config.ts';
-import { ProjectSwitcher } from '../../multi-header/components/ProjectSwitcher.tsx';
+import { getCurrentPathComponents } from '../path.ts';
+import ProjectSwitcher from './ProjectSwitcher.astro';
+import { VersionDropdown } from './VersionDropdown.tsx';
 
 const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
 const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;
@@ -15,24 +14,21 @@ const sidebar = Astro.locals.starlightRoute.sidebar;
 function isInCurrentSidebar(entry: App.Locals["starlightRoute"]["sidebar"][number]): boolean {
   return entry.type === 'group' &&
     entry.entries.some(
-      (subEntry) => subEntry.type === 'link' && subEntry.href.startsWith(currentBase) || subEntry.type === 'group' && isInCurrentSidebar(subEntry)
+      (subEntry) => (subEntry.type === 'link' && subEntry.href.startsWith(currentBase))
+        || (subEntry.type === 'group' && isInCurrentSidebar(subEntry))
     );
 }
 
 const filteredSidebar = sidebar.filter(isInCurrentSidebar);
 
 Astro.locals.starlightRoute.sidebar = filteredSidebar;
-
-const currentHeader = getCurrentHeader(pluginConfig, projectPath);
 ---
 
-<div class="md:sl-hidden" aria-hidden={currentHeader ? undefined : 'true'}>
-  <ProjectSwitcher
-    client:idle
-    headers={pluginConfig.headers}
-    currentHref={currentHeader?.href}
-  />
+<div class="md:sl-hidden">
+  <ProjectSwitcher />
 </div>
+
+<VersionDropdown client:only="react" />
 
 <SidebarPersister>
   <SidebarSublist sublist={filteredSidebar} />

@@ -1,7 +1,7 @@
 import type { StarlightPlugin } from "@astrojs/starlight/types";
-import { multiSidebarIntegration } from "./integration.ts";
 import { type MultiSidebarConfig } from "./config.ts";
 import { loadSidebars } from "./sidebars.ts";
+import { multiSidebarIntegration } from "./integration.ts";
 
 export function multiSidebarPlugin(
   config: MultiSidebarConfig,
@@ -15,6 +15,8 @@ export function multiSidebarPlugin(
           components: {
             ...ctx.config.components,
             Sidebar: "./plugins/multi-sidebar/components/Sidebar.astro",
+            SiteTitle: "./plugins/multi-sidebar/components/SiteTitle.astro",
+            SocialIcons: "./plugins/multi-sidebar/components/SocialIcons.astro",
           },
           sidebar: [
             ...(ctx.config.sidebar || []),
