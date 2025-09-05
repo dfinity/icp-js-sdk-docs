@@ -21,7 +21,7 @@ export default defineConfig({
   integrations: [
     react(),
     starlight({
-      title: "ICP JavaScript SDK Docs",
+      title: "ICP JS SDK Docs",
       logo: {
         src: "./src/assets/icp.svg",
         alt: "Internet Computer Logo",
