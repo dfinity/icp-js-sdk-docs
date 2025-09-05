@@ -3,7 +3,7 @@ import { defineConfig, passthroughImageService } from "astro/config";
 import react from "@astrojs/react";
 import starlight from "@astrojs/starlight";
 import { multiSidebarPlugin } from "./plugins/multi-sidebar/index.ts";
-import { prepareSidebars } from "./projects.ts";
+import { getSidebarsFromProjects } from "./projects.ts";
 
 // https://astro.build/config
 export default defineConfig({
@@ -37,7 +37,7 @@ export default defineConfig({
       sidebar: [],
       plugins: [
         multiSidebarPlugin({
-          sidebars: prepareSidebars(),
+          sidebars: getSidebarsFromProjects(),
         }),
       ],
     }),

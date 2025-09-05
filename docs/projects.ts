@@ -8,7 +8,7 @@ const PUBLIC_DIR = path.join(DOCS_DIR, "..", "public");
 
 type ProjectVersions = MultiSidebarConfig["sidebars"][number]["versions"];
 
-export function prepareSidebars(): MultiSidebarConfig["sidebars"] {
+export function getSidebarsFromProjects(): MultiSidebarConfig["sidebars"] {
   const projectsConfig = loadJson<ProjectsSchema>(PROJECTS_FILE);
 
   const sidebars: MultiSidebarConfig["sidebars"] = [];
