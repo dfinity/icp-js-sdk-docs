@@ -1,6 +1,11 @@
 ---
-import DefaultSidebar from "@astrojs/starlight/components/Sidebar.astro";
+import MobileMenuFooter from '@astrojs/starlight/components/MobileMenuFooter.astro';
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+import pluginConfig from 'virtual:starlight-multi-header/config';
 import { getCurrentPathComponents } from '../../shared/path.ts';
+import { getCurrentHeader } from '../../multi-header/config.ts';
+import { ProjectSwitcher } from '../../multi-header/components/ProjectSwitcher.tsx';
 
 const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
 const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;
@@ -17,6 +22,22 @@ function isInCurrentSidebar(entry: App.Locals["starlightRoute"]["sidebar"][numbe
 const filteredSidebar = sidebar.filter(isInCurrentSidebar);
 
 Astro.locals.starlightRoute.sidebar = filteredSidebar;
+
+const currentHeader = getCurrentHeader(pluginConfig, projectPath);
 ---
 
-<DefaultSidebar />
+<div class="md:sl-hidden" aria-hidden={currentHeader ? undefined : 'true'}>
+  <ProjectSwitcher
+    client:idle
+    headers={pluginConfig.headers}
+    currentHref={currentHeader?.href}
+  />
+</div>
+
+<SidebarPersister>
+  <SidebarSublist sublist={filteredSidebar} />
+</SidebarPersister>
+
+<div class="md:sl-hidden">
+  <MobileMenuFooter />
+</div>

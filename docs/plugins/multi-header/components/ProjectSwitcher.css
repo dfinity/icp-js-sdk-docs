@@ -1,5 +1,6 @@
 .project-switcher {
   position: relative;
+  width: 100%;
 }
 .project-switcher-list {
   display: flex;
@@ -11,14 +12,15 @@
 }
 .project-switcher-item {
   position: relative;
+  width: 100%;
 }
 .project-switcher-trigger {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 0.375rem;
   height: 2.25rem;
-  width: max-content;
+  width: 100%;
   border-radius: 0.5rem;
   line-height: 1;
   cursor: pointer;
@@ -99,7 +101,23 @@
   gap: 0.25rem;
   list-style: none;
   padding: 0;
-  width: 300px;
+  width: 100%;
+}
+
+@media (width >= 48rem) {
+  .project-switcher {
+    width: auto;
+  }
+  .project-switcher-item {
+    width: auto;
+  }
+  .project-switcher-trigger {
+    width: max-content;
+    justify-content: center;
+  }
+  .project-switcher-content ul {
+    width: 300px;
+  }
 }
 
 .project-switcher-content[data-motion="from-start"] {
