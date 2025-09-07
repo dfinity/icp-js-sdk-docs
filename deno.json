@@ -17,6 +17,7 @@
     "json-schema-to-typescript": "npm:json-schema-to-typescript@^15.0.4",
     "react": "npm:react@^19.1.1",
     "react-dom": "npm:react-dom@^19.1.1",
+    "unist-util-visit": "npm:unist-util-visit@^5.0.0",
     "url": "node:url",
     "path": "node:path",
     "@actions/core": "npm:@actions/core@^1.11.1",

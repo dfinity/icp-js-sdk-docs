@@ -8,9 +8,9 @@ const PUBLIC_DIR = path.join(DOCS_DIR, "..", "public");
 
 type ProjectVersions = MultiSidebarConfig["sidebars"][number]["versions"];
 
-export function getSidebarsFromProjects(): MultiSidebarConfig["sidebars"] {
-  const projectsConfig = loadJson<ProjectsSchema>(PROJECTS_FILE);
-
+export function getSidebarsFromProjects(
+  projectsConfig: ProjectsSchema,
+): MultiSidebarConfig["sidebars"] {
   const sidebars: MultiSidebarConfig["sidebars"] = [];
 
   for (const project of projectsConfig.projects) {
@@ -33,6 +33,10 @@ export function getSidebarsFromProjects(): MultiSidebarConfig["sidebars"] {
   }
 
   return sidebars;
+}
+
+export function getProjectsConfig(): ProjectsSchema {
+  return loadJson(PROJECTS_FILE);
 }
 
 function loadJson<T>(filePath: string): T {
