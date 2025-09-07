@@ -26,24 +26,6 @@ export const configSchema = z.object({
 
 export type MultiSidebarConfig = z.infer<typeof configSchema>;
 
-export function getCurrentSidebar(
-  config: MultiSidebarConfig,
-  projectPath: string,
-): z.infer<typeof sidebarSchema> | undefined {
-  return config.sidebars.find((sidebar) =>
-    projectPath.startsWith(sidebar.basePath)
-  );
-}
-
-export function getCurrentVersion(
-  config: MultiSidebarConfig,
-  projectPath: string,
-): z.infer<typeof versionSchema> | undefined {
-  return config.sidebars.find((sidebar) =>
-    projectPath.startsWith(sidebar.basePath)
-  )?.versions.find((version) => projectPath.startsWith(version.path));
-}
-
 export function getCurrentHeader(
   config: MultiSidebarConfig,
   projectPath: string,
