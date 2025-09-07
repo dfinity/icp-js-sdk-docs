@@ -3,6 +3,7 @@ import { z } from "astro/zod";
 const versionSchema = z.object({
   path: z.string(),
   label: z.string(),
+  versionInTitle: z.string().optional(),
 });
 
 const headerSchema = z.object({

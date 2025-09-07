@@ -17,7 +17,10 @@ const headers = pluginConfig.sidebars.map((sidebar) => ({
   header: sidebar.header,
 }));
 
-export function ProjectSwitcherReact({ projectPath, currentHeader }: Props) {
+export const ProjectSwitcherReact: React.FC<Props> = ({
+  projectPath,
+  currentHeader,
+}) => {
   if (!headers || headers.length === 0) {
     return null;
   }
@@ -93,4 +96,4 @@ export function ProjectSwitcherReact({ projectPath, currentHeader }: Props) {
       </NavigationMenu.Root>
     </React.Fragment>
   );
-}
+};

@@ -3,6 +3,8 @@ import pluginConfig from "virtual:starlight-multi-sidebar/config";
 import "./VersionDropdown.css";
 import { getCurrentPathComponents } from "../path.ts";
 
+type VersionOptions = (typeof pluginConfig)["sidebars"][number]["versions"];
+
 async function doesUrlExist(url: string): Promise<boolean> {
   try {
     const headResponse = await globalThis.fetch(url, {
@@ -18,10 +20,8 @@ async function doesUrlExist(url: string): Promise<boolean> {
   }
 }
 
-export function VersionDropdown(): React.JSX.Element | null {
-  const [options, setOptions] = React.useState<
-    Array<{ value: string; label: string }>
-  >([]);
+export const VersionDropdown: React.FC = () => {
+  const [options, setOptions] = React.useState<VersionOptions>([]);
   const [selectedValue, setSelectedValue] = React.useState<string>("");
 
   async function onChange(_e: React.ChangeEvent<HTMLSelectElement>) {
@@ -77,16 +77,13 @@ export function VersionDropdown(): React.JSX.Element | null {
         return;
       }
 
-      const dropdownOptions = project.versions.map((v) => ({
-        value: v.path,
-        label: v.label,
-      }));
-
+      const dropdownOptions = project.versions;
       setOptions(dropdownOptions);
+
       const selected = dropdownOptions.find(
-        ({ value }) => value.toLowerCase() === (subPath || "").toLowerCase(),
+        ({ path }) => path.toLowerCase() === (subPath || "").toLowerCase(),
       ) ?? dropdownOptions[0];
-      setSelectedValue(selected?.value || "");
+      setSelectedValue(selected?.path || "");
     } catch {
       // Do nothing, but avoid throwing an error
     }
@@ -99,6 +96,11 @@ export function VersionDropdown(): React.JSX.Element | null {
         className="sidebar-version-select-label"
       >
         Version
+        {options.find((v) => v.path === selectedValue)?.versionInTitle
+          ? ` (${
+            options.find((v) => v.path === selectedValue)?.versionInTitle
+          })`
+          : ""}
       </label>
       <select
         id="sidebar-version-select"
@@ -107,11 +109,11 @@ export function VersionDropdown(): React.JSX.Element | null {
         value={selectedValue}
       >
         {options.map((opt) => (
-          <option key={opt.value} value={opt.value}>
+          <option key={opt.path} value={opt.path}>
             {opt.label}
           </option>
         ))}
       </select>
     </div>
   );
-}
+};
