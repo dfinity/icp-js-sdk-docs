@@ -36,7 +36,7 @@ function getContentEntryIdAndSlug({
   const rawSlugSegments = withoutFileExt.split(path.sep);
   // This is the step where we skip slugifying the path using github-slugger
   const slug = rawSlugSegments.join("/")
-    .replace(/\/index$/, "");
+    .replace(/\/index$/, "").toLowerCase();
   const res = {
     id: normalizePath(relativePath),
     slug,
