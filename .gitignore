@@ -14,3 +14,8 @@ node_modules/
 docs/src/content/docs/**
 # Track any file you want to keep manually here
 !docs/src/content/docs/index.mdx
+
+# Ignore all unzipped html pages from projects
+docs/src/pages/**
+# Track any file you want to keep manually here
+# e.g. !docs/src/pages/index.astro

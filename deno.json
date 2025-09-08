@@ -1,9 +1,10 @@
 {
   "tasks": {
-    "predeploy": "deno run --no-prompt --allow-read --allow-write=\"./dist\" scripts/predeploy.ts",
+    "predeploy": "deno run --no-prompt --allow-read --allow-write=\"./docs/src/content/docs,./docs/src/pages\" scripts/predeploy.ts",
     "pull-project-docs": "deno run --no-prompt --allow-read --allow-net=\"github.com,codeload.github.com\" --allow-write=\"./public,$TMPDIR\" scripts/pull-project-docs.ts",
     "fetch-project-commit": "deno run --no-prompt --allow-read --allow-env --allow-net=\"github.com,api.github.com\" --allow-write=\"$TMPDIR\" scripts/fetch-project-commit.ts",
     "docs:build": "astro build --root ./docs",
+    "docs:preview": "astro preview --root ./docs",
     "docs:start": "astro dev --root ./docs",
     "types:projects": "deno run --no-prompt --allow-read --allow-write=\"projects-schema.d.ts\" --allow-env --allow-sys=\"cpus\" json-schema-to-typescript --input projects-schema.json --output projects-schema.d.ts",
     "juno": "juno"
@@ -19,6 +20,7 @@
     "react-dom": "npm:react-dom@^19.1.1",
     "unist-util-visit": "npm:unist-util-visit@^5.0.0",
     "url": "node:url",
+    "util": "node:util",
     "path": "node:path",
     "@actions/core": "npm:@actions/core@^1.11.1",
     "@actions/github": "npm:@actions/github@^6.0.1",

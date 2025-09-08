@@ -10,9 +10,9 @@ import {
 const SCRIPT_DIR = path.dirname(path.fromFileUrl(import.meta.url));
 const ROOT_DIR = path.join(SCRIPT_DIR, "..");
 const DOCS_DIR = path.join(ROOT_DIR, "docs");
-const DOCS_DIST_DIR = path.join(DOCS_DIR, "dist");
+const DOCS_FILES_DIR = path.join(DOCS_DIR, "src", "content", "docs");
+const DOCS_PAGES_DIR = path.join(DOCS_DIR, "src", "pages");
 const PUB_DIR = path.join(ROOT_DIR, "public");
-const DIST_DIR = path.join(ROOT_DIR, "dist");
 
 async function syncProjects(): Promise<void> {
   const projectsConfig = await loadProjectsConfig();
@@ -20,13 +20,20 @@ async function syncProjects(): Promise<void> {
   await Promise.all(
     projectsConfig.projects.map(async (project) => {
       console.log(`Syncing project: ${project.repository}...`);
-      const projectDir = path.join(PUB_DIR, project.subdirectory);
-      const projectDistDir = path.join(DIST_DIR, project.subdirectory);
+      const projectPubDir = path.join(PUB_DIR, project.subdirectory);
+      const projectDocsDir = path.join(DOCS_FILES_DIR, project.subdirectory);
+      const projectDocsPagesDir = path.join(
+        DOCS_PAGES_DIR,
+        project.subdirectory,
+      );
 
-      await fs.ensureDir(projectDistDir);
+      await fs.ensureDir(projectDocsDir);
+      await fs.ensureDir(projectDocsPagesDir);
+      await fs.emptyDir(projectDocsDir);
+      await fs.emptyDir(projectDocsPagesDir);
 
       for await (
-        const entry of fs.walk(projectDir, {
+        const entry of fs.walk(projectPubDir, {
           exts: ALLOWED_PROJECT_DOCS_FILE_EXTS,
           followSymlinks: true,
           includeSymlinks: true,
@@ -39,10 +46,21 @@ async function syncProjects(): Promise<void> {
         const ext = path.extname(entry.path);
         const targetDirname = path.basename(entry.path, ext);
         if (ext === ProjectDocsFileExt.zip) {
-          const targetDir = path.join(projectDistDir, targetDirname);
-          await unzip(entry.path, targetDir);
+          const targetDir = path.join(projectDocsDir, targetDirname);
+          const targetPagesDir = path.join(projectDocsPagesDir, targetDirname);
+          await unzip(entry.path, targetDir, {
+            overrideDestDir: (fileName) => {
+              if (path.extname(fileName) === ProjectDocsFileExt.html) {
+                return path.join(targetPagesDir, fileName);
+              }
+              return path.join(targetDir, fileName);
+            },
+          });
+        } else if (ext === ProjectDocsFileExt.html) {
+          const targetPath = path.join(projectDocsPagesDir, entry.name);
+          await fs.copy(entry.path, targetPath, { overwrite: true });
         } else {
-          const targetPath = path.join(projectDistDir, entry.name);
+          const targetPath = path.join(projectDocsDir, entry.name);
           await fs.copy(entry.path, targetPath, { overwrite: true });
         }
       }
@@ -51,12 +69,6 @@ async function syncProjects(): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  console.log("Emptying dist directory...");
-  await fs.emptyDir(DIST_DIR);
-
-  console.log("Copying docs dist directory to dist...");
-  await fs.copy(DOCS_DIST_DIR, DIST_DIR, { overwrite: true });
-
   console.log("Syncing projects...");
   await syncProjects();
 }

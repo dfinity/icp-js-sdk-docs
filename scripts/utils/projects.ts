@@ -9,12 +9,16 @@ export enum ProjectDocsFileExt {
   zip = ".zip",
   json = ".json",
   html = ".html",
+  md = ".md",
+  mdx = ".mdx",
 }
 
 export const ALLOWED_PROJECT_DOCS_FILE_EXTS = [
   ProjectDocsFileExt.zip,
   ProjectDocsFileExt.json,
   ProjectDocsFileExt.html,
+  ProjectDocsFileExt.md,
+  ProjectDocsFileExt.mdx,
 ];
 
 export function isAllowedFile(fileName: string): boolean {

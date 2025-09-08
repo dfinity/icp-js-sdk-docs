@@ -23,8 +23,9 @@ export function loadSidebars(config: MultiSidebarConfig): Sidebar {
         const sidebarFile = path.join(root, subdir.name, "_sidebar.json");
         const section = `${directory}/${subdir.name}`;
         const sidebarConfig = loadSidebarConfig(sidebarFile);
-
-        sidebar.push(...transformSidebarConfigItems(sidebarConfig, section));
+        if (sidebarConfig) {
+          sidebar.push(...transformSidebarConfigItems(sidebarConfig, section));
+        }
       }
     }
   }
@@ -32,8 +33,13 @@ export function loadSidebars(config: MultiSidebarConfig): Sidebar {
   return sidebar;
 }
 
-function loadSidebarConfig(filePath: string): Sidebar {
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+function loadSidebarConfig(filePath: string): Sidebar | undefined {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (error) {
+    console.warn(`Sidebar config for ${filePath}: ${error}`);
+    return undefined;
+  }
 }
 
 function transformSidebarConfigItems(

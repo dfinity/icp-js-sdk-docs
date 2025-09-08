@@ -8,8 +8,13 @@ const isDirectoryEntry = (entry: yauzl.Entry) => /\/$/.test(entry.fileName);
 export function unzip(
   zipFilePath: string,
   destDir: string,
-  whitelistFn?: (fileName: string) => boolean,
+  options: {
+    whitelistFn?: (fileName: string) => boolean;
+    overrideDestDir?: (fileName: string) => string;
+  } = {},
 ): Promise<void> {
+  const { whitelistFn, overrideDestDir } = options;
+
   return new Promise((resolve, reject) => {
     yauzl.open(zipFilePath, { lazyEntries: true }, (err, zipFile) => {
       if (err) {
@@ -36,7 +41,9 @@ export function unzip(
               return;
             }
 
-            const destPath = path.join(destDir, entry.fileName);
+            const destPath = overrideDestDir
+              ? overrideDestDir(entry.fileName)
+              : path.join(destDir, entry.fileName);
             fs.ensureDir(path.dirname(destPath))
               .then(() =>
                 readStream

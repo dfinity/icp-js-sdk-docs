@@ -4,7 +4,7 @@ import { type ProjectsSchema } from "../projects-schema.d.ts";
 
 const DOCS_DIR = import.meta.dirname!;
 const PROJECTS_FILE = path.join(DOCS_DIR, "..", "projects.json");
-const PUBLIC_DIR = path.join(DOCS_DIR, "..", "public");
+const DOCS_FILES_DIR = path.join(DOCS_DIR, "src", "content", "docs");
 
 type ProjectVersions = MultiSidebarConfig["sidebars"][number]["versions"];
 
@@ -15,7 +15,7 @@ export function getSidebarsFromProjects(
 
   for (const project of projectsConfig.projects) {
     const versionsJsonPath = path.join(
-      PUBLIC_DIR,
+      DOCS_FILES_DIR,
       project.subdirectory,
       "versions.json",
     );

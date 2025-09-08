@@ -21,6 +21,10 @@ export default defineConfig({
         strict: false,
       },
     },
+    ssr: {
+      // See https://docs.astro.build/en/guides/troubleshooting/#adding-dependencies-to-astro-in-a-monorepo
+      noExternal: ["@astrojs/react"],
+    },
   },
   integrations: [
     react(),
