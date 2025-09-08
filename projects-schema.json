@@ -19,6 +19,16 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the project",
+          "examples": ["Core"]
+        },
+        "description": {
+          "type": "string",
+          "description": "The description of the project",
+          "examples": ["Base library for Internet Computer apps."]
+        },
         "repository": {
           "type": "string",
           "description": "The repository from which to pull the static assets",
@@ -35,7 +45,7 @@
           "examples": ["core"]
         }
       },
-      "required": ["repository", "subdirectory"],
+      "required": ["title", "description", "repository", "subdirectory"],
       "title": "Project"
     }
   }

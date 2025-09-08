@@ -6,4 +6,9 @@
   .card {
     border-radius: var(--dfn-border-radius);
   }
+
+  /* Ensure dropdowns in the title area (e.g., ProjectSwitcher) are not clipped */
+  .header .title-wrapper {
+    overflow: visible;
+  }
 }

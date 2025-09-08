@@ -8,8 +8,8 @@ export default defineConfig({
       production: "bmsnr-hiaaa-aaaal-ask2q-cai",
       development: "jx5yt-yyaaa-aaaal-abzbq-cai",
     },
-    predeploy: ["deno task docs:build", "deno task predeploy"],
-    source: "dist",
+    predeploy: ["deno task docs:build"],
+    source: "docs/dist",
     storage: {
       redirects: REDIRECTS,
       rewrites: REWRITES,

@@ -1,0 +1,11 @@
+---
+import SearchInner from './SearchInner.astro';
+import { getCurrentPathComponents, getProjectAtCurrentPath } from '../path.ts';
+
+const project = getProjectAtCurrentPath(Astro.url.pathname);
+
+const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
+const baseUrl = `${projectPath}${subPath ? `/${subPath}` : ''}`;
+---
+
+{project && <SearchInner baseUrl={baseUrl} projectName={project.header.title} />}

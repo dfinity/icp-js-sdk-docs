@@ -29,7 +29,7 @@ async function downloadAndExtractZip(
     await Deno.writeFile(tempZipPath, response.body);
 
     await fs.ensureDir(destDir);
-    await unzip(tempZipPath, destDir, isAllowedFile);
+    await unzip(tempZipPath, destDir, { whitelistFn: isAllowedFile });
   } finally {
     try {
       await Deno.remove(tempZipPath);

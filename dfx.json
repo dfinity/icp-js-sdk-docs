@@ -11,7 +11,7 @@
   "canisters": {
     "docs": {
       "type": "assets",
-      "build": ["deno task docs:build", "deno task predeploy"],
+      "build": ["deno task docs:build"],
       "source": ["dist"],
       "frontend": {}
     }

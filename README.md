@@ -11,6 +11,8 @@ This repository contains the documentation for the ICP JavaScript SDK hosted on
    ```json
    [
      {
+       "title": "Core",
+       "description": "Base library for Internet Computer apps.",
        "repository": "dfinity/icp-js-core",
        "subdirectory": "core"
      },
@@ -23,7 +25,7 @@ This repository contains the documentation for the ICP JavaScript SDK hosted on
    ```
 
 2. Add a link and short description for the sub-project in the
-   [`index.astro`](./docs/src/pages/index.astro) file:
+   [`index.mdx`](./docs/src/content/docs/index.mdx) file:
 
    ```html
    <CardGrid stagger>

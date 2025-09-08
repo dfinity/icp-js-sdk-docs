@@ -1,0 +1,38 @@
+---
+// Adapted from https://github.com/withastro/starlight/blob/c417f1efd463be63b7230617d72b120caed098cd/packages/starlight/components/Sidebar.astro
+
+import MobileMenuFooter from '@astrojs/starlight/components/MobileMenuFooter.astro';
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+import { getCurrentPathComponents } from '../path.ts';
+import ProjectSwitcher from './ProjectSwitcher.astro';
+import { VersionDropdown } from './VersionDropdown.tsx';
+
+const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
+const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;
+
+const sidebar = Astro.locals.starlightRoute.sidebar;
+
+function isInCurrentSidebar(entry: App.Locals["starlightRoute"]["sidebar"][number]): boolean {
+  return entry.type === 'link' && entry.href.startsWith(currentBase) || entry.type === 'group' &&
+    entry.entries.some(isInCurrentSidebar);
+}
+
+const filteredSidebar = sidebar.filter(isInCurrentSidebar);
+
+Astro.locals.starlightRoute.sidebar = filteredSidebar;
+---
+
+<div class="md:sl-hidden">
+  <ProjectSwitcher />
+</div>
+
+<VersionDropdown client:only="react" />
+
+<SidebarPersister>
+  <SidebarSublist sublist={filteredSidebar} />
+</SidebarPersister>
+
+<div class="md:sl-hidden">
+  <MobileMenuFooter />
+</div>
