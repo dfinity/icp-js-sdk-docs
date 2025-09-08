@@ -9,7 +9,7 @@ export default defineConfig({
       development: "jx5yt-yyaaa-aaaal-abzbq-cai",
     },
     predeploy: ["deno task docs:build"],
-    source: "dist",
+    source: "docs/dist",
     storage: {
       redirects: REDIRECTS,
       rewrites: REWRITES,
