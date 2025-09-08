@@ -25,6 +25,7 @@ export function multiSidebarPlugin(
             Sidebar: "./plugins/multi-sidebar/components/Sidebar.astro",
             SiteTitle: "./plugins/multi-sidebar/components/SiteTitle.astro",
             SocialIcons: "./plugins/multi-sidebar/components/SocialIcons.astro",
+            Search: "./plugins/multi-sidebar/components/Search.astro",
           },
           sidebar: [
             ...(ctx.config.sidebar || []),
