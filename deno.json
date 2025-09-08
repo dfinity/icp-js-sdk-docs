@@ -16,6 +16,7 @@
     "astro-integration-kit": "npm:astro-integration-kit@^0.19.0",
     "fs": "node:fs",
     "json-schema-to-typescript": "npm:json-schema-to-typescript@^15.0.4",
+    "pagefind": "npm:pagefind@^1.4.0",
     "react": "npm:react@^19.1.1",
     "react-dom": "npm:react-dom@^19.1.1",
     "unist-util-visit": "npm:unist-util-visit@^5.0.0",

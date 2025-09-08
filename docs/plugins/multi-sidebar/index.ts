@@ -1,7 +1,10 @@
 import type { StarlightPlugin } from "@astrojs/starlight/types";
 import { type MultiSidebarConfig } from "./config.ts";
 import { loadSidebars } from "./sidebars.ts";
-import { multiSidebarIntegration } from "./integration.ts";
+import {
+  multiSearchIntegration,
+  multiSidebarIntegration,
+} from "./integration.ts";
 
 export function multiSidebarPlugin(
   config: MultiSidebarConfig,
@@ -11,6 +14,11 @@ export function multiSidebarPlugin(
     hooks: {
       "config:setup": (ctx) => {
         ctx.addIntegration(multiSidebarIntegration(config));
+        ctx.addIntegration(multiSearchIntegration({
+          projects: config.sidebars,
+          logger: ctx.logger,
+        }));
+
         ctx.updateConfig({
           components: {
             ...ctx.config.components,
