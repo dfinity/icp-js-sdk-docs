@@ -133,6 +133,9 @@ To serve the root docs project, run:
 deno task docs:start
 ```
 
+> Note: You need to run `deno task docs:prebuild` before to ensure the projects
+> files are added to the docs.
+
 ### Build root docs project
 
 To build the root docs project, run:

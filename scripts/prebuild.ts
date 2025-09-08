@@ -77,7 +77,7 @@ if (import.meta.main) {
   try {
     await main();
   } catch (error) {
-    console.error("Error in predeploy script:", error);
+    console.error("Error in prebuild script:", error);
 
     Deno.exit(1);
   }
