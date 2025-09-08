@@ -14,11 +14,8 @@ const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;
 const sidebar = Astro.locals.starlightRoute.sidebar;
 
 function isInCurrentSidebar(entry: App.Locals["starlightRoute"]["sidebar"][number]): boolean {
-  return entry.type === 'group' &&
-    entry.entries.some(
-      (subEntry) => (subEntry.type === 'link' && subEntry.href.startsWith(currentBase))
-        || (subEntry.type === 'group' && isInCurrentSidebar(subEntry))
-    );
+  return entry.type === 'link' && entry.href.startsWith(currentBase) || entry.type === 'group' &&
+    entry.entries.some(isInCurrentSidebar);
 }
 
 const filteredSidebar = sidebar.filter(isInCurrentSidebar);
