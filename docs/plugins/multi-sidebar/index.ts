@@ -4,7 +4,7 @@ import { loadSidebars } from "./sidebars.ts";
 import {
   multiSearchIntegration,
   multiSidebarIntegration,
-} from "./integration.ts";
+} from "./integrations.ts";
 
 export function multiSidebarPlugin(
   config: MultiSidebarConfig,
