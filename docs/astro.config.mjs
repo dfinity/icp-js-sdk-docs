@@ -34,6 +34,7 @@ export default defineConfig({
         src: "./src/assets/icp.svg",
         alt: "Internet Computer Logo",
       },
+      favicon: "/favicon.png",
       customCss: [
         "./src/assets/layers.css",
         "./src/assets/theme.css",
