@@ -4,6 +4,7 @@ import react from "@astrojs/react";
 import starlight from "@astrojs/starlight";
 import { multiSidebarPlugin } from "./plugins/multi-sidebar/index.ts";
 import { markdownUrlsPlugin } from "./plugins/markdown-urls/index.ts";
+import { matomo } from "./integrations/matomo/index.ts";
 import { getProjectsConfig, getSidebarsFromProjects } from "./projects.ts";
 
 const projectsConfig = getProjectsConfig();
@@ -49,6 +50,12 @@ export default defineConfig({
         }),
         markdownUrlsPlugin(),
       ],
+    }),
+    matomo({
+      enabled: import.meta.env.PROD,
+      host: "https://internetcomputer.matomo.cloud",
+      siteId: 17,
+      debug: false,
     }),
   ],
 });
