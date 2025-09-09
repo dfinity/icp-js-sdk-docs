@@ -12,6 +12,7 @@ on:
 jobs:
   pull-docs:
     runs-on: ubuntu-latest
+    environment: create-prs
 
     steps:
       - name: Create GitHub App Token
