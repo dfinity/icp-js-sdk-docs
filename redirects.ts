@@ -11,4 +11,14 @@ export const REDIRECTS: StorageConfigRedirect[] = [
     location: "/core/latest",
     code: 302,
   },
+  {
+    source: "/pic-js",
+    location: "/pic-js/latest",
+    code: 302,
+  },
+  {
+    source: "/pic-js/",
+    location: "/pic-js/latest",
+    code: 302,
+  },
 ];
