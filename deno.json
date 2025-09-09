@@ -15,6 +15,7 @@
     "@radix-ui/react-navigation-menu": "npm:@radix-ui/react-navigation-menu@^1.2.14",
     "@types/react": "npm:@types/react@^19.1.12",
     "astro-integration-kit": "npm:astro-integration-kit@^0.19.0",
+    "astro-matomo": "npm:astro-matomo@1.9.0",
     "fs": "node:fs",
     "json-schema-to-typescript": "npm:json-schema-to-typescript@^15.0.4",
     "pagefind": "npm:pagefind@^1.4.0",
