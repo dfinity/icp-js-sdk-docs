@@ -2,6 +2,7 @@
 
 ### Feat
 
+- add pic-js project (#92)
 - use markdown for projects assets (#89)
 - add root site content (#70)
 - add root starlight docs website (#62)
