@@ -2,6 +2,8 @@
 
 ### Feat
 
+- add matomo analytics (#95)
+- add pic-js project (#92)
 - use markdown for projects assets (#89)
 - add root site content (#70)
 - add root starlight docs website (#62)
@@ -14,6 +16,7 @@
 
 ### Fix
 
+- set environment in the pull-docs job (#97)
 - add both trailing slash and non trailing slash to redirects for `/core` (#87)
 - upload both compressed and uncompressed html files (#83)
 - skip github zipball top level directory (#50)
