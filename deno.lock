@@ -19,7 +19,6 @@
     "npm:@types/react@^19.1.12": "19.1.12",
     "npm:@types/yauzl@^2.10.3": "2.10.3",
     "npm:astro-integration-kit@0.19": "0.19.0_astro@5.13.5__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
-    "npm:astro-matomo@1.9.0": "1.9.0_astro@5.13.5__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
     "npm:astro@5.13.5": "5.13.5_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
     "npm:astro@^5.13.0": "5.13.5_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
     "npm:json-schema-to-typescript@^15.0.4": "15.0.4",
@@ -1875,18 +1874,6 @@
       "dependencies": [
         "astro@5.13.5_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
         "pathe"
-      ]
-    },
-    "astro-matomo@1.9.0_astro@5.13.5__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
-      "integrity": "sha512-eOmhDHvqjrasJvhaKTSEZIMk9pW/3OcqYS6VVGOQBrEg33H1/Mk62sJuv2dxmsg3cNTDwm2rlZlw9r18KNgYnw==",
-      "dependencies": [
-        "astro@5.13.5_vite@6.3.6__picomatch@4.0.3_zod@3.25.76"
-      ]
-    },
-    "astro-matomo@1.9.0_astro@5.13.5__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-eOmhDHvqjrasJvhaKTSEZIMk9pW/3OcqYS6VVGOQBrEg33H1/Mk62sJuv2dxmsg3cNTDwm2rlZlw9r18KNgYnw==",
-      "dependencies": [
-        "astro@5.13.5_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15"
       ]
     },
     "astro@5.13.5_vite@6.3.6__picomatch@4.0.3_zod@3.25.76": {
@@ -4761,7 +4748,6 @@
       "npm:@types/react@^19.1.12",
       "npm:@types/yauzl@^2.10.3",
       "npm:astro-integration-kit@0.19",
-      "npm:astro-matomo@1.9.0",
       "npm:astro@^5.13.0",
       "npm:json-schema-to-typescript@^15.0.4",
       "npm:pagefind@^1.4.0",

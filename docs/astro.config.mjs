@@ -2,9 +2,9 @@
 import { defineConfig, passthroughImageService } from "astro/config";
 import react from "@astrojs/react";
 import starlight from "@astrojs/starlight";
-import matomo from "astro-matomo";
 import { multiSidebarPlugin } from "./plugins/multi-sidebar/index.ts";
 import { markdownUrlsPlugin } from "./plugins/markdown-urls/index.ts";
+import { matomo } from "./integrations/matomo/index.ts";
 import { getProjectsConfig, getSidebarsFromProjects } from "./projects.ts";
 
 const projectsConfig = getProjectsConfig();
@@ -52,14 +52,9 @@ export default defineConfig({
       ],
     }),
     matomo({
-      enabled: import.meta.env.PROD, // Only load in production
-      host: "https://internetcomputer.matomo.cloud/",
-      setCookieDomain: "*.icp.build",
-      trackerUrl: "matomo.php",
-      srcUrl: "matomo.js",
+      enabled: import.meta.env.PROD,
+      host: "https://internetcomputer.matomo.cloud",
       siteId: 17,
-      heartBeatTimer: 30,
-      disableCookies: true,
       debug: false,
     }),
   ],
