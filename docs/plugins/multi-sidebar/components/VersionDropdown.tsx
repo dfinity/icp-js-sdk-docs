@@ -14,8 +14,9 @@ export const VersionDropdown: React.FC<Props> = ({
   dropdownOptions,
   initialSelectedValue,
 }) => {
-  const [selectedValue, setSelectedValue] =
-    React.useState<string>(initialSelectedValue);
+  const [selectedValue, setSelectedValue] = React.useState<string>(
+    initialSelectedValue,
+  );
 
   async function onChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const selectedVersionPath = e.currentTarget.value;
@@ -36,9 +37,11 @@ export const VersionDropdown: React.FC<Props> = ({
         ? pathname.slice(currentPrefix.length)
         : "";
 
-      const nextHref = `${projectPath}/${selectedVersionPath}${_rest}${search}${hash}`;
+      const nextHref =
+        `${projectPath}/${selectedVersionPath}${_rest}${search}${hash}`;
 
-      const hrefToCheck = `${projectPath}/${selectedVersionPath}${_rest}${search}`;
+      const hrefToCheck =
+        `${projectPath}/${selectedVersionPath}${_rest}${search}`;
       const exists = await doesUrlExist(hrefToCheck);
       if (exists) {
         globalThis.location.href = nextHref;
@@ -62,9 +65,9 @@ export const VersionDropdown: React.FC<Props> = ({
         Version
         {dropdownOptions.find((v) => v.path === selectedValue)?.versionInTitle
           ? ` (${
-              dropdownOptions.find((v) => v.path === selectedValue)!
-                .versionInTitle
-            })`
+            dropdownOptions.find((v) => v.path === selectedValue)!
+              .versionInTitle
+          })`
           : ""}
       </label>
       <select
