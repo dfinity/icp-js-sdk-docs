@@ -1,6 +1,6 @@
 ---
-import { getCurrentPathComponents } from '../path.ts';
-import { VersionDropdown as VersionDropdownReact } from './VersionDropdown.tsx';
+import { getCurrentPathComponents } from '../../path.ts';
+import { VersionDropdown as VersionDropdownReact } from '../VersionDropdown/VersionDropdown.tsx';
 import pluginConfig from "virtual:starlight-multi-sidebar/config";
 
 const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);

@@ -5,8 +5,8 @@ import MobileMenuFooter from '@astrojs/starlight/components/MobileMenuFooter.ast
 import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
 import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
 import { getCurrentPathComponents } from '../path.ts';
-import ProjectSwitcher from './ProjectSwitcher.astro';
-import VersionDropdown from './VersionDropdown.astro';
+import ProjectSwitcher from './ProjectSwitcher/ProjectSwitcher.astro';
+import VersionDropdown from './VersionDropdown/VersionDropdown.astro';
 
 const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
 const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { type MultiSidebarConfig } from "../config.ts";
+import { type MultiSidebarConfig } from "../../config.ts";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import pluginConfig from "virtual:starlight-multi-sidebar/config";
 import "./ProjectSwitcher.css";
