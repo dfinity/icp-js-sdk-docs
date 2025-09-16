@@ -20,9 +20,17 @@ async function doesUrlExist(url: string): Promise<boolean> {
   }
 }
 
-export const VersionDropdown: React.FC = () => {
-  const [options, setOptions] = React.useState<VersionOptions>([]);
-  const [selectedValue, setSelectedValue] = React.useState<string>("");
+type Props = {
+  dropdownOptions: VersionOptions;
+  initialSelectedValue: string;
+};
+
+export const VersionDropdown: React.FC<Props> = ({
+  dropdownOptions,
+  initialSelectedValue,
+}) => {
+  const [selectedValue, setSelectedValue] =
+    React.useState<string>(initialSelectedValue);
 
   async function onChange(_e: React.ChangeEvent<HTMLSelectElement>) {
     const selectedVersionPath = _e.currentTarget.value;
@@ -43,11 +51,9 @@ export const VersionDropdown: React.FC = () => {
         ? pathname.slice(currentPrefix.length)
         : "";
 
-      const nextHref =
-        `${projectPath}/${selectedVersionPath}${_rest}${search}${hash}`;
+      const nextHref = `${projectPath}/${selectedVersionPath}${_rest}${search}${hash}`;
 
-      const hrefToCheck =
-        `${projectPath}/${selectedVersionPath}${_rest}${search}`;
+      const hrefToCheck = `${projectPath}/${selectedVersionPath}${_rest}${search}`;
       const exists = await doesUrlExist(hrefToCheck);
       if (exists) {
         globalThis.location.href = nextHref;
@@ -62,33 +68,6 @@ export const VersionDropdown: React.FC = () => {
     globalThis.location.href = baseHref;
   }
 
-  React.useEffect(() => {
-    try {
-      const { pathname } = globalThis.location;
-      const { projectPath, subPath } = getCurrentPathComponents(pathname);
-
-      const project = pluginConfig.sidebars.find(
-        (p) => p.basePath === projectPath,
-      );
-
-      if (!project) {
-        setOptions([]);
-        setSelectedValue("");
-        return;
-      }
-
-      const dropdownOptions = project.versions;
-      setOptions(dropdownOptions);
-
-      const selected = dropdownOptions.find(
-        ({ path }) => path.toLowerCase() === (subPath || "").toLowerCase(),
-      ) ?? dropdownOptions[0];
-      setSelectedValue(selected?.path || "");
-    } catch {
-      // Do nothing, but avoid throwing an error
-    }
-  }, []);
-
   return (
     <div>
       <label
@@ -96,10 +75,11 @@ export const VersionDropdown: React.FC = () => {
         className="sidebar-version-select-label"
       >
         Version
-        {options.find((v) => v.path === selectedValue)?.versionInTitle
+        {dropdownOptions.find((v) => v.path === selectedValue)?.versionInTitle
           ? ` (${
-            options.find((v) => v.path === selectedValue)?.versionInTitle
-          })`
+              dropdownOptions.find((v) => v.path === selectedValue)!
+                .versionInTitle
+            })`
           : ""}
       </label>
       <select
@@ -108,7 +88,7 @@ export const VersionDropdown: React.FC = () => {
         onChange={onChange}
         value={selectedValue}
       >
-        {options.map((opt) => (
+        {dropdownOptions.map((opt) => (
           <option key={opt.path} value={opt.path}>
             {opt.label}
           </option>
