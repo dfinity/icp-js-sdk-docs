@@ -5,21 +5,6 @@ import { getCurrentPathComponents } from "../path.ts";
 
 type VersionOptions = (typeof pluginConfig)["sidebars"][number]["versions"];
 
-async function doesUrlExist(url: string): Promise<boolean> {
-  try {
-    const headResponse = await globalThis.fetch(url, {
-      method: "HEAD",
-      redirect: "follow",
-    });
-    if (headResponse.status && headResponse.status < 400) {
-      return true;
-    }
-    return false;
-  } catch {
-    return false;
-  }
-}
-
 type Props = {
   dropdownOptions: VersionOptions;
   initialSelectedValue: string;
@@ -32,8 +17,8 @@ export const VersionDropdown: React.FC<Props> = ({
   const [selectedValue, setSelectedValue] =
     React.useState<string>(initialSelectedValue);
 
-  async function onChange(_e: React.ChangeEvent<HTMLSelectElement>) {
-    const selectedVersionPath = _e.currentTarget.value;
+  async function onChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    const selectedVersionPath = e.currentTarget.value;
     setSelectedValue(selectedVersionPath);
 
     if (!selectedVersionPath) {
@@ -97,3 +82,18 @@ export const VersionDropdown: React.FC<Props> = ({
     </div>
   );
 };
+
+async function doesUrlExist(url: string): Promise<boolean> {
+  try {
+    const headResponse = await globalThis.fetch(url, {
+      method: "HEAD",
+      redirect: "follow",
+    });
+    if (headResponse.status && headResponse.status < 400) {
+      return true;
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
