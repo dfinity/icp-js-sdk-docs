@@ -4,22 +4,10 @@ import { VersionDropdown as VersionDropdownReact } from './VersionDropdown.tsx';
 import pluginConfig from "virtual:starlight-multi-sidebar/config";
 
 const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
-const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;
-
-const sidebar = Astro.locals.starlightRoute.sidebar;
-
-function isInCurrentSidebar(entry: App.Locals["starlightRoute"]["sidebar"][number]): boolean {
-  return entry.type === 'link' && entry.href.startsWith(currentBase) || entry.type === 'group' &&
-    entry.entries.some(isInCurrentSidebar);
-}
-
-const filteredSidebar = sidebar.filter(isInCurrentSidebar);
-
-Astro.locals.starlightRoute.sidebar = filteredSidebar;
-
 const currentProject = pluginConfig.sidebars.find(
   (p) => p.basePath === projectPath,
 );
+
 const dropdownOptions = currentProject?.versions || [];
 const initialSelectedValue = dropdownOptions.find(
   ({ path }) => path.toLowerCase() === (subPath || "").toLowerCase(),
