@@ -6,7 +6,7 @@ import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.ast
 import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
 import { getCurrentPathComponents } from '../path.ts';
 import ProjectSwitcher from './ProjectSwitcher.astro';
-import { VersionDropdown } from './VersionDropdown.tsx';
+import VersionDropdown from './VersionDropdown.astro';
 
 const { projectPath, subPath } = getCurrentPathComponents(Astro.url.pathname);
 const currentBase = `${projectPath}${subPath ? `/${subPath}` : ''}`;
@@ -27,7 +27,7 @@ Astro.locals.starlightRoute.sidebar = filteredSidebar;
   <ProjectSwitcher />
 </div>
 
-<VersionDropdown client:only="react" />
+<VersionDropdown />
 
 <SidebarPersister>
   <SidebarSublist sublist={filteredSidebar} />

@@ -21,10 +21,6 @@ export const ProjectSwitcherReact: React.FC<Props> = ({
   projectPath,
   currentHeader,
 }) => {
-  if (!headers || headers.length === 0) {
-    return null;
-  }
-
   return (
     <React.Fragment>
       <NavigationMenu.Root

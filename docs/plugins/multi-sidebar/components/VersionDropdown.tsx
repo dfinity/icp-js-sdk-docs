@@ -5,27 +5,21 @@ import { getCurrentPathComponents } from "../path.ts";
 
 type VersionOptions = (typeof pluginConfig)["sidebars"][number]["versions"];
 
-async function doesUrlExist(url: string): Promise<boolean> {
-  try {
-    const headResponse = await globalThis.fetch(url, {
-      method: "HEAD",
-      redirect: "follow",
-    });
-    if (headResponse.status && headResponse.status < 400) {
-      return true;
-    }
-    return false;
-  } catch {
-    return false;
-  }
-}
+type Props = {
+  dropdownOptions: VersionOptions;
+  initialSelectedValue: string;
+};
 
-export const VersionDropdown: React.FC = () => {
-  const [options, setOptions] = React.useState<VersionOptions>([]);
-  const [selectedValue, setSelectedValue] = React.useState<string>("");
+export const VersionDropdown: React.FC<Props> = ({
+  dropdownOptions,
+  initialSelectedValue,
+}) => {
+  const [selectedValue, setSelectedValue] = React.useState<string>(
+    initialSelectedValue,
+  );
 
-  async function onChange(_e: React.ChangeEvent<HTMLSelectElement>) {
-    const selectedVersionPath = _e.currentTarget.value;
+  async function onChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    const selectedVersionPath = e.currentTarget.value;
     setSelectedValue(selectedVersionPath);
 
     if (!selectedVersionPath) {
@@ -62,33 +56,6 @@ export const VersionDropdown: React.FC = () => {
     globalThis.location.href = baseHref;
   }
 
-  React.useEffect(() => {
-    try {
-      const { pathname } = globalThis.location;
-      const { projectPath, subPath } = getCurrentPathComponents(pathname);
-
-      const project = pluginConfig.sidebars.find(
-        (p) => p.basePath === projectPath,
-      );
-
-      if (!project) {
-        setOptions([]);
-        setSelectedValue("");
-        return;
-      }
-
-      const dropdownOptions = project.versions;
-      setOptions(dropdownOptions);
-
-      const selected = dropdownOptions.find(
-        ({ path }) => path.toLowerCase() === (subPath || "").toLowerCase(),
-      ) ?? dropdownOptions[0];
-      setSelectedValue(selected?.path || "");
-    } catch {
-      // Do nothing, but avoid throwing an error
-    }
-  }, []);
-
   return (
     <div>
       <label
@@ -96,9 +63,10 @@ export const VersionDropdown: React.FC = () => {
         className="sidebar-version-select-label"
       >
         Version
-        {options.find((v) => v.path === selectedValue)?.versionInTitle
+        {dropdownOptions.find((v) => v.path === selectedValue)?.versionInTitle
           ? ` (${
-            options.find((v) => v.path === selectedValue)?.versionInTitle
+            dropdownOptions.find((v) => v.path === selectedValue)!
+              .versionInTitle
           })`
           : ""}
       </label>
@@ -108,7 +76,7 @@ export const VersionDropdown: React.FC = () => {
         onChange={onChange}
         value={selectedValue}
       >
-        {options.map((opt) => (
+        {dropdownOptions.map((opt) => (
           <option key={opt.path} value={opt.path}>
             {opt.label}
           </option>
@@ -117,3 +85,18 @@ export const VersionDropdown: React.FC = () => {
     </div>
   );
 };
+
+async function doesUrlExist(url: string): Promise<boolean> {
+  try {
+    const headResponse = await globalThis.fetch(url, {
+      method: "HEAD",
+      redirect: "follow",
+    });
+    if (headResponse.status && headResponse.status < 400) {
+      return true;
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
