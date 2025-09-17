@@ -1,7 +1,7 @@
 import * as React from "react";
 import pluginConfig from "virtual:starlight-multi-sidebar/config";
+import { getCurrentPathComponents } from "../../path.ts";
 import "./VersionDropdown.css";
-import { getCurrentPathComponents } from "../path.ts";
 
 type VersionOptions = (typeof pluginConfig)["sidebars"][number]["versions"];
 
