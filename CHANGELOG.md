@@ -27,5 +27,6 @@
 
 ### Refactor
 
+- render React components at build time (#103)
 - move agent to core and configure rewrites for redirect (#68)
 - simplify pull-projects-docs action (#27)
