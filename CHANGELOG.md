@@ -2,6 +2,7 @@
 
 ### Feat
 
+- project switcher categories (#113)
 - add matomo analytics (#95)
 - add pic-js project (#92)
 - use markdown for projects assets (#89)
