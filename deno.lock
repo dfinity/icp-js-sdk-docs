@@ -9,10 +9,10 @@
     "jsr:@std/path@^1.1.2": "1.1.2",
     "npm:@actions/core@^1.11.1": "1.11.1",
     "npm:@actions/github@^6.0.1": "6.0.1_@octokit+core@5.2.2",
-    "npm:@astrojs/react@^4.3.0": "4.3.1_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15",
+    "npm:@astrojs/react@^4.3.0": "4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15",
     "npm:@astrojs/starlight@~0.35.2": "0.35.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
-    "npm:@junobuild/cli@0.9.2": "0.9.2_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+config@2.1.1__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.5_@junobuild+ic-client@3.1.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_semver@7.7.2_@junobuild+storage@1.3.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@junobuild+ic-client@3.1.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+cdn@1.3.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@junobuild+config@2.1.1___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.5____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.5__@junobuild+ic-client@3.1.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@junobuild+storage@1.3.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@junobuild+ic-client@3.1.1____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+identity@3.2.5_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.5____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_ora@8.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_@dfinity+auth-client@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5",
-    "npm:@junobuild/config@^2.1.0": "2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76",
+    "npm:@junobuild/cli@0.10.0": "0.10.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_semver@7.7.2_@junobuild+storage@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+cdn@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+config@2.2.0___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.6____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+storage@1.3.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@junobuild+ic-client@3.1.2____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+identity@3.2.6_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.6____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_ora@8.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_@dfinity+auth-client@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6",
+    "npm:@junobuild/config@^2.1.0": "2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76",
     "npm:@pagefind/default-ui@^1.4.0": "1.4.0",
     "npm:@radix-ui/react-navigation-menu@^1.2.14": "1.2.14_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1",
     "npm:@types/node@*": "22.15.15",
@@ -98,10 +98,13 @@
     "@astrojs/internal-helpers@0.7.2": {
       "integrity": "sha512-KCkCqR3Goym79soqEtbtLzJfqhTWMyVaizUi35FLzgGSzBotSw8DB1qwsu7U96ihOJgYhDk2nVPz+3LnXPeX6g=="
     },
+    "@astrojs/internal-helpers@0.7.3": {
+      "integrity": "sha512-6Pl0bQEIChuW5wqN7jdKrzWfCscW2rG/Cz+fzt4PhSQX2ivBpnhXgFUCs0M3DCYvjYHnPVG2W36X5rmFjZ62sw=="
+    },
     "@astrojs/markdown-remark@6.3.6": {
       "integrity": "sha512-bwylYktCTsLMVoCOEHbn2GSUA3c5KT/qilekBKA3CBng0bo1TYjNZPr761vxumRk9kJGqTOtU+fgCAp5Vwokug==",
       "dependencies": [
-        "@astrojs/internal-helpers",
+        "@astrojs/internal-helpers@0.7.2",
         "@astrojs/prism",
         "github-slugger",
         "hast-util-from-html",
@@ -124,10 +127,36 @@
         "vfile"
       ]
     },
-    "@astrojs/mdx@4.3.5_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
-      "integrity": "sha512-YB3Hhsvl1BxyY0ARe1OrnVzLNKDPXAz9epYvmL+MQ8A85duSsSLQaO3GHB6/qZJKNoLmP6PptOtCONCKkbhPeQ==",
+    "@astrojs/markdown-remark@6.3.7": {
+      "integrity": "sha512-KXGdq6/BC18doBCYXp08alHlWChH0hdD2B1qv9wIyOHbvwI5K6I7FhSta8dq1hBQNdun8YkKPR013D/Hm8xd0g==",
       "dependencies": [
-        "@astrojs/markdown-remark",
+        "@astrojs/internal-helpers@0.7.3",
+        "@astrojs/prism",
+        "github-slugger",
+        "hast-util-from-html",
+        "hast-util-to-text",
+        "import-meta-resolve",
+        "js-yaml",
+        "mdast-util-definitions",
+        "rehype-raw",
+        "rehype-stringify",
+        "remark-gfm",
+        "remark-parse",
+        "remark-rehype",
+        "remark-smartypants",
+        "shiki",
+        "smol-toml",
+        "unified",
+        "unist-util-remove-position",
+        "unist-util-visit",
+        "unist-util-visit-parents",
+        "vfile"
+      ]
+    },
+    "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
+      "integrity": "sha512-jH04tYgaqLfq3To42+z1oEcXrXUzo3BxZ4fTkb+7BEmOJkQ9/c3iIixFEC+x0GgE8lJb4SuEDGldpAv7+1yY8A==",
+      "dependencies": [
+        "@astrojs/markdown-remark@6.3.7",
         "@mdx-js/mdx",
         "acorn",
         "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76",
@@ -143,10 +172,10 @@
         "vfile"
       ]
     },
-    "@astrojs/mdx@4.3.5_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-YB3Hhsvl1BxyY0ARe1OrnVzLNKDPXAz9epYvmL+MQ8A85duSsSLQaO3GHB6/qZJKNoLmP6PptOtCONCKkbhPeQ==",
+    "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
+      "integrity": "sha512-jH04tYgaqLfq3To42+z1oEcXrXUzo3BxZ4fTkb+7BEmOJkQ9/c3iIixFEC+x0GgE8lJb4SuEDGldpAv7+1yY8A==",
       "dependencies": [
-        "@astrojs/markdown-remark",
+        "@astrojs/markdown-remark@6.3.7",
         "@mdx-js/mdx",
         "acorn",
         "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
@@ -168,8 +197,8 @@
         "prismjs"
       ]
     },
-    "@astrojs/react@4.3.1_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3": {
-      "integrity": "sha512-Jhv35TsDHuQLvwof2z10P3g1s9wIR4UN9jE7O4NZBJNXOt/+qk+L0rY9th4SX7VzccKmRltUGxAhI1cXH52gXw==",
+    "@astrojs/react@4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3": {
+      "integrity": "sha512-RzblkVImAFdV1C0AWsSWzS70Z0FMtW2p0XXkNYu3QePfyVJta3JIy8m8jY8271etaCZtpFjsE2UaiHGZIBm6nw==",
       "dependencies": [
         "@types/react",
         "@types/react-dom",
@@ -180,8 +209,8 @@
         "vite@6.3.6_picomatch@4.0.3"
       ]
     },
-    "@astrojs/react@4.3.1_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15": {
-      "integrity": "sha512-Jhv35TsDHuQLvwof2z10P3g1s9wIR4UN9jE7O4NZBJNXOt/+qk+L0rY9th4SX7VzccKmRltUGxAhI1cXH52gXw==",
+    "@astrojs/react@4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15": {
+      "integrity": "sha512-RzblkVImAFdV1C0AWsSWzS70Z0FMtW2p0XXkNYu3QePfyVJta3JIy8m8jY8271etaCZtpFjsE2UaiHGZIBm6nw==",
       "dependencies": [
         "@types/react",
         "@types/react-dom",
@@ -203,8 +232,8 @@
     "@astrojs/starlight@0.35.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
       "integrity": "sha512-z9MbODjZl/STU3PPU18iOTkLObJBw7PA8xMe5s+KPscQGL0LNZyQUYeClG+F1/em/k+2AsokGpVPta+aOTk1sg==",
       "dependencies": [
-        "@astrojs/markdown-remark",
-        "@astrojs/mdx@4.3.5_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76",
+        "@astrojs/markdown-remark@6.3.7",
+        "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76",
         "@astrojs/sitemap",
         "@pagefind/default-ui",
         "@types/hast",
@@ -236,8 +265,8 @@
     "@astrojs/starlight@0.35.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
       "integrity": "sha512-z9MbODjZl/STU3PPU18iOTkLObJBw7PA8xMe5s+KPscQGL0LNZyQUYeClG+F1/em/k+2AsokGpVPta+aOTk1sg==",
       "dependencies": [
-        "@astrojs/markdown-remark",
-        "@astrojs/mdx@4.3.5_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+        "@astrojs/markdown-remark@6.3.7",
+        "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
         "@astrojs/sitemap",
         "@pagefind/default-ui",
         "@types/hast",
@@ -524,8 +553,8 @@
     "@ctrl/tinycolor@4.2.0": {
       "integrity": "sha512-kzyuwOAQnXJNLS9PSyrk0CWk35nWJW/zl/6KvnTBMFK65gm7U1/Z5BqjxeapjZCIhQcM/DsrEmcbRwDyXyXK4A=="
     },
-    "@dfinity/agent@3.2.5_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5_@noble+hashes@1.8.0": {
-      "integrity": "sha512-LzR66KPYp96pKZDYmAuYCEQyiEwfQK0QuVILMHVRZEcgIt2mdORfrYJRU5xqBDArJic78nPHnh2p6S+WCfqpbA==",
+    "@dfinity/agent@3.2.6_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@noble+hashes@1.8.0": {
+      "integrity": "sha512-rJscQptoa43BxHgpeyy9qF6JbAXm4tn+IeNkUE9aMn60tfy1SGizMn6UQQOmw7jvl+LYDVA6w8ZA7c2br3cM+w==",
       "dependencies": [
         "@dfinity/candid",
         "@dfinity/cbor",
@@ -534,8 +563,8 @@
         "@noble/hashes"
       ]
     },
-    "@dfinity/auth-client@3.2.5_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.5_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5": {
-      "integrity": "sha512-FK9JFYxfO4AV+903BZUGF+XqG3bAyng6GpuZTbrK7j2mQkiU/zk9L0391qRSKaaLKOUSSdGEmKuFLHVPUP1LMw==",
+    "@dfinity/auth-client@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.6_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6": {
+      "integrity": "sha512-uuo72wai9Mg5CglZ3VE9eIUibttPvFn2B7LmMFoBenT9md2d57aBUdKFep1fkHNvD4Kp4iLxOfs1UEKQX7vbog==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/identity",
@@ -543,8 +572,8 @@
         "idb"
       ]
     },
-    "@dfinity/candid@3.2.5_@dfinity+principal@3.2.5": {
-      "integrity": "sha512-J/WbazzhJpf7PXTDg+aBq9e91b4luvGu0Pttv0BhelOhg90e9S7gaSKcD/JnfbvQwWXbe9CWppFrFhUqAUfEBA==",
+    "@dfinity/candid@3.2.6_@dfinity+principal@3.2.6": {
+      "integrity": "sha512-rh26bUluupegJNiDC6pJy0wyhkctPJSJ5ue4RxnodrbA6YMyQoj7m8Ic3Y81ah/fsSXOl9AIyyVh3kMqZb3lSw==",
       "dependencies": [
         "@dfinity/principal"
       ]
@@ -552,7 +581,7 @@
     "@dfinity/cbor@0.2.2": {
       "integrity": "sha512-GPJpH73kDEKbUBdUjY80lz7cq9l0vm1h/7ppejPV6O0ZTqCLrYspssYvqjRmK4aNnJ/SKXsP0rg9LYX7zpegaA=="
     },
-    "@dfinity/ic-management@7.0.2_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5": {
+    "@dfinity/ic-management@7.0.2_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6": {
       "integrity": "sha512-NnWhB6LWMDUmWXzjc54my7XF6M7xoDL5AOY+i9wPTvnn1u2aJ2Nvme8B2nCk/VcXJ8fj4Y5JOtc08/oPwoI/nQ==",
       "dependencies": [
         "@dfinity/agent",
@@ -561,8 +590,8 @@
         "@dfinity/utils"
       ]
     },
-    "@dfinity/identity@3.2.5_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5_@noble+curves@1.9.7_@noble+hashes@1.8.0": {
-      "integrity": "sha512-rtVi1J9WnwnPByGrn2a7nuoEpPca9DmqhwctdTo6hG7n2tN3GyG5sYC/Y9F85wEd3uwNDINujRa0PDmC8NMTpg==",
+    "@dfinity/identity@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@noble+curves@1.9.7_@noble+hashes@1.8.0": {
+      "integrity": "sha512-18ecTwtz4Yv8coaNM4ooCzqlib9ooP20JFHJ2RVAtlWPaVcRC/4nzXTEJiUH+TytC7ZbBkuRYlJ/eLeIhyYqaA==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/candid",
@@ -571,13 +600,13 @@
         "@noble/hashes"
       ]
     },
-    "@dfinity/principal@3.2.5": {
-      "integrity": "sha512-YvfH6Toyi3KP7JkiBEdDRMiLcqJfPF2sbEBEiyHM4m1Jxqe04SFakegDwMVUypGPQQ8wSkHwosVrqoMvu1eA9A==",
+    "@dfinity/principal@3.2.6": {
+      "integrity": "sha512-jxEmMwZe2k/XC0DEW1i7CVJ/vPzIKT0zvXeQIBuvkfEcqWSVRiScHlURwnYStQAE1RVP8glDEs6ioeZgmEmazA==",
       "dependencies": [
         "@noble/hashes"
       ]
     },
-    "@dfinity/utils@3.1.0_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5": {
+    "@dfinity/utils@3.1.0_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6": {
       "integrity": "sha512-e4Iunp147nN/gpph/7miZkxwYkctA3AyuKla0vbwK9RNJE7Rub43Zwo0mlhjYq6WHjIxIEL/8n+AAJj9+RjZcw==",
       "dependencies": [
         "@dfinity/agent",
@@ -585,7 +614,7 @@
         "@dfinity/principal"
       ]
     },
-    "@dfinity/zod-schemas@1.1.0_@dfinity+principal@3.2.5_zod@3.25.76": {
+    "@dfinity/zod-schemas@1.1.0_@dfinity+principal@3.2.6_zod@3.25.76": {
       "integrity": "sha512-lhZTMN5bwbk+BgWA+tFto4ltrJVa+14KLssOwBtuFD980hqgP+dpAIEZQnIEZDU8x/51u2yGEpMDFubHjW2C5g==",
       "dependencies": [
         "@dfinity/principal",
@@ -598,133 +627,133 @@
         "tslib"
       ]
     },
-    "@esbuild/aix-ppc64@0.25.9": {
-      "integrity": "sha512-OaGtL73Jck6pBKjNIe24BnFE6agGl+6KxDtTfHhy1HmhthfKouEcOhqpSL64K4/0WCtbKFLOdzD/44cJ4k9opA==",
+    "@esbuild/aix-ppc64@0.25.10": {
+      "integrity": "sha512-0NFWnA+7l41irNuaSVlLfgNT12caWJVLzp5eAVhZ0z1qpxbockccEt3s+149rE64VUI3Ml2zt8Nv5JVc4QXTsw==",
       "os": ["aix"],
       "cpu": ["ppc64"]
     },
-    "@esbuild/android-arm64@0.25.9": {
-      "integrity": "sha512-IDrddSmpSv51ftWslJMvl3Q2ZT98fUSL2/rlUXuVqRXHCs5EUF1/f+jbjF5+NG9UffUDMCiTyh8iec7u8RlTLg==",
+    "@esbuild/android-arm64@0.25.10": {
+      "integrity": "sha512-LSQa7eDahypv/VO6WKohZGPSJDq5OVOo3UoFR1E4t4Gj1W7zEQMUhI+lo81H+DtB+kP+tDgBp+M4oNCwp6kffg==",
       "os": ["android"],
       "cpu": ["arm64"]
     },
-    "@esbuild/android-arm@0.25.9": {
-      "integrity": "sha512-5WNI1DaMtxQ7t7B6xa572XMXpHAaI/9Hnhk8lcxF4zVN4xstUgTlvuGDorBguKEnZO70qwEcLpfifMLoxiPqHQ==",
+    "@esbuild/android-arm@0.25.10": {
+      "integrity": "sha512-dQAxF1dW1C3zpeCDc5KqIYuZ1tgAdRXNoZP7vkBIRtKZPYe2xVr/d3SkirklCHudW1B45tGiUlz2pUWDfbDD4w==",
       "os": ["android"],
       "cpu": ["arm"]
     },
-    "@esbuild/android-x64@0.25.9": {
-      "integrity": "sha512-I853iMZ1hWZdNllhVZKm34f4wErd4lMyeV7BLzEExGEIZYsOzqDWDf+y082izYUE8gtJnYHdeDpN/6tUdwvfiw==",
+    "@esbuild/android-x64@0.25.10": {
+      "integrity": "sha512-MiC9CWdPrfhibcXwr39p9ha1x0lZJ9KaVfvzA0Wxwz9ETX4v5CHfF09bx935nHlhi+MxhA63dKRRQLiVgSUtEg==",
       "os": ["android"],
       "cpu": ["x64"]
     },
-    "@esbuild/darwin-arm64@0.25.9": {
-      "integrity": "sha512-XIpIDMAjOELi/9PB30vEbVMs3GV1v2zkkPnuyRRURbhqjyzIINwj+nbQATh4H9GxUgH1kFsEyQMxwiLFKUS6Rg==",
+    "@esbuild/darwin-arm64@0.25.10": {
+      "integrity": "sha512-JC74bdXcQEpW9KkV326WpZZjLguSZ3DfS8wrrvPMHgQOIEIG/sPXEN/V8IssoJhbefLRcRqw6RQH2NnpdprtMA==",
       "os": ["darwin"],
       "cpu": ["arm64"]
     },
-    "@esbuild/darwin-x64@0.25.9": {
-      "integrity": "sha512-jhHfBzjYTA1IQu8VyrjCX4ApJDnH+ez+IYVEoJHeqJm9VhG9Dh2BYaJritkYK3vMaXrf7Ogr/0MQ8/MeIefsPQ==",
+    "@esbuild/darwin-x64@0.25.10": {
+      "integrity": "sha512-tguWg1olF6DGqzws97pKZ8G2L7Ig1vjDmGTwcTuYHbuU6TTjJe5FXbgs5C1BBzHbJ2bo1m3WkQDbWO2PvamRcg==",
       "os": ["darwin"],
       "cpu": ["x64"]
     },
-    "@esbuild/freebsd-arm64@0.25.9": {
-      "integrity": "sha512-z93DmbnY6fX9+KdD4Ue/H6sYs+bhFQJNCPZsi4XWJoYblUqT06MQUdBCpcSfuiN72AbqeBFu5LVQTjfXDE2A6Q==",
+    "@esbuild/freebsd-arm64@0.25.10": {
+      "integrity": "sha512-3ZioSQSg1HT2N05YxeJWYR+Libe3bREVSdWhEEgExWaDtyFbbXWb49QgPvFH8u03vUPX10JhJPcz7s9t9+boWg==",
       "os": ["freebsd"],
       "cpu": ["arm64"]
     },
-    "@esbuild/freebsd-x64@0.25.9": {
-      "integrity": "sha512-mrKX6H/vOyo5v71YfXWJxLVxgy1kyt1MQaD8wZJgJfG4gq4DpQGpgTB74e5yBeQdyMTbgxp0YtNj7NuHN0PoZg==",
+    "@esbuild/freebsd-x64@0.25.10": {
+      "integrity": "sha512-LLgJfHJk014Aa4anGDbh8bmI5Lk+QidDmGzuC2D+vP7mv/GeSN+H39zOf7pN5N8p059FcOfs2bVlrRr4SK9WxA==",
       "os": ["freebsd"],
       "cpu": ["x64"]
     },
-    "@esbuild/linux-arm64@0.25.9": {
-      "integrity": "sha512-BlB7bIcLT3G26urh5Dmse7fiLmLXnRlopw4s8DalgZ8ef79Jj4aUcYbk90g8iCa2467HX8SAIidbL7gsqXHdRw==",
+    "@esbuild/linux-arm64@0.25.10": {
+      "integrity": "sha512-5luJWN6YKBsawd5f9i4+c+geYiVEw20FVW5x0v1kEMWNq8UctFjDiMATBxLvmmHA4bf7F6hTRaJgtghFr9iziQ==",
       "os": ["linux"],
       "cpu": ["arm64"]
     },
-    "@esbuild/linux-arm@0.25.9": {
-      "integrity": "sha512-HBU2Xv78SMgaydBmdor38lg8YDnFKSARg1Q6AT0/y2ezUAKiZvc211RDFHlEZRFNRVhcMamiToo7bDx3VEOYQw==",
+    "@esbuild/linux-arm@0.25.10": {
+      "integrity": "sha512-oR31GtBTFYCqEBALI9r6WxoU/ZofZl962pouZRTEYECvNF/dtXKku8YXcJkhgK/beU+zedXfIzHijSRapJY3vg==",
       "os": ["linux"],
       "cpu": ["arm"]
     },
-    "@esbuild/linux-ia32@0.25.9": {
-      "integrity": "sha512-e7S3MOJPZGp2QW6AK6+Ly81rC7oOSerQ+P8L0ta4FhVi+/j/v2yZzx5CqqDaWjtPFfYz21Vi1S0auHrap3Ma3A==",
+    "@esbuild/linux-ia32@0.25.10": {
+      "integrity": "sha512-NrSCx2Kim3EnnWgS4Txn0QGt0Xipoumb6z6sUtl5bOEZIVKhzfyp/Lyw4C1DIYvzeW/5mWYPBFJU3a/8Yr75DQ==",
       "os": ["linux"],
       "cpu": ["ia32"]
     },
-    "@esbuild/linux-loong64@0.25.9": {
-      "integrity": "sha512-Sbe10Bnn0oUAB2AalYztvGcK+o6YFFA/9829PhOCUS9vkJElXGdphz0A3DbMdP8gmKkqPmPcMJmJOrI3VYB1JQ==",
+    "@esbuild/linux-loong64@0.25.10": {
+      "integrity": "sha512-xoSphrd4AZda8+rUDDfD9J6FUMjrkTz8itpTITM4/xgerAZZcFW7Dv+sun7333IfKxGG8gAq+3NbfEMJfiY+Eg==",
       "os": ["linux"],
       "cpu": ["loong64"]
     },
-    "@esbuild/linux-mips64el@0.25.9": {
-      "integrity": "sha512-YcM5br0mVyZw2jcQeLIkhWtKPeVfAerES5PvOzaDxVtIyZ2NUBZKNLjC5z3/fUlDgT6w89VsxP2qzNipOaaDyA==",
+    "@esbuild/linux-mips64el@0.25.10": {
+      "integrity": "sha512-ab6eiuCwoMmYDyTnyptoKkVS3k8fy/1Uvq7Dj5czXI6DF2GqD2ToInBI0SHOp5/X1BdZ26RKc5+qjQNGRBelRA==",
       "os": ["linux"],
       "cpu": ["mips64el"]
     },
-    "@esbuild/linux-ppc64@0.25.9": {
-      "integrity": "sha512-++0HQvasdo20JytyDpFvQtNrEsAgNG2CY1CLMwGXfFTKGBGQT3bOeLSYE2l1fYdvML5KUuwn9Z8L1EWe2tzs1w==",
+    "@esbuild/linux-ppc64@0.25.10": {
+      "integrity": "sha512-NLinzzOgZQsGpsTkEbdJTCanwA5/wozN9dSgEl12haXJBzMTpssebuXR42bthOF3z7zXFWH1AmvWunUCkBE4EA==",
       "os": ["linux"],
       "cpu": ["ppc64"]
     },
-    "@esbuild/linux-riscv64@0.25.9": {
-      "integrity": "sha512-uNIBa279Y3fkjV+2cUjx36xkx7eSjb8IvnL01eXUKXez/CBHNRw5ekCGMPM0BcmqBxBcdgUWuUXmVWwm4CH9kg==",
+    "@esbuild/linux-riscv64@0.25.10": {
+      "integrity": "sha512-FE557XdZDrtX8NMIeA8LBJX3dC2M8VGXwfrQWU7LB5SLOajfJIxmSdyL/gU1m64Zs9CBKvm4UAuBp5aJ8OgnrA==",
       "os": ["linux"],
       "cpu": ["riscv64"]
     },
-    "@esbuild/linux-s390x@0.25.9": {
-      "integrity": "sha512-Mfiphvp3MjC/lctb+7D287Xw1DGzqJPb/J2aHHcHxflUo+8tmN/6d4k6I2yFR7BVo5/g7x2Monq4+Yew0EHRIA==",
+    "@esbuild/linux-s390x@0.25.10": {
+      "integrity": "sha512-3BBSbgzuB9ajLoVZk0mGu+EHlBwkusRmeNYdqmznmMc9zGASFjSsxgkNsqmXugpPk00gJ0JNKh/97nxmjctdew==",
       "os": ["linux"],
       "cpu": ["s390x"]
     },
-    "@esbuild/linux-x64@0.25.9": {
-      "integrity": "sha512-iSwByxzRe48YVkmpbgoxVzn76BXjlYFXC7NvLYq+b+kDjyyk30J0JY47DIn8z1MO3K0oSl9fZoRmZPQI4Hklzg==",
+    "@esbuild/linux-x64@0.25.10": {
+      "integrity": "sha512-QSX81KhFoZGwenVyPoberggdW1nrQZSvfVDAIUXr3WqLRZGZqWk/P4T8p2SP+de2Sr5HPcvjhcJzEiulKgnxtA==",
       "os": ["linux"],
       "cpu": ["x64"]
     },
-    "@esbuild/netbsd-arm64@0.25.9": {
-      "integrity": "sha512-9jNJl6FqaUG+COdQMjSCGW4QiMHH88xWbvZ+kRVblZsWrkXlABuGdFJ1E9L7HK+T0Yqd4akKNa/lO0+jDxQD4Q==",
+    "@esbuild/netbsd-arm64@0.25.10": {
+      "integrity": "sha512-AKQM3gfYfSW8XRk8DdMCzaLUFB15dTrZfnX8WXQoOUpUBQ+NaAFCP1kPS/ykbbGYz7rxn0WS48/81l9hFl3u4A==",
       "os": ["netbsd"],
       "cpu": ["arm64"]
     },
-    "@esbuild/netbsd-x64@0.25.9": {
-      "integrity": "sha512-RLLdkflmqRG8KanPGOU7Rpg829ZHu8nFy5Pqdi9U01VYtG9Y0zOG6Vr2z4/S+/3zIyOxiK6cCeYNWOFR9QP87g==",
+    "@esbuild/netbsd-x64@0.25.10": {
+      "integrity": "sha512-7RTytDPGU6fek/hWuN9qQpeGPBZFfB4zZgcz2VK2Z5VpdUxEI8JKYsg3JfO0n/Z1E/6l05n0unDCNc4HnhQGig==",
       "os": ["netbsd"],
       "cpu": ["x64"]
     },
-    "@esbuild/openbsd-arm64@0.25.9": {
-      "integrity": "sha512-YaFBlPGeDasft5IIM+CQAhJAqS3St3nJzDEgsgFixcfZeyGPCd6eJBWzke5piZuZ7CtL656eOSYKk4Ls2C0FRQ==",
+    "@esbuild/openbsd-arm64@0.25.10": {
+      "integrity": "sha512-5Se0VM9Wtq797YFn+dLimf2Zx6McttsH2olUBsDml+lm0GOCRVebRWUvDtkY4BWYv/3NgzS8b/UM3jQNh5hYyw==",
       "os": ["openbsd"],
       "cpu": ["arm64"]
     },
-    "@esbuild/openbsd-x64@0.25.9": {
-      "integrity": "sha512-1MkgTCuvMGWuqVtAvkpkXFmtL8XhWy+j4jaSO2wxfJtilVCi0ZE37b8uOdMItIHz4I6z1bWWtEX4CJwcKYLcuA==",
+    "@esbuild/openbsd-x64@0.25.10": {
+      "integrity": "sha512-XkA4frq1TLj4bEMB+2HnI0+4RnjbuGZfet2gs/LNs5Hc7D89ZQBHQ0gL2ND6Lzu1+QVkjp3x1gIcPKzRNP8bXw==",
       "os": ["openbsd"],
       "cpu": ["x64"]
     },
-    "@esbuild/openharmony-arm64@0.25.9": {
-      "integrity": "sha512-4Xd0xNiMVXKh6Fa7HEJQbrpP3m3DDn43jKxMjxLLRjWnRsfxjORYJlXPO4JNcXtOyfajXorRKY9NkOpTHptErg==",
+    "@esbuild/openharmony-arm64@0.25.10": {
+      "integrity": "sha512-AVTSBhTX8Y/Fz6OmIVBip9tJzZEUcY8WLh7I59+upa5/GPhh2/aM6bvOMQySspnCCHvFi79kMtdJS1w0DXAeag==",
       "os": ["openharmony"],
       "cpu": ["arm64"]
     },
-    "@esbuild/sunos-x64@0.25.9": {
-      "integrity": "sha512-WjH4s6hzo00nNezhp3wFIAfmGZ8U7KtrJNlFMRKxiI9mxEK1scOMAaa9i4crUtu+tBr+0IN6JCuAcSBJZfnphw==",
+    "@esbuild/sunos-x64@0.25.10": {
+      "integrity": "sha512-fswk3XT0Uf2pGJmOpDB7yknqhVkJQkAQOcW/ccVOtfx05LkbWOaRAtn5SaqXypeKQra1QaEa841PgrSL9ubSPQ==",
       "os": ["sunos"],
       "cpu": ["x64"]
     },
-    "@esbuild/win32-arm64@0.25.9": {
-      "integrity": "sha512-mGFrVJHmZiRqmP8xFOc6b84/7xa5y5YvR1x8djzXpJBSv/UsNK6aqec+6JDjConTgvvQefdGhFDAs2DLAds6gQ==",
+    "@esbuild/win32-arm64@0.25.10": {
+      "integrity": "sha512-ah+9b59KDTSfpaCg6VdJoOQvKjI33nTaQr4UluQwW7aEwZQsbMCfTmfEO4VyewOxx4RaDT/xCy9ra2GPWmO7Kw==",
       "os": ["win32"],
       "cpu": ["arm64"]
     },
-    "@esbuild/win32-ia32@0.25.9": {
-      "integrity": "sha512-b33gLVU2k11nVx1OhX3C8QQP6UHQK4ZtN56oFWvVXvz2VkDoe6fbG8TOgHFxEvqeqohmRnIHe5A1+HADk4OQww==",
+    "@esbuild/win32-ia32@0.25.10": {
+      "integrity": "sha512-QHPDbKkrGO8/cz9LKVnJU22HOi4pxZnZhhA2HYHez5Pz4JeffhDjf85E57Oyco163GnzNCVkZK0b/n4Y0UHcSw==",
       "os": ["win32"],
       "cpu": ["ia32"]
     },
-    "@esbuild/win32-x64@0.25.9": {
-      "integrity": "sha512-PPOl1mi6lpLNQxnGoyAfschAodRFYXJ+9fs6WHXz7CSWKbOqiMZsubC+BQsVKuul+3vKLuwTHsS2c2y9EoKwxQ==",
+    "@esbuild/win32-x64@0.25.10": {
+      "integrity": "sha512-9KpxSVFCu0iK1owoez6aC/s/EdUQLDN3adTxGCqxMVhrPDj6bt5dbrHDXUuq+Bs2vATFBBrQS5vdQ/Ed2P+nbw==",
       "os": ["win32"],
       "cpu": ["x64"]
     },
@@ -764,142 +793,145 @@
     "@fastify/busboy@2.1.1": {
       "integrity": "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA=="
     },
-    "@img/sharp-darwin-arm64@0.34.3": {
-      "integrity": "sha512-ryFMfvxxpQRsgZJqBd4wsttYQbCxsJksrv9Lw/v798JcQ8+w84mBWuXwl+TT0WJ/WrYOLaYpwQXi3sA9nTIaIg==",
+    "@img/colour@1.0.0": {
+      "integrity": "sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw=="
+    },
+    "@img/sharp-darwin-arm64@0.34.4": {
+      "integrity": "sha512-sitdlPzDVyvmINUdJle3TNHl+AG9QcwiAMsXmccqsCOMZNIdW2/7S26w0LyU8euiLVzFBL3dXPwVCq/ODnf2vA==",
       "optionalDependencies": [
         "@img/sharp-libvips-darwin-arm64"
       ],
       "os": ["darwin"],
       "cpu": ["arm64"]
     },
-    "@img/sharp-darwin-x64@0.34.3": {
-      "integrity": "sha512-yHpJYynROAj12TA6qil58hmPmAwxKKC7reUqtGLzsOHfP7/rniNGTL8tjWX6L3CTV4+5P4ypcS7Pp+7OB+8ihA==",
+    "@img/sharp-darwin-x64@0.34.4": {
+      "integrity": "sha512-rZheupWIoa3+SOdF/IcUe1ah4ZDpKBGWcsPX6MT0lYniH9micvIU7HQkYTfrx5Xi8u+YqwLtxC/3vl8TQN6rMg==",
       "optionalDependencies": [
         "@img/sharp-libvips-darwin-x64"
       ],
       "os": ["darwin"],
       "cpu": ["x64"]
     },
-    "@img/sharp-libvips-darwin-arm64@1.2.0": {
-      "integrity": "sha512-sBZmpwmxqwlqG9ueWFXtockhsxefaV6O84BMOrhtg/YqbTaRdqDE7hxraVE3y6gVM4eExmfzW4a8el9ArLeEiQ==",
+    "@img/sharp-libvips-darwin-arm64@1.2.3": {
+      "integrity": "sha512-QzWAKo7kpHxbuHqUC28DZ9pIKpSi2ts2OJnoIGI26+HMgq92ZZ4vk8iJd4XsxN+tYfNJxzH6W62X5eTcsBymHw==",
       "os": ["darwin"],
       "cpu": ["arm64"]
     },
-    "@img/sharp-libvips-darwin-x64@1.2.0": {
-      "integrity": "sha512-M64XVuL94OgiNHa5/m2YvEQI5q2cl9d/wk0qFTDVXcYzi43lxuiFTftMR1tOnFQovVXNZJ5TURSDK2pNe9Yzqg==",
+    "@img/sharp-libvips-darwin-x64@1.2.3": {
+      "integrity": "sha512-Ju+g2xn1E2AKO6YBhxjj+ACcsPQRHT0bhpglxcEf+3uyPY+/gL8veniKoo96335ZaPo03bdDXMv0t+BBFAbmRA==",
       "os": ["darwin"],
       "cpu": ["x64"]
     },
-    "@img/sharp-libvips-linux-arm64@1.2.0": {
-      "integrity": "sha512-RXwd0CgG+uPRX5YYrkzKyalt2OJYRiJQ8ED/fi1tq9WQW2jsQIn0tqrlR5l5dr/rjqq6AHAxURhj2DVjyQWSOA==",
+    "@img/sharp-libvips-linux-arm64@1.2.3": {
+      "integrity": "sha512-I4RxkXU90cpufazhGPyVujYwfIm9Nk1QDEmiIsaPwdnm013F7RIceaCc87kAH+oUB1ezqEvC6ga4m7MSlqsJvQ==",
       "os": ["linux"],
       "cpu": ["arm64"]
     },
-    "@img/sharp-libvips-linux-arm@1.2.0": {
-      "integrity": "sha512-mWd2uWvDtL/nvIzThLq3fr2nnGfyr/XMXlq8ZJ9WMR6PXijHlC3ksp0IpuhK6bougvQrchUAfzRLnbsen0Cqvw==",
+    "@img/sharp-libvips-linux-arm@1.2.3": {
+      "integrity": "sha512-x1uE93lyP6wEwGvgAIV0gP6zmaL/a0tGzJs/BIDDG0zeBhMnuUPm7ptxGhUbcGs4okDJrk4nxgrmxpib9g6HpA==",
       "os": ["linux"],
       "cpu": ["arm"]
     },
-    "@img/sharp-libvips-linux-ppc64@1.2.0": {
-      "integrity": "sha512-Xod/7KaDDHkYu2phxxfeEPXfVXFKx70EAFZ0qyUdOjCcxbjqyJOEUpDe6RIyaunGxT34Anf9ue/wuWOqBW2WcQ==",
+    "@img/sharp-libvips-linux-ppc64@1.2.3": {
+      "integrity": "sha512-Y2T7IsQvJLMCBM+pmPbM3bKT/yYJvVtLJGfCs4Sp95SjvnFIjynbjzsa7dY1fRJX45FTSfDksbTp6AGWudiyCg==",
       "os": ["linux"],
       "cpu": ["ppc64"]
     },
-    "@img/sharp-libvips-linux-s390x@1.2.0": {
-      "integrity": "sha512-eMKfzDxLGT8mnmPJTNMcjfO33fLiTDsrMlUVcp6b96ETbnJmd4uvZxVJSKPQfS+odwfVaGifhsB07J1LynFehw==",
+    "@img/sharp-libvips-linux-s390x@1.2.3": {
+      "integrity": "sha512-RgWrs/gVU7f+K7P+KeHFaBAJlNkD1nIZuVXdQv6S+fNA6syCcoboNjsV2Pou7zNlVdNQoQUpQTk8SWDHUA3y/w==",
       "os": ["linux"],
       "cpu": ["s390x"]
     },
-    "@img/sharp-libvips-linux-x64@1.2.0": {
-      "integrity": "sha512-ZW3FPWIc7K1sH9E3nxIGB3y3dZkpJlMnkk7z5tu1nSkBoCgw2nSRTFHI5pB/3CQaJM0pdzMF3paf9ckKMSE9Tg==",
+    "@img/sharp-libvips-linux-x64@1.2.3": {
+      "integrity": "sha512-3JU7LmR85K6bBiRzSUc/Ff9JBVIFVvq6bomKE0e63UXGeRw2HPVEjoJke1Yx+iU4rL7/7kUjES4dZ/81Qjhyxg==",
       "os": ["linux"],
       "cpu": ["x64"]
     },
-    "@img/sharp-libvips-linuxmusl-arm64@1.2.0": {
-      "integrity": "sha512-UG+LqQJbf5VJ8NWJ5Z3tdIe/HXjuIdo4JeVNADXBFuG7z9zjoegpzzGIyV5zQKi4zaJjnAd2+g2nna8TZvuW9Q==",
+    "@img/sharp-libvips-linuxmusl-arm64@1.2.3": {
+      "integrity": "sha512-F9q83RZ8yaCwENw1GieztSfj5msz7GGykG/BA+MOUefvER69K/ubgFHNeSyUu64amHIYKGDs4sRCMzXVj8sEyw==",
       "os": ["linux"],
       "cpu": ["arm64"]
     },
-    "@img/sharp-libvips-linuxmusl-x64@1.2.0": {
-      "integrity": "sha512-SRYOLR7CXPgNze8akZwjoGBoN1ThNZoqpOgfnOxmWsklTGVfJiGJoC/Lod7aNMGA1jSsKWM1+HRX43OP6p9+6Q==",
+    "@img/sharp-libvips-linuxmusl-x64@1.2.3": {
+      "integrity": "sha512-U5PUY5jbc45ANM6tSJpsgqmBF/VsL6LnxJmIf11kB7J5DctHgqm0SkuXzVWtIY90GnJxKnC/JT251TDnk1fu/g==",
       "os": ["linux"],
       "cpu": ["x64"]
     },
-    "@img/sharp-linux-arm64@0.34.3": {
-      "integrity": "sha512-QdrKe3EvQrqwkDrtuTIjI0bu6YEJHTgEeqdzI3uWJOH6G1O8Nl1iEeVYRGdj1h5I21CqxSvQp1Yv7xeU3ZewbA==",
+    "@img/sharp-linux-arm64@0.34.4": {
+      "integrity": "sha512-YXU1F/mN/Wu786tl72CyJjP/Ngl8mGHN1hST4BGl+hiW5jhCnV2uRVTNOcaYPs73NeT/H8Upm3y9582JVuZHrQ==",
       "optionalDependencies": [
         "@img/sharp-libvips-linux-arm64"
       ],
       "os": ["linux"],
       "cpu": ["arm64"]
     },
-    "@img/sharp-linux-arm@0.34.3": {
-      "integrity": "sha512-oBK9l+h6KBN0i3dC8rYntLiVfW8D8wH+NPNT3O/WBHeW0OQWCjfWksLUaPidsrDKpJgXp3G3/hkmhptAW0I3+A==",
+    "@img/sharp-linux-arm@0.34.4": {
+      "integrity": "sha512-Xyam4mlqM0KkTHYVSuc6wXRmM7LGN0P12li03jAnZ3EJWZqj83+hi8Y9UxZUbxsgsK1qOEwg7O0Bc0LjqQVtxA==",
       "optionalDependencies": [
         "@img/sharp-libvips-linux-arm"
       ],
       "os": ["linux"],
       "cpu": ["arm"]
     },
-    "@img/sharp-linux-ppc64@0.34.3": {
-      "integrity": "sha512-GLtbLQMCNC5nxuImPR2+RgrviwKwVql28FWZIW1zWruy6zLgA5/x2ZXk3mxj58X/tszVF69KK0Is83V8YgWhLA==",
+    "@img/sharp-linux-ppc64@0.34.4": {
+      "integrity": "sha512-F4PDtF4Cy8L8hXA2p3TO6s4aDt93v+LKmpcYFLAVdkkD3hSxZzee0rh6/+94FpAynsuMpLX5h+LRsSG3rIciUQ==",
       "optionalDependencies": [
         "@img/sharp-libvips-linux-ppc64"
       ],
       "os": ["linux"],
       "cpu": ["ppc64"]
     },
-    "@img/sharp-linux-s390x@0.34.3": {
-      "integrity": "sha512-3gahT+A6c4cdc2edhsLHmIOXMb17ltffJlxR0aC2VPZfwKoTGZec6u5GrFgdR7ciJSsHT27BD3TIuGcuRT0KmQ==",
+    "@img/sharp-linux-s390x@0.34.4": {
+      "integrity": "sha512-qVrZKE9Bsnzy+myf7lFKvng6bQzhNUAYcVORq2P7bDlvmF6u2sCmK2KyEQEBdYk+u3T01pVsPrkj943T1aJAsw==",
       "optionalDependencies": [
         "@img/sharp-libvips-linux-s390x"
       ],
       "os": ["linux"],
       "cpu": ["s390x"]
     },
-    "@img/sharp-linux-x64@0.34.3": {
-      "integrity": "sha512-8kYso8d806ypnSq3/Ly0QEw90V5ZoHh10yH0HnrzOCr6DKAPI6QVHvwleqMkVQ0m+fc7EH8ah0BB0QPuWY6zJQ==",
+    "@img/sharp-linux-x64@0.34.4": {
+      "integrity": "sha512-ZfGtcp2xS51iG79c6Vhw9CWqQC8l2Ot8dygxoDoIQPTat/Ov3qAa8qpxSrtAEAJW+UjTXc4yxCjNfxm4h6Xm2A==",
       "optionalDependencies": [
         "@img/sharp-libvips-linux-x64"
       ],
       "os": ["linux"],
       "cpu": ["x64"]
     },
-    "@img/sharp-linuxmusl-arm64@0.34.3": {
-      "integrity": "sha512-vAjbHDlr4izEiXM1OTggpCcPg9tn4YriK5vAjowJsHwdBIdx0fYRsURkxLG2RLm9gyBq66gwtWI8Gx0/ov+JKQ==",
+    "@img/sharp-linuxmusl-arm64@0.34.4": {
+      "integrity": "sha512-8hDVvW9eu4yHWnjaOOR8kHVrew1iIX+MUgwxSuH2XyYeNRtLUe4VNioSqbNkB7ZYQJj9rUTT4PyRscyk2PXFKA==",
       "optionalDependencies": [
         "@img/sharp-libvips-linuxmusl-arm64"
       ],
       "os": ["linux"],
       "cpu": ["arm64"]
     },
-    "@img/sharp-linuxmusl-x64@0.34.3": {
-      "integrity": "sha512-gCWUn9547K5bwvOn9l5XGAEjVTTRji4aPTqLzGXHvIr6bIDZKNTA34seMPgM0WmSf+RYBH411VavCejp3PkOeQ==",
+    "@img/sharp-linuxmusl-x64@0.34.4": {
+      "integrity": "sha512-lU0aA5L8QTlfKjpDCEFOZsTYGn3AEiO6db8W5aQDxj0nQkVrZWmN3ZP9sYKWJdtq3PWPhUNlqehWyXpYDcI9Sg==",
       "optionalDependencies": [
         "@img/sharp-libvips-linuxmusl-x64"
       ],
       "os": ["linux"],
       "cpu": ["x64"]
     },
-    "@img/sharp-wasm32@0.34.3": {
-      "integrity": "sha512-+CyRcpagHMGteySaWos8IbnXcHgfDn7pO2fiC2slJxvNq9gDipYBN42/RagzctVRKgxATmfqOSulgZv5e1RdMg==",
+    "@img/sharp-wasm32@0.34.4": {
+      "integrity": "sha512-33QL6ZO/qpRyG7woB/HUALz28WnTMI2W1jgX3Nu2bypqLIKx/QKMILLJzJjI+SIbvXdG9fUnmrxR7vbi1sTBeA==",
       "dependencies": [
         "@emnapi/runtime"
       ],
       "cpu": ["wasm32"]
     },
-    "@img/sharp-win32-arm64@0.34.3": {
-      "integrity": "sha512-MjnHPnbqMXNC2UgeLJtX4XqoVHHlZNd+nPt1kRPmj63wURegwBhZlApELdtxM2OIZDRv/DFtLcNhVbd1z8GYXQ==",
+    "@img/sharp-win32-arm64@0.34.4": {
+      "integrity": "sha512-2Q250do/5WXTwxW3zjsEuMSv5sUU4Tq9VThWKlU2EYLm4MB7ZeMwF+SFJutldYODXF6jzc6YEOC+VfX0SZQPqA==",
       "os": ["win32"],
       "cpu": ["arm64"]
     },
-    "@img/sharp-win32-ia32@0.34.3": {
-      "integrity": "sha512-xuCdhH44WxuXgOM714hn4amodJMZl3OEvf0GVTm0BEyMeA2to+8HEdRPShH0SLYptJY1uBw+SCFP9WVQi1Q/cw==",
+    "@img/sharp-win32-ia32@0.34.4": {
+      "integrity": "sha512-3ZeLue5V82dT92CNL6rsal6I2weKw1cYu+rGKm8fOCCtJTR2gYeUfY3FqUnIJsMUPIH68oS5jmZ0NiJ508YpEw==",
       "os": ["win32"],
       "cpu": ["ia32"]
     },
-    "@img/sharp-win32-x64@0.34.3": {
-      "integrity": "sha512-OWwz05d++TxzLEv4VnsTz5CmZ6mI6S05sfQGEMrNrQcOEERbX46332IvE7pO/EUiw7jUrrS40z/M7kPyjfl04g==",
+    "@img/sharp-win32-x64@0.34.4": {
+      "integrity": "sha512-xIyj4wpYs8J18sVN3mSQjwrw7fKUqRw+Z5rnHNCy5fYTxigBz81u5mOMPmFumwjcn8+ld1ppptMBCLic1nz6ig==",
       "os": ["win32"],
       "cpu": ["x64"]
     },
@@ -942,8 +974,8 @@
     "@jsdevtools/ono@7.1.3": {
       "integrity": "sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg=="
     },
-    "@junobuild/admin@2.2.1_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.5_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5_@junobuild+config@2.1.1__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.5_@junobuild+ic-client@3.1.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_semver@7.7.2_zod@3.25.76_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76": {
-      "integrity": "sha512-ALc9MzPjjLUArOP+F8qjYM66DBZacs+9ARLbUzDu4I2LgrIvhgS2tBbJtj7kKOOv38OYiHcT3mQTe5Qa40m1Nw==",
+    "@junobuild/admin@2.2.2_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.6_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_semver@7.7.2_zod@3.25.76_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76": {
+      "integrity": "sha512-5MRdZ5Sa+CJE8iphqXddq/UCt16JU2ER1iOQQ5/GN/CB0APnRaERlvFV4Ucr636AfwHt0f0ffXkCWiz+w88ceg==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/candid",
@@ -951,14 +983,14 @@
         "@dfinity/identity",
         "@dfinity/principal",
         "@dfinity/utils",
-        "@junobuild/config@2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.5",
+        "@junobuild/config@2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.6",
         "@junobuild/ic-client",
         "semver@7.7.2",
         "zod"
       ]
     },
-    "@junobuild/cdn@1.3.1_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.5_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5_@junobuild+config@2.1.1__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.5_@junobuild+ic-client@3.1.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+storage@1.3.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@junobuild+ic-client@3.1.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_semver@7.7.2_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5": {
-      "integrity": "sha512-skV8zT7cQCVyc27TX8NkJ9EsfyleUcxVAgQ8ZZncQvWZbVNYK+zDHVgu0rqPTS+JNeHPTYu5N3R3BC8FpL0Xlw==",
+    "@junobuild/cdn@1.3.2_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.6_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+storage@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_semver@7.7.2_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6": {
+      "integrity": "sha512-CUsV3YWzsyWxK2tXBnFt5qa+KuhOMS/24kdAU2ezpOSKG+4eMTL9WBBmpwrqbCJxqAgcCSz99D5LkJ2LkfLNqw==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/candid",
@@ -966,18 +998,18 @@
         "@dfinity/identity",
         "@dfinity/principal",
         "@dfinity/utils",
-        "@junobuild/config@2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.5",
+        "@junobuild/config@2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.6",
         "@junobuild/ic-client",
         "@junobuild/storage",
         "semver@7.7.2"
       ]
     },
-    "@junobuild/cli-tools@0.7.2_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5_@junobuild+cdn@1.3.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@junobuild+config@2.1.1___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.5____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.5__@junobuild+ic-client@3.1.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@junobuild+storage@1.3.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@junobuild+ic-client@3.1.1____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+identity@3.2.5_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.5____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+config@2.1.1__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.5_@junobuild+storage@1.3.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@junobuild+ic-client@3.1.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_esbuild@0.25.9_ora@8.2.0_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@junobuild+ic-client@3.1.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_semver@7.7.2_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5": {
-      "integrity": "sha512-wnzBXjgPO8dlxTB7MvPWbgOuM/zxNQWI08LdoinYgeMwQhTsZnHvnf63DG2IfrPPocr2ulkKn+WrXDaZay1uAg==",
+    "@junobuild/cli-tools@0.8.0_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6_@junobuild+cdn@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+config@2.2.0___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.6____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+storage@1.3.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@junobuild+ic-client@3.1.2____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+identity@3.2.6_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.6____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@junobuild+storage@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_esbuild@0.25.10_ora@8.2.0_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_semver@7.7.2_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6": {
+      "integrity": "sha512-4zZ66qXorKiPG67rKE44P61zDp5SBgOSXcmBJzyH2z/dL3ABUnMUmEM5Y/TKS9BG/nAtsdo/tVSSyVaJSIp2RQ==",
       "dependencies": [
         "@dfinity/utils",
         "@junobuild/cdn",
-        "@junobuild/config@2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.5",
+        "@junobuild/config@2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.6",
         "@junobuild/storage",
         "esbuild",
         "file-type",
@@ -987,8 +1019,8 @@
         "ora"
       ]
     },
-    "@junobuild/cli@0.9.2_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+config@2.1.1__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.5_@junobuild+ic-client@3.1.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_semver@7.7.2_@junobuild+storage@1.3.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@junobuild+ic-client@3.1.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+cdn@1.3.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@junobuild+config@2.1.1___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.5____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.5__@junobuild+ic-client@3.1.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__@junobuild+storage@1.3.1___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+identity@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.5___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@junobuild+ic-client@3.1.1____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+identity@3.2.5_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.5____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.5______@dfinity+candid@3.2.5_______@dfinity+principal@3.2.5______@dfinity+principal@3.2.5______@noble+hashes@1.8.0_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.5_____@dfinity+candid@3.2.5______@dfinity+principal@3.2.5_____@dfinity+principal@3.2.5_____@noble+hashes@1.8.0____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_ora@8.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_@dfinity+auth-client@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5": {
-      "integrity": "sha512-ZXkmkMA3VNSYmcbGdfnEAnnDKXWfnz/Evz0eMUNF/jzVXRFRS3mrxSHtUDFPp908hbZ1yjIgnlOOagAn4keNSA==",
+    "@junobuild/cli@0.10.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_semver@7.7.2_@junobuild+storage@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+cdn@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+config@2.2.0___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.6____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+storage@1.3.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@junobuild+ic-client@3.1.2____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+identity@3.2.6_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.6____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_ora@8.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_@dfinity+auth-client@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6": {
+      "integrity": "sha512-Ya7W2s+7ixve+6uj7Ami11x/svH7Q6/sZftekcwgWgkYC/NDFP919PwtLnfm57srep3/PeWIdz+jyA4W2StsBQ==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/auth-client",
@@ -1000,7 +1032,7 @@
         "@junobuild/admin",
         "@junobuild/cdn",
         "@junobuild/cli-tools",
-        "@junobuild/config@2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.5",
+        "@junobuild/config@2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.6",
         "@junobuild/config-loader",
         "@junobuild/core",
         "@junobuild/did-tools",
@@ -1018,31 +1050,31 @@
       ],
       "bin": true
     },
-    "@junobuild/config-loader@0.4.5_@babel+core@7.28.4_@babel+plugin-transform-modules-commonjs@7.27.1__@babel+core@7.28.4_@babel+preset-typescript@7.27.1__@babel+core@7.28.4_@junobuild+config@2.1.1__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.5___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.5_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_@dfinity+principal@3.2.5": {
+    "@junobuild/config-loader@0.4.5_@babel+core@7.28.4_@babel+plugin-transform-modules-commonjs@7.27.1__@babel+core@7.28.4_@babel+preset-typescript@7.27.1__@babel+core@7.28.4_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_@dfinity+principal@3.2.6": {
       "integrity": "sha512-ddbIyTVPCaXXwS1S/6KOE8As09Dr6O2l2x3nETgGi40uuu8Bi2+Y7NtCIfkR2U57BoHxaNqP4BAsiwUWQ0j/5g==",
       "dependencies": [
         "@babel/core",
         "@babel/plugin-transform-modules-commonjs",
         "@babel/preset-typescript",
-        "@junobuild/config@2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.5"
+        "@junobuild/config@2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.6"
       ]
     },
-    "@junobuild/config@2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76": {
-      "integrity": "sha512-V8gqFrbg39TZhZvWgRobLcN5HEG4tLIQb58ZWZLHyK1LvbRKC7j3XaYZphkNAoxcqOte72dIdOxEROGdqr2H3w==",
+    "@junobuild/config@2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76": {
+      "integrity": "sha512-nRhvQ02CdDuKL3fCGoMrY0zRc/MHOZg8Z9swIhFXyXf1cPNurNN4c5ek1okZA5okAUIchF9WXEXhVGRIU+6Lkg==",
       "dependencies": [
         "@dfinity/zod-schemas",
         "zod"
       ]
     },
-    "@junobuild/config@2.1.1_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.5__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.5": {
-      "integrity": "sha512-V8gqFrbg39TZhZvWgRobLcN5HEG4tLIQb58ZWZLHyK1LvbRKC7j3XaYZphkNAoxcqOte72dIdOxEROGdqr2H3w==",
+    "@junobuild/config@2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76_@dfinity+principal@3.2.6": {
+      "integrity": "sha512-nRhvQ02CdDuKL3fCGoMrY0zRc/MHOZg8Z9swIhFXyXf1cPNurNN4c5ek1okZA5okAUIchF9WXEXhVGRIU+6Lkg==",
       "dependencies": [
         "@dfinity/zod-schemas",
         "zod"
       ]
     },
-    "@junobuild/core@2.1.1_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+auth-client@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.5_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5_@junobuild+ic-client@3.1.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5": {
-      "integrity": "sha512-by4ibIvPCXFCvvbWNN4HIiRiMXNKSOvqm3ZrOcIylB0AEIyqsAbxTIN1GreUNUzMsrywABUFRf3hDb31Ax8DUg==",
+    "@junobuild/core@2.2.0_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+auth-client@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.6_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6": {
+      "integrity": "sha512-G4ojJ8sf1Rzmrl1swIMyTCQ3sxBVUaNDQN8R/19AWPDyiX1TWp1uN0NrlxmQhB77TKKlLXPaiVXyQ9jut0vl1w==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/auth-client",
@@ -1056,7 +1088,7 @@
         "@junobuild/utils"
       ]
     },
-    "@junobuild/did-tools@0.3.3_@babel+core@7.28.4_@babel+parser@7.28.4_@babel+plugin-transform-modules-commonjs@7.27.1__@babel+core@7.28.4_@babel+preset-typescript@7.27.1__@babel+core@7.28.4_@babel+traverse@7.28.4_@babel+types@7.28.4_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5": {
+    "@junobuild/did-tools@0.3.3_@babel+core@7.28.4_@babel+parser@7.28.4_@babel+plugin-transform-modules-commonjs@7.27.1__@babel+core@7.28.4_@babel+preset-typescript@7.27.1__@babel+core@7.28.4_@babel+traverse@7.28.4_@babel+types@7.28.4_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6": {
       "integrity": "sha512-ViLhLGc9KeqYULbGfKiNi/LbXpvlX4y80S20E/zXNSZF/kAlEHhKGLuSMGxEDp3tla/YPObICtZz2dxTqnG2eQ==",
       "dependencies": [
         "@babel/core",
@@ -1071,8 +1103,8 @@
     "@junobuild/errors@0.1.4": {
       "integrity": "sha512-GZa/NF6XqcO4LkCTROLAk23cj8R0B43tOPfB9TCtm8JfgVEAMd7G66/TneeSU48JueeIxhh1NJMDNkK7JhflWA=="
     },
-    "@junobuild/ic-client@3.1.1_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.5_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5": {
-      "integrity": "sha512-UG5yfh3gV+CFiKRtii+mP4LoAKmMwuH15j7bcJYLM/AYIhx7mnEUfP4lxbsRrfysj5LrtPr2k96vhY+TDj9YmA==",
+    "@junobuild/ic-client@3.1.2_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.6_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6": {
+      "integrity": "sha512-Ee5/69WPZEW5p6MQ3qqg0KUbkNusEbMrm9QiAFpkEyhGUl2e/eKo7/N3I79Kz7Q8DME5CJyrP6/AMgvFJ0OLGw==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/candid",
@@ -1081,8 +1113,8 @@
         "@dfinity/utils"
       ]
     },
-    "@junobuild/storage@1.3.1_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+identity@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.5_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5_@junobuild+ic-client@3.1.1__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+identity@3.2.5___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.5__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.5____@dfinity+candid@3.2.5_____@dfinity+principal@3.2.5____@dfinity+principal@3.2.5____@noble+hashes@1.8.0___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5": {
-      "integrity": "sha512-m7VMlrVatlLQGRo13aKt8N0PV4z6iVXQiJ4awm8+0+yIJad3IOwqj4uTtrNW52prpZl4yVxJG9/7arxV8OJ0hw==",
+    "@junobuild/storage@1.3.2_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+principal@3.2.6_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6": {
+      "integrity": "sha512-W1e3yx2sYSIFRAW5YPDNpU53hh1f7twoKRHtG4KSBZVIfEKXZUstc5aNSEA3tiQQY8trBGQeQlaj8OeyZeaWGQ==",
       "dependencies": [
         "@dfinity/agent",
         "@dfinity/candid",
@@ -1093,7 +1125,7 @@
         "@junobuild/utils"
       ]
     },
-    "@junobuild/utils@0.2.1_@dfinity+utils@3.1.0__@dfinity+agent@3.2.5___@dfinity+candid@3.2.5____@dfinity+principal@3.2.5___@dfinity+principal@3.2.5___@noble+hashes@1.8.0__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5_@dfinity+agent@3.2.5__@dfinity+candid@3.2.5___@dfinity+principal@3.2.5__@dfinity+principal@3.2.5__@noble+hashes@1.8.0_@dfinity+candid@3.2.5__@dfinity+principal@3.2.5_@dfinity+principal@3.2.5": {
+    "@junobuild/utils@0.2.1_@dfinity+utils@3.1.0__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6": {
       "integrity": "sha512-vx6421VimgGB3y2sMDU9TGHIjlpi/yI1PuwtwNbxTv8q1X+RyNIM2rWirGL6lgHS//89ERMDdSuFgGpJcJHJZA==",
       "dependencies": [
         "@dfinity/utils"
@@ -1476,113 +1508,118 @@
         "picomatch@4.0.3"
       ]
     },
-    "@rollup/rollup-android-arm-eabi@4.50.2": {
-      "integrity": "sha512-uLN8NAiFVIRKX9ZQha8wy6UUs06UNSZ32xj6giK/rmMXAgKahwExvK6SsmgU5/brh4w/nSgj8e0k3c1HBQpa0A==",
+    "@rollup/rollup-android-arm-eabi@4.52.2": {
+      "integrity": "sha512-o3pcKzJgSGt4d74lSZ+OCnHwkKBeAbFDmbEm5gg70eA8VkyCuC/zV9TwBnmw6VjDlRdF4Pshfb+WE9E6XY1PoQ==",
       "os": ["android"],
       "cpu": ["arm"]
     },
-    "@rollup/rollup-android-arm64@4.50.2": {
-      "integrity": "sha512-oEouqQk2/zxxj22PNcGSskya+3kV0ZKH+nQxuCCOGJ4oTXBdNTbv+f/E3c74cNLeMO1S5wVWacSws10TTSB77g==",
+    "@rollup/rollup-android-arm64@4.52.2": {
+      "integrity": "sha512-cqFSWO5tX2vhC9hJTK8WAiPIm4Q8q/cU8j2HQA0L3E1uXvBYbOZMhE2oFL8n2pKB5sOCHY6bBuHaRwG7TkfJyw==",
       "os": ["android"],
       "cpu": ["arm64"]
     },
-    "@rollup/rollup-darwin-arm64@4.50.2": {
-      "integrity": "sha512-OZuTVTpj3CDSIxmPgGH8en/XtirV5nfljHZ3wrNwvgkT5DQLhIKAeuFSiwtbMto6oVexV0k1F1zqURPKf5rI1Q==",
+    "@rollup/rollup-darwin-arm64@4.52.2": {
+      "integrity": "sha512-vngduywkkv8Fkh3wIZf5nFPXzWsNsVu1kvtLETWxTFf/5opZmflgVSeLgdHR56RQh71xhPhWoOkEBvbehwTlVA==",
       "os": ["darwin"],
       "cpu": ["arm64"]
     },
-    "@rollup/rollup-darwin-x64@4.50.2": {
-      "integrity": "sha512-Wa/Wn8RFkIkr1vy1k1PB//VYhLnlnn5eaJkfTQKivirOvzu5uVd2It01ukeQstMursuz7S1bU+8WW+1UPXpa8A==",
+    "@rollup/rollup-darwin-x64@4.52.2": {
+      "integrity": "sha512-h11KikYrUCYTrDj6h939hhMNlqU2fo/X4NB0OZcys3fya49o1hmFaczAiJWVAFgrM1NCP6RrO7lQKeVYSKBPSQ==",
       "os": ["darwin"],
       "cpu": ["x64"]
     },
-    "@rollup/rollup-freebsd-arm64@4.50.2": {
-      "integrity": "sha512-QkzxvH3kYN9J1w7D1A+yIMdI1pPekD+pWx7G5rXgnIlQ1TVYVC6hLl7SOV9pi5q9uIDF9AuIGkuzcbF7+fAhow==",
+    "@rollup/rollup-freebsd-arm64@4.52.2": {
+      "integrity": "sha512-/eg4CI61ZUkLXxMHyVlmlGrSQZ34xqWlZNW43IAU4RmdzWEx0mQJ2mN/Cx4IHLVZFL6UBGAh+/GXhgvGb+nVxw==",
       "os": ["freebsd"],
       "cpu": ["arm64"]
     },
-    "@rollup/rollup-freebsd-x64@4.50.2": {
-      "integrity": "sha512-dkYXB0c2XAS3a3jmyDkX4Jk0m7gWLFzq1C3qUnJJ38AyxIF5G/dyS4N9B30nvFseCfgtCEdbYFhk0ChoCGxPog==",
+    "@rollup/rollup-freebsd-x64@4.52.2": {
+      "integrity": "sha512-QOWgFH5X9+p+S1NAfOqc0z8qEpJIoUHf7OWjNUGOeW18Mx22lAUOiA9b6r2/vpzLdfxi/f+VWsYjUOMCcYh0Ng==",
       "os": ["freebsd"],
       "cpu": ["x64"]
     },
-    "@rollup/rollup-linux-arm-gnueabihf@4.50.2": {
-      "integrity": "sha512-9VlPY/BN3AgbukfVHAB8zNFWB/lKEuvzRo1NKev0Po8sYFKx0i+AQlCYftgEjcL43F2h9Ui1ZSdVBc4En/sP2w==",
+    "@rollup/rollup-linux-arm-gnueabihf@4.52.2": {
+      "integrity": "sha512-kDWSPafToDd8LcBYd1t5jw7bD5Ojcu12S3uT372e5HKPzQt532vW+rGFFOaiR0opxePyUkHrwz8iWYEyH1IIQA==",
       "os": ["linux"],
       "cpu": ["arm"]
     },
-    "@rollup/rollup-linux-arm-musleabihf@4.50.2": {
-      "integrity": "sha512-+GdKWOvsifaYNlIVf07QYan1J5F141+vGm5/Y8b9uCZnG/nxoGqgCmR24mv0koIWWuqvFYnbURRqw1lv7IBINw==",
+    "@rollup/rollup-linux-arm-musleabihf@4.52.2": {
+      "integrity": "sha512-gKm7Mk9wCv6/rkzwCiUC4KnevYhlf8ztBrDRT9g/u//1fZLapSRc+eDZj2Eu2wpJ+0RzUKgtNijnVIB4ZxyL+w==",
       "os": ["linux"],
       "cpu": ["arm"]
     },
-    "@rollup/rollup-linux-arm64-gnu@4.50.2": {
-      "integrity": "sha512-df0Eou14ojtUdLQdPFnymEQteENwSJAdLf5KCDrmZNsy1c3YaCNaJvYsEUHnrg+/DLBH612/R0xd3dD03uz2dg==",
+    "@rollup/rollup-linux-arm64-gnu@4.52.2": {
+      "integrity": "sha512-66lA8vnj5mB/rtDNwPgrrKUOtCLVQypkyDa2gMfOefXK6rcZAxKLO9Fy3GkW8VkPnENv9hBkNOFfGLf6rNKGUg==",
       "os": ["linux"],
       "cpu": ["arm64"]
     },
-    "@rollup/rollup-linux-arm64-musl@4.50.2": {
-      "integrity": "sha512-iPeouV0UIDtz8j1YFR4OJ/zf7evjauqv7jQ/EFs0ClIyL+by++hiaDAfFipjOgyz6y6xbDvJuiU4HwpVMpRFDQ==",
+    "@rollup/rollup-linux-arm64-musl@4.52.2": {
+      "integrity": "sha512-s+OPucLNdJHvuZHuIz2WwncJ+SfWHFEmlC5nKMUgAelUeBUnlB4wt7rXWiyG4Zn07uY2Dd+SGyVa9oyLkVGOjA==",
       "os": ["linux"],
       "cpu": ["arm64"]
     },
-    "@rollup/rollup-linux-loong64-gnu@4.50.2": {
-      "integrity": "sha512-OL6KaNvBopLlj5fTa5D5bau4W82f+1TyTZRr2BdnfsrnQnmdxh4okMxR2DcDkJuh4KeoQZVuvHvzuD/lyLn2Kw==",
+    "@rollup/rollup-linux-loong64-gnu@4.52.2": {
+      "integrity": "sha512-8wTRM3+gVMDLLDdaT6tKmOE3lJyRy9NpJUS/ZRWmLCmOPIJhVyXwjBo+XbrrwtV33Em1/eCTd5TuGJm4+DmYjw==",
       "os": ["linux"],
       "cpu": ["loong64"]
     },
-    "@rollup/rollup-linux-ppc64-gnu@4.50.2": {
-      "integrity": "sha512-I21VJl1w6z/K5OTRl6aS9DDsqezEZ/yKpbqlvfHbW0CEF5IL8ATBMuUx6/mp683rKTK8thjs/0BaNrZLXetLag==",
+    "@rollup/rollup-linux-ppc64-gnu@4.52.2": {
+      "integrity": "sha512-6yqEfgJ1anIeuP2P/zhtfBlDpXUb80t8DpbYwXQ3bQd95JMvUaqiX+fKqYqUwZXqdJDd8xdilNtsHM2N0cFm6A==",
       "os": ["linux"],
       "cpu": ["ppc64"]
     },
-    "@rollup/rollup-linux-riscv64-gnu@4.50.2": {
-      "integrity": "sha512-Hq6aQJT/qFFHrYMjS20nV+9SKrXL2lvFBENZoKfoTH2kKDOJqff5OSJr4x72ZaG/uUn+XmBnGhfr4lwMRrmqCQ==",
+    "@rollup/rollup-linux-riscv64-gnu@4.52.2": {
+      "integrity": "sha512-sshYUiYVSEI2B6dp4jMncwxbrUqRdNApF2c3bhtLAU0qA8Lrri0p0NauOsTWh3yCCCDyBOjESHMExonp7Nzc0w==",
       "os": ["linux"],
       "cpu": ["riscv64"]
     },
-    "@rollup/rollup-linux-riscv64-musl@4.50.2": {
-      "integrity": "sha512-82rBSEXRv5qtKyr0xZ/YMF531oj2AIpLZkeNYxmKNN6I2sVE9PGegN99tYDLK2fYHJITL1P2Lgb4ZXnv0PjQvw==",
+    "@rollup/rollup-linux-riscv64-musl@4.52.2": {
+      "integrity": "sha512-duBLgd+3pqC4MMwBrKkFxaZerUxZcYApQVC5SdbF5/e/589GwVvlRUnyqMFbM8iUSb1BaoX/3fRL7hB9m2Pj8Q==",
       "os": ["linux"],
       "cpu": ["riscv64"]
     },
-    "@rollup/rollup-linux-s390x-gnu@4.50.2": {
-      "integrity": "sha512-4Q3S3Hy7pC6uaRo9gtXUTJ+EKo9AKs3BXKc2jYypEcMQ49gDPFU2P1ariX9SEtBzE5egIX6fSUmbmGazwBVF9w==",
+    "@rollup/rollup-linux-s390x-gnu@4.52.2": {
+      "integrity": "sha512-tzhYJJidDUVGMgVyE+PmxENPHlvvqm1KILjjZhB8/xHYqAGeizh3GBGf9u6WdJpZrz1aCpIIHG0LgJgH9rVjHQ==",
       "os": ["linux"],
       "cpu": ["s390x"]
     },
-    "@rollup/rollup-linux-x64-gnu@4.50.2": {
-      "integrity": "sha512-9Jie/At6qk70dNIcopcL4p+1UirusEtznpNtcq/u/C5cC4HBX7qSGsYIcG6bdxj15EYWhHiu02YvmdPzylIZlA==",
+    "@rollup/rollup-linux-x64-gnu@4.52.2": {
+      "integrity": "sha512-opH8GSUuVcCSSyHHcl5hELrmnk4waZoVpgn/4FDao9iyE4WpQhyWJ5ryl5M3ocp4qkRuHfyXnGqg8M9oKCEKRA==",
       "os": ["linux"],
       "cpu": ["x64"]
     },
-    "@rollup/rollup-linux-x64-musl@4.50.2": {
-      "integrity": "sha512-HPNJwxPL3EmhzeAnsWQCM3DcoqOz3/IC6de9rWfGR8ZCuEHETi9km66bH/wG3YH0V3nyzyFEGUZeL5PKyy4xvw==",
+    "@rollup/rollup-linux-x64-musl@4.52.2": {
+      "integrity": "sha512-LSeBHnGli1pPKVJ79ZVJgeZWWZXkEe/5o8kcn23M8eMKCUANejchJbF/JqzM4RRjOJfNRhKJk8FuqL1GKjF5oQ==",
       "os": ["linux"],
       "cpu": ["x64"]
     },
-    "@rollup/rollup-openharmony-arm64@4.50.2": {
-      "integrity": "sha512-nMKvq6FRHSzYfKLHZ+cChowlEkR2lj/V0jYj9JnGUVPL2/mIeFGmVM2mLaFeNa5Jev7W7TovXqXIG2d39y1KYA==",
+    "@rollup/rollup-openharmony-arm64@4.52.2": {
+      "integrity": "sha512-uPj7MQ6/s+/GOpolavm6BPo+6CbhbKYyZHUDvZ/SmJM7pfDBgdGisFX3bY/CBDMg2ZO4utfhlApkSfZ92yXw7Q==",
       "os": ["openharmony"],
       "cpu": ["arm64"]
     },
-    "@rollup/rollup-win32-arm64-msvc@4.50.2": {
-      "integrity": "sha512-eFUvvnTYEKeTyHEijQKz81bLrUQOXKZqECeiWH6tb8eXXbZk+CXSG2aFrig2BQ/pjiVRj36zysjgILkqarS2YA==",
+    "@rollup/rollup-win32-arm64-msvc@4.52.2": {
+      "integrity": "sha512-Z9MUCrSgIaUeeHAiNkm3cQyst2UhzjPraR3gYYfOjAuZI7tcFRTOD+4cHLPoS/3qinchth+V56vtqz1Tv+6KPA==",
       "os": ["win32"],
       "cpu": ["arm64"]
     },
-    "@rollup/rollup-win32-ia32-msvc@4.50.2": {
-      "integrity": "sha512-cBaWmXqyfRhH8zmUxK3d3sAhEWLrtMjWBRwdMMHJIXSjvjLKvv49adxiEz+FJ8AP90apSDDBx2Tyd/WylV6ikA==",
+    "@rollup/rollup-win32-ia32-msvc@4.52.2": {
+      "integrity": "sha512-+GnYBmpjldD3XQd+HMejo+0gJGwYIOfFeoBQv32xF/RUIvccUz20/V6Otdv+57NE70D5pa8W/jVGDoGq0oON4A==",
       "os": ["win32"],
       "cpu": ["ia32"]
     },
-    "@rollup/rollup-win32-x64-msvc@4.50.2": {
-      "integrity": "sha512-APwKy6YUhvZaEoHyM+9xqmTpviEI+9eL7LoCH+aLcvWYHJ663qG5zx7WzWZY+a9qkg5JtzcMyJ9z0WtQBMDmgA==",
+    "@rollup/rollup-win32-x64-gnu@4.52.2": {
+      "integrity": "sha512-ApXFKluSB6kDQkAqZOKXBjiaqdF1BlKi+/eqnYe9Ee7U2K3pUDKsIyr8EYm/QDHTJIM+4X+lI0gJc3TTRhd+dA==",
       "os": ["win32"],
       "cpu": ["x64"]
     },
-    "@shikijs/core@3.12.2": {
-      "integrity": "sha512-L1Safnhra3tX/oJK5kYHaWmLEBJi1irASwewzY3taX5ibyXyMkkSDZlq01qigjryOBwrXSdFgTiZ3ryzSNeu7Q==",
+    "@rollup/rollup-win32-x64-msvc@4.52.2": {
+      "integrity": "sha512-ARz+Bs8kY6FtitYM96PqPEVvPXqEZmPZsSkXvyX19YzDqkCaIlhCieLLMI5hxO9SRZ2XtCtm8wxhy0iJ2jxNfw==",
+      "os": ["win32"],
+      "cpu": ["x64"]
+    },
+    "@shikijs/core@3.13.0": {
+      "integrity": "sha512-3P8rGsg2Eh2qIHekwuQjzWhKI4jV97PhvYjYUzGqjvJfqdQPz+nMlfWahU24GZAyW1FxFI1sYjyhfh5CoLmIUA==",
       "dependencies": [
         "@shikijs/types",
         "@shikijs/vscode-textmate",
@@ -1590,35 +1627,35 @@
         "hast-util-to-html"
       ]
     },
-    "@shikijs/engine-javascript@3.12.2": {
-      "integrity": "sha512-Nm3/azSsaVS7hk6EwtHEnTythjQfwvrO5tKqMlaH9TwG1P+PNaR8M0EAKZ+GaH2DFwvcr4iSfTveyxMIvXEHMw==",
+    "@shikijs/engine-javascript@3.13.0": {
+      "integrity": "sha512-Ty7xv32XCp8u0eQt8rItpMs6rU9Ki6LJ1dQOW3V/56PKDcpvfHPnYFbsx5FFUP2Yim34m/UkazidamMNVR4vKg==",
       "dependencies": [
         "@shikijs/types",
         "@shikijs/vscode-textmate",
         "oniguruma-to-es"
       ]
     },
-    "@shikijs/engine-oniguruma@3.12.2": {
-      "integrity": "sha512-hozwnFHsLvujK4/CPVHNo3Bcg2EsnG8krI/ZQ2FlBlCRpPZW4XAEQmEwqegJsypsTAN9ehu2tEYe30lYKSZW/w==",
+    "@shikijs/engine-oniguruma@3.13.0": {
+      "integrity": "sha512-O42rBGr4UDSlhT2ZFMxqM7QzIU+IcpoTMzb3W7AlziI1ZF7R8eS2M0yt5Ry35nnnTX/LTLXFPUjRFCIW+Operg==",
       "dependencies": [
         "@shikijs/types",
         "@shikijs/vscode-textmate"
       ]
     },
-    "@shikijs/langs@3.12.2": {
-      "integrity": "sha512-bVx5PfuZHDSHoBal+KzJZGheFuyH4qwwcwG/n+MsWno5cTlKmaNtTsGzJpHYQ8YPbB5BdEdKU1rga5/6JGY8ww==",
+    "@shikijs/langs@3.13.0": {
+      "integrity": "sha512-672c3WAETDYHwrRP0yLy3W1QYB89Hbpj+pO4KhxK6FzIrDI2FoEXNiNCut6BQmEApYLfuYfpgOZaqbY+E9b8wQ==",
       "dependencies": [
         "@shikijs/types"
       ]
     },
-    "@shikijs/themes@3.12.2": {
-      "integrity": "sha512-fTR3QAgnwYpfGczpIbzPjlRnxyONJOerguQv1iwpyQZ9QXX4qy/XFQqXlf17XTsorxnHoJGbH/LXBvwtqDsF5A==",
+    "@shikijs/themes@3.13.0": {
+      "integrity": "sha512-Vxw1Nm1/Od8jyA7QuAenaV78BG2nSr3/gCGdBkLpfLscddCkzkL36Q5b67SrLLfvAJTOUzW39x4FHVCFriPVgg==",
       "dependencies": [
         "@shikijs/types"
       ]
     },
-    "@shikijs/types@3.12.2": {
-      "integrity": "sha512-K5UIBzxCyv0YoxN3LMrKB9zuhp1bV+LgewxuVwHdl4Gz5oePoUFrr9EfgJlGlDeXCU1b/yhdnXeuRvAnz8HN8Q==",
+    "@shikijs/types@3.13.0": {
+      "integrity": "sha512-oM9P+NCFri/mmQ8LoFGVfVyemm5Hi27330zuOBp0annwJdKH1kOLndw3zCtAVDehPLg9fKqoEx3Ht/wNZxolfw==",
       "dependencies": [
         "@shikijs/vscode-textmate",
         "@types/hast"
@@ -1827,8 +1864,8 @@
         "string-width@4.2.3"
       ]
     },
-    "ansi-escapes@7.1.0": {
-      "integrity": "sha512-YdhtCd19sKRKfAAUsrcC1wzm4JuzJoiX4pOJqIoW2qmKj5WzG/dL8uUJ0361zaXtHqK7gEhOwtAtz7t3Yq3X5g==",
+    "ansi-escapes@7.1.1": {
+      "integrity": "sha512-Zhl0ErHcSRUaVfGUeUdDuLgpkEo8KIFjB4Y9uAc46ScOpdDiU1Dbyplh7qWJeJ/ZHpbyMSM26+X3BySgnIz40Q==",
       "dependencies": [
         "environment"
       ]
@@ -1897,8 +1934,8 @@
       "integrity": "sha512-SNURCAlfL4Z2ylF3NMmNk/s3RnSDSolXALXtH0gsN8hFZ7oppnF0sXVQLAGAxnzADemfRp3/9G58EALZ36qUdA==",
       "dependencies": [
         "@astrojs/compiler",
-        "@astrojs/internal-helpers",
-        "@astrojs/markdown-remark",
+        "@astrojs/internal-helpers@0.7.2",
+        "@astrojs/markdown-remark@6.3.6",
         "@astrojs/telemetry",
         "@capsizecss/unpack",
         "@oslojs/encoding",
@@ -1968,8 +2005,8 @@
       "integrity": "sha512-SNURCAlfL4Z2ylF3NMmNk/s3RnSDSolXALXtH0gsN8hFZ7oppnF0sXVQLAGAxnzADemfRp3/9G58EALZ36qUdA==",
       "dependencies": [
         "@astrojs/compiler",
-        "@astrojs/internal-helpers",
-        "@astrojs/markdown-remark",
+        "@astrojs/internal-helpers@0.7.2",
+        "@astrojs/markdown-remark@6.3.6",
         "@astrojs/telemetry",
         "@capsizecss/unpack",
         "@oslojs/encoding",
@@ -2057,8 +2094,8 @@
     "base64-js@1.5.1": {
       "integrity": "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA=="
     },
-    "baseline-browser-mapping@2.8.4": {
-      "integrity": "sha512-L+YvJwGAgwJBV1p6ffpSTa2KRc69EeeYGYjRVWKs0GKrK+LON0GC0gV+rKSNtALEDvMDqkvCFq9r1r94/Gjwxw==",
+    "baseline-browser-mapping@2.8.7": {
+      "integrity": "sha512-bxxN2M3a4d1CRoQC//IqsR5XrLh0IJ8TCv2x6Y9N0nckNz/rTjZB3//GGscZziZOxmjP55rzxg/ze7usFI9FqQ==",
       "bin": true
     },
     "bcp-47-match@2.0.3": {
@@ -2123,8 +2160,8 @@
     "camelcase@8.0.0": {
       "integrity": "sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA=="
     },
-    "caniuse-lite@1.0.30001743": {
-      "integrity": "sha512-e6Ojr7RV14Un7dz6ASD0aZDmQPT/A+eZU+nuTNfjqmRrmkmQlnTNWH0SKmqagx9PeW87UVqapSurtAXifmtdmw=="
+    "caniuse-lite@1.0.30001745": {
+      "integrity": "sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ=="
     },
     "ccount@2.0.1": {
       "integrity": "sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg=="
@@ -2180,29 +2217,6 @@
     },
     "collapse-white-space@2.1.0": {
       "integrity": "sha512-loKTxY1zCOuG4j9f6EPnuyyYkf58RnhhWTvRoZEokgB+WbdXehfjFviyOVYkqzEWz1Q5kRiZdBYS5SwxbQYwzw=="
-    },
-    "color-convert@2.0.1": {
-      "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
-      "dependencies": [
-        "color-name"
-      ]
-    },
-    "color-name@1.1.4": {
-      "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
-    },
-    "color-string@1.9.1": {
-      "integrity": "sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==",
-      "dependencies": [
-        "color-name",
-        "simple-swizzle"
-      ]
-    },
-    "color@4.2.3": {
-      "integrity": "sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==",
-      "dependencies": [
-        "color-convert",
-        "color-string"
-      ]
     },
     "colorette@2.0.20": {
       "integrity": "sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w=="
@@ -2308,8 +2322,8 @@
     "destr@2.0.5": {
       "integrity": "sha512-ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA=="
     },
-    "detect-libc@2.1.0": {
-      "integrity": "sha512-vEtk+OcP7VBRtQZ1EJ3bdgzSfBjgnEalLTp5zjJrS+2Z1w2KZly4SBdac/WDU3hhsNAZ9E8SC96ME4Ey8MZ7cg=="
+    "detect-libc@2.1.1": {
+      "integrity": "sha512-ecqj/sy1jcK1uWrwpR67UhYrIFQ+5WlGxth34WquCbamhFA6hkkwiu37o6J5xCHdo1oixJRfVRw+ywV+Hq/0Aw=="
     },
     "deterministic-object-hash@2.0.2": {
       "integrity": "sha512-KxektNH63SrbfUyDiwXqRb1rLwKt33AmMv+5Nhsw1kqZ13SJBRTgZHtGbE+hH3a1mVW1cz+4pqSWVPAtLVXTzQ==",
@@ -2348,8 +2362,8 @@
     "dset@3.1.4": {
       "integrity": "sha512-2QF/g9/zTaPDc3BjNcVTGoBbXBgYfMTTceLaYcFJ/W9kggFUkhxD/hMEeuLKbugyef9SqAx8cpgwlIP/jinUTA=="
     },
-    "electron-to-chromium@1.5.220": {
-      "integrity": "sha512-TWXijEwR1ggr4BdAKrb1nMNqYLTx1/4aD1fkeZU+FVJGTKu53/T7UyHKXlqEX3Ub02csyHePbHmkvnrjcaYzMA=="
+    "electron-to-chromium@1.5.223": {
+      "integrity": "sha512-qKm55ic6nbEmagFlTFczML33rF90aU+WtrJ9MdTCThrcvDNdUHN4p6QfVN78U06ZmguqXIyMPyYhw2TrbDUwPQ=="
     },
     "emoji-regex@10.5.0": {
       "integrity": "sha512-lb49vf1Xzfx080OKA0o6l8DQQpV+6Vg95zyCJX9VB/BqKYlhG7N4wgROUUHRA+ZPUefLnteQOad7z1kT2bV7bg=="
@@ -2387,8 +2401,8 @@
         "vfile-message"
       ]
     },
-    "esbuild@0.25.9": {
-      "integrity": "sha512-CRbODhYyQx3qp7ZEwzxOk4JBqmD/seJrzPa/cGjY1VtIn5E09Oi9/dB4JwctnfZ8Q8iT7rioVv5k/FNT/uf54g==",
+    "esbuild@0.25.10": {
+      "integrity": "sha512-9RiGKvCwaqxO2owP61uQ4BgNborAQskMR6QusfWzQqv7AZOg5oGehdY2pRJMTKuwxd1IDBP4rSbI5lHzU7SMsQ==",
       "optionalDependencies": [
         "@esbuild/aix-ppc64",
         "@esbuild/android-arm",
@@ -2839,9 +2853,6 @@
         "is-alphabetical",
         "is-decimal"
       ]
-    },
-    "is-arrayish@0.3.4": {
-      "integrity": "sha512-m6UrgzFVUYawGBh1dUsWR5M2Clqic9RVXC/9f8ceNlv2IcO9j9J/z8UoCLPqtsPBFNzEpfR3xftohbfqDx8EQA=="
     },
     "is-decimal@2.0.1": {
       "integrity": "sha512-AAB9hiomQs5DXWcRB1rqsxGUstbRroFOPPVAomNk/3XHR5JyEZChOyTWe2oayKnsSsr/kcGqF+z6yuH6HHpN0A=="
@@ -4032,8 +4043,8 @@
     "rfdc@1.4.1": {
       "integrity": "sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA=="
     },
-    "rollup@4.50.2": {
-      "integrity": "sha512-BgLRGy7tNS9H66aIMASq1qSYbAAJV6Z6WR4QYTvj5FgF15rZ/ympT1uixHXwzbZUBDbkvqUI1KR0fH1FhMaQ9w==",
+    "rollup@4.52.2": {
+      "integrity": "sha512-I25/2QgoROE1vYV+NQ1En9T9UFB9Cmfm2CJ83zZOlaDpvz29wGQSZXWKw7MiNXau7wYgB/T9fVIdIuEQ+KbiiA==",
       "dependencies": [
         "@types/estree"
       ],
@@ -4058,6 +4069,7 @@
         "@rollup/rollup-openharmony-arm64",
         "@rollup/rollup-win32-arm64-msvc",
         "@rollup/rollup-win32-ia32-msvc",
+        "@rollup/rollup-win32-x64-gnu",
         "@rollup/rollup-win32-x64-msvc",
         "fsevents"
       ],
@@ -4080,10 +4092,10 @@
       "integrity": "sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==",
       "bin": true
     },
-    "sharp@0.34.3": {
-      "integrity": "sha512-eX2IQ6nFohW4DbvHIOLRB3MHFpYqaqvXd3Tp5e/T/dSH83fxaNJQRvDMhASmkNTsNTVF2/OOopzRCt7xokgPfg==",
+    "sharp@0.34.4": {
+      "integrity": "sha512-FUH39xp3SBPnxWvd5iib1X8XY7J0K0X7d93sie9CJg2PO8/7gmg89Nve6OjItK53/MlAushNNxteBYfM6DEuoA==",
       "dependencies": [
-        "color",
+        "@img/colour",
         "detect-libc",
         "semver@7.7.2"
       ],
@@ -4113,8 +4125,8 @@
       ],
       "scripts": true
     },
-    "shiki@3.12.2": {
-      "integrity": "sha512-uIrKI+f9IPz1zDT+GMz+0RjzKJiijVr6WDWm9Pe3NNY6QigKCfifCEv9v9R2mDASKKjzjQ2QpFLcxaR3iHSnMA==",
+    "shiki@3.13.0": {
+      "integrity": "sha512-aZW4l8Og16CokuCLf8CF8kq+KK2yOygapU5m3+hoGw0Mdosc6fPitjM+ujYarppj5ZIKGyPDPP1vqmQhr+5/0g==",
       "dependencies": [
         "@shikijs/core",
         "@shikijs/engine-javascript",
@@ -4128,12 +4140,6 @@
     },
     "signal-exit@4.1.0": {
       "integrity": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="
-    },
-    "simple-swizzle@0.2.4": {
-      "integrity": "sha512-nAu1WFPQSMNr2Zn9PGSZK9AGn4t/y97lEm+MXTtUDwfP0ksAIX4nO+6ruD9Jwut4C49SB1Ws+fbXsm/yScWOHw==",
-      "dependencies": [
-        "is-arrayish"
-      ]
     },
     "sisteransi@1.0.5": {
       "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="
@@ -4239,8 +4245,8 @@
     "supports-color@10.2.2": {
       "integrity": "sha512-SS+jx45GF1QjgEXQx4NJZV9ImqmO2NPz5FNsIHrsDjh2YsHnawpan7SNQ1o8NuhrbHZy9AZhIoCUiCeaW/C80g=="
     },
-    "supports-hyperlinks@4.2.0": {
-      "integrity": "sha512-FWXryrXrsYX2vlTD9WdfgOeN7a2EbuS3MiMaDkFibR0B6IxelCNbFgUJEGLn3eSn+9HX7RuM0ig6Lzr8lccxUA==",
+    "supports-hyperlinks@4.3.0": {
+      "integrity": "sha512-i6sWEzuwadSlcr2mOnb0ktlIl+K5FVxsPXmoPfknDd2gyw4ZBIAZ5coc0NQzYqDdEYXMHy8NaY9rWwa1Q1myiQ==",
       "dependencies": [
         "has-flag",
         "supports-color"
@@ -4690,7 +4696,7 @@
       "npm:@actions/github@^6.0.1",
       "npm:@astrojs/react@^4.3.0",
       "npm:@astrojs/starlight@~0.35.2",
-      "npm:@junobuild/cli@0.9.2",
+      "npm:@junobuild/cli@0.10.0",
       "npm:@junobuild/config@^2.1.0",
       "npm:@pagefind/default-ui@^1.4.0",
       "npm:@radix-ui/react-navigation-menu@^1.2.14",
