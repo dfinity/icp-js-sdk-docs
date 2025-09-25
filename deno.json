@@ -11,7 +11,7 @@
   },
   "imports": {
     "@astrojs/react": "npm:@astrojs/react@^4.3.0",
-    "@junobuild/cli": "npm:@junobuild/cli@0.9.2",
+    "@junobuild/cli": "npm:@junobuild/cli@0.10.0",
     "@pagefind/default-ui": "npm:@pagefind/default-ui@^1.4.0",
     "@radix-ui/react-navigation-menu": "npm:@radix-ui/react-navigation-menu@^1.2.14",
     "@types/react": "npm:@types/react@^19.1.12",
