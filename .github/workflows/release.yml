@@ -24,11 +24,11 @@ jobs:
       - name: Deploy Docs to Juno satellite
         env:
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
-        run: deno task juno deploy --mode production --immediate --batch 50
+        run: deno task juno hosting deploy --mode production --immediate --batch 50
 
       - name: Update Juno satellite config
         env:
           # The identity corresponding to this token must be an Administrator of the satellite
           # in order to have permissions to apply the config
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
-        run: deno task juno config --force --mode production
+        run: deno task juno config apply --force --mode production
