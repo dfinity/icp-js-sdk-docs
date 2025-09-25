@@ -9,6 +9,7 @@ const versionSchema = z.object({
 const headerSchema = z.object({
   title: z.string(),
   description: z.string(),
+  category: z.enum(["library", "tool"]),
   githubRepo: z.string(),
 });
 

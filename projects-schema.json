@@ -43,9 +43,19 @@
           "type": "string",
           "description": "The public/... subdirectory where to save the static assets pulled from the repository",
           "examples": ["core"]
+        },
+        "category": {
+          "enum": ["library", "tool"],
+          "description": "The most appropriate category for the project"
         }
       },
-      "required": ["title", "description", "repository", "subdirectory"],
+      "required": [
+        "title",
+        "description",
+        "repository",
+        "subdirectory",
+        "category"
+      ],
       "title": "Project"
     }
   }

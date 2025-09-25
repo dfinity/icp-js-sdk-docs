@@ -33,7 +33,7 @@
     "@std/fs": "jsr:@std/fs@^1.0.19",
     "@std/path": "jsr:@std/path@^1.1.2",
     "@types/yauzl": "npm:@types/yauzl@^2.10.3",
-    "astro": "npm:astro@^5.13.0",
+    "astro": "npm:astro@5.13.8",
     "yauzl": "npm:yauzl@^3.2.0"
   },
   "nodeModulesDir": "auto"

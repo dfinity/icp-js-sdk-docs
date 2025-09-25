@@ -6,18 +6,64 @@ import pluginConfig from "virtual:starlight-multi-sidebar/config";
 import "./ProjectSwitcher.css";
 
 type Header = MultiSidebarConfig["sidebars"][number]["header"];
+type HeaderItem = {
+  basePath: MultiSidebarConfig["sidebars"][number]["basePath"];
+  header: Header;
+};
+type HeadersByCategory = Record<
+  Header["category"],
+  {
+    items: Array<HeaderItem>;
+  }
+>;
 
-type Props = {
+const headersByCategory = pluginConfig.sidebars.reduce<HeadersByCategory>(
+  (acc, sidebar) => {
+    acc[sidebar.header.category].items.push({
+      basePath: sidebar.basePath,
+      header: sidebar.header,
+    });
+    return acc;
+  },
+  { library: { items: [] }, tool: { items: [] } }
+);
+
+type NavigationLinkProps = React.ComponentProps<typeof NavigationMenu.Link> & {
+  projectPath: string;
+  headerItem: HeaderItem;
+};
+
+const NavigationLink: React.FC<NavigationLinkProps> = ({
+  projectPath,
+  headerItem,
+  ...props
+}) => {
+  const isActive = projectPath.startsWith(headerItem.basePath);
+
+  return (
+    <NavigationMenu.Link className="project-switcher-link" asChild {...props}>
+      <a
+        href={headerItem.basePath}
+        className={isActive ? "active" : undefined}
+        role="menuitem"
+      >
+        <div className="project-switcher-link-title">
+          {headerItem.header.title}
+        </div>
+        <div className="project-switcher-link-description">
+          {headerItem.header.description}
+        </div>
+      </a>
+    </NavigationMenu.Link>
+  );
+};
+
+type ProjectSwitcherProps = {
   projectPath: string;
   currentHeader?: Header | undefined;
 };
 
-const headers = pluginConfig.sidebars.map((sidebar) => ({
-  basePath: sidebar.basePath,
-  header: sidebar.header,
-}));
-
-export const ProjectSwitcherReact: React.FC<Props> = ({
+export const ProjectSwitcherReact: React.FC<ProjectSwitcherProps> = ({
   projectPath,
   currentHeader,
 }) => {
@@ -54,32 +100,44 @@ export const ProjectSwitcherReact: React.FC<Props> = ({
               data-slot="navigation-menu-content"
               className="project-switcher-content"
             >
-              <ul>
-                {headers.map((h) => {
-                  const isActive = projectPath?.startsWith(h.basePath);
-                  return (
-                    <li key={h.basePath}>
-                      <NavigationMenu.Link
-                        className="project-switcher-link"
-                        asChild
-                      >
-                        <a
-                          href={h.basePath}
-                          className={isActive ? "active" : undefined}
-                          role="menuitem"
-                        >
-                          <div className="project-switcher-link-title">
-                            {h.header.title}
-                          </div>
-                          <div className="project-switcher-link-description">
-                            {h.header.description}
-                          </div>
-                        </a>
-                      </NavigationMenu.Link>
-                    </li>
-                  );
-                })}
-              </ul>
+              <div className="project-switcher-sections" role="menu">
+                {headersByCategory.library.items.length > 0 && (
+                  <>
+                    <div
+                      className="project-switcher-section-title"
+                      id="project-switcher-section-title-libraries"
+                    >
+                      Libraries
+                    </div>
+                    {headersByCategory.library.items.map((h, i) => (
+                      <NavigationLink
+                        key={h.basePath}
+                        projectPath={projectPath}
+                        headerItem={h}
+                        style={{ gridColumnStart: "1", gridRowStart: i + 2 }}
+                      />
+                    ))}
+                  </>
+                )}
+                {headersByCategory.tool.items.length > 0 && (
+                  <>
+                    <div
+                      className="project-switcher-section-title"
+                      id="project-switcher-section-title-tools"
+                    >
+                      Tools
+                    </div>
+                    {headersByCategory.tool.items.map((h, i) => (
+                      <NavigationLink
+                        key={h.basePath}
+                        projectPath={projectPath}
+                        headerItem={h}
+                        style={{ gridColumnStart: "2", gridRowStart: i + 2 }}
+                      />
+                    ))}
+                  </>
+                )}
+              </div>
             </NavigationMenu.Content>
           </NavigationMenu.Item>
           <NavigationMenu.Indicator
