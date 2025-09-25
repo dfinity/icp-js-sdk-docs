@@ -27,6 +27,7 @@ export function getSidebarsFromProjects(
       header: {
         title: project.title,
         description: project.description,
+        category: project.category,
         githubRepo: project.repository,
       },
     });

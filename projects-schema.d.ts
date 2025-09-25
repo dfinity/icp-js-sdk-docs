@@ -30,4 +30,8 @@ export interface Project {
    * The public/... subdirectory where to save the static assets pulled from the repository
    */
   subdirectory: string;
+  /**
+   * The most appropriate category for the project
+   */
+  category: "library" | "tool";
 }
