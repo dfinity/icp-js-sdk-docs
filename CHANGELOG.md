@@ -2,6 +2,7 @@
 
 ### Feat
 
+- add auth project (#117)
 - project switcher categories (#113)
 - add matomo analytics (#95)
 - add pic-js project (#92)
