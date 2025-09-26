@@ -10,6 +10,14 @@
       "subdirectory": "core"
     },
     {
+      "title": "Auth",
+      "description": "Authentication library for ICP apps",
+      "category": "library",
+      "repository": "dfinity/icp-js-auth",
+      "branch": "icp-pages",
+      "subdirectory": "auth"
+    },
+    {
       "title": "Pic JS",
       "description": "A canister testing framework",
       "category": "tool",
