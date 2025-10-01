@@ -122,10 +122,10 @@
   }
   .project-switcher-sections {
     display: grid;
-    grid-template:
-      "title-libraries title-tools"
-      / 1fr 1fr;
-    gap: 0.75rem;
+    grid-template-areas: "title-libraries title-tools";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 0px;
+    gap: 0.5rem;
   }
   .project-switcher-section-title {
     margin-top: 0 !important;
