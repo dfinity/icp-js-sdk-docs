@@ -25,7 +25,7 @@ const headersByCategory = pluginConfig.sidebars.reduce<HeadersByCategory>(
     });
     return acc;
   },
-  { library: { items: [] }, tool: { items: [] } }
+  { library: { items: [] }, tool: { items: [] } },
 );
 
 type NavigationLinkProps = React.ComponentProps<typeof NavigationMenu.Link> & {
