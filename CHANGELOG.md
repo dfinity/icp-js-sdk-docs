@@ -18,6 +18,7 @@
 
 ### Fix
 
+- reduce space between elements in project switcher (#122)
 - set environment in the pull-docs job (#97)
 - add both trailing slash and non trailing slash to redirects for `/core` (#87)
 - upload both compressed and uncompressed html files (#83)
