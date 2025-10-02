@@ -12,7 +12,7 @@
     "docs": {
       "type": "assets",
       "build": ["deno task docs:build"],
-      "source": ["dist"],
+      "source": ["docs/dist"],
       "frontend": {}
     }
   }
