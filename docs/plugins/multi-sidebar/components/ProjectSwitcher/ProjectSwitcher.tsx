@@ -114,7 +114,7 @@ export const ProjectSwitcherReact: React.FC<ProjectSwitcherProps> = ({
                         key={h.basePath}
                         projectPath={projectPath}
                         headerItem={h}
-                        style={{ gridColumnStart: "1", gridRowStart: i + 2 }}
+                        style={{ gridColumnStart: "1", gridRowStart: i + 3 }}
                       />
                     ))}
                   </>
@@ -132,7 +132,7 @@ export const ProjectSwitcherReact: React.FC<ProjectSwitcherProps> = ({
                         key={h.basePath}
                         projectPath={projectPath}
                         headerItem={h}
-                        style={{ gridColumnStart: "2", gridRowStart: i + 2 }}
+                        style={{ gridColumnStart: "2", gridRowStart: i + 3 }}
                       />
                     ))}
                   </>
