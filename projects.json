@@ -24,6 +24,14 @@
       "repository": "dfinity/pic-js",
       "branch": "icp-pages",
       "subdirectory": "pic-js"
+    },
+    {
+      "title": "Bindgen",
+      "description": "Generate bindings for Candid",
+      "category": "tool",
+      "repository": "dfinity/icp-js-bindgen",
+      "branch": "icp-pages",
+      "subdirectory": "bindgen"
     }
   ]
 }

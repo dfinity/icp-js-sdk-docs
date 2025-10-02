@@ -31,4 +31,14 @@ export const REDIRECTS: StorageConfigRedirect[] = [
     location: "/pic-js/latest",
     code: 302,
   },
+  {
+    source: "/bindgen",
+    location: "/bindgen/latest",
+    code: 302,
+  },
+  {
+    source: "/bindgen/",
+    location: "/bindgen/latest",
+    code: 302,
+  },
 ];
