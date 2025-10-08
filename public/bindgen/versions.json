@@ -1,0 +1,11 @@
+[
+  {
+    "path": "latest",
+    "label": "Latest (v0.1.0)"
+  },
+  {
+    "path": "v0.1",
+    "label": "v0.1",
+    "versionInTitle": "v0.1.0"
+  }
+]
