@@ -2,6 +2,7 @@
 
 ### Feat
 
+- add bindgen project (#121)
 - add auth project (#117)
 - project switcher categories (#113)
 - add matomo analytics (#95)
