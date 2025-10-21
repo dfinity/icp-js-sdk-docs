@@ -2,6 +2,7 @@
 
 ### Feat
 
+- enable mermaid charts (#134)
 - add bindgen project (#121)
 - add auth project (#117)
 - project switcher categories (#113)
