@@ -2,6 +2,7 @@
 import { defineConfig, passthroughImageService } from "astro/config";
 import react from "@astrojs/react";
 import starlight from "@astrojs/starlight";
+import mermaid from "astro-mermaid";
 import { multiSidebarPlugin } from "./plugins/multi-sidebar/index.ts";
 import { markdownUrlsPlugin } from "./plugins/markdown-urls/index.ts";
 import { matomo } from "./integrations/matomo/index.ts";
@@ -56,6 +57,9 @@ export default defineConfig({
       host: "https://internetcomputer.matomo.cloud",
       siteId: 17,
       debug: false,
+    }),
+    mermaid({
+      autoTheme: true,
     }),
   ],
 });
