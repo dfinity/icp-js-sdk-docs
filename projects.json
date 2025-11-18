@@ -18,6 +18,14 @@
       "subdirectory": "auth"
     },
     {
+      "title": "Canisters",
+      "description": "Use ICP canisters in ICP apps",
+      "category": "library",
+      "repository": "dfinity/icp-js-canisters",
+      "branch": "icp-pages",
+      "subdirectory": "canisters"
+    },
+    {
       "title": "Pic JS",
       "description": "A canister testing framework",
       "category": "tool",
