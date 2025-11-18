@@ -20,15 +20,8 @@ export default defineConfig({
         algorithm: "brotli",
         // only upload the compressed version for these files
         // since all browsers support this encoding, it reduces
-        // upload time and saves heap memory
+        // upload time and saves memory
         mode: "replace",
-      },
-      {
-        pattern: "**/*.html",
-        algorithm: "brotli",
-        // upload both the compressed and uncompressed version of HTML files
-        // to avoid issues with OpenGraph previews
-        mode: "both",
       },
     ],
   },
