@@ -2,6 +2,9 @@
 
 ### Feat
 
+- track copy page events in matomo (#154)
+- copy page button (#150)
+- copy markdown integration (#148)
 - add canisters project (#142)
 - enable mermaid charts (#134)
 - add bindgen project (#121)
@@ -21,6 +24,7 @@
 
 ### Fix
 
+- ignore copy page button in pagefind and markdown (#152)
 - padding and border radius for inline code elements (#138)
 - reduce space between elements in project switcher (#122)
 - set environment in the pull-docs job (#97)
