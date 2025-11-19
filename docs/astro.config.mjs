@@ -5,6 +5,7 @@ import starlight from "@astrojs/starlight";
 import mermaid from "astro-mermaid";
 import { multiSidebarPlugin } from "./plugins/multi-sidebar/index.ts";
 import { markdownUrlsPlugin } from "./plugins/markdown-urls/index.ts";
+import { copyPagePlugin } from "./plugins/copy-page/index.ts";
 import { matomo } from "./integrations/matomo/index.ts";
 import { getProjectsConfig, getSidebarsFromProjects } from "./projects.ts";
 
@@ -50,6 +51,7 @@ export default defineConfig({
           sidebars: getSidebarsFromProjects(projectsConfig),
         }),
         markdownUrlsPlugin(),
+        copyPagePlugin(),
       ],
     }),
     matomo({

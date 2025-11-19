@@ -9,23 +9,27 @@
     "jsr:@std/path@^1.1.2": "1.1.2",
     "npm:@actions/core@^1.11.1": "1.11.1",
     "npm:@actions/github@^6.0.1": "6.0.1_@octokit+core@5.2.2",
-    "npm:@astrojs/react@^4.3.0": "4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15",
-    "npm:@astrojs/starlight@~0.35.2": "0.35.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+    "npm:@astrojs/mdx@^4.3.11": "4.3.11_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+    "npm:@astrojs/react@^4.3.0": "4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__@types+node@22.15.15__picomatch@4.0.3_@types+node@22.15.15",
+    "npm:@astrojs/starlight@~0.35.2": "0.35.3_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+    "npm:@joplin/turndown-plugin-gfm@^1.0.64": "1.0.64",
     "npm:@junobuild/cli@0.10.0": "0.10.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_semver@7.7.2_@junobuild+storage@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+cdn@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+config@2.2.0___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.6____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+storage@1.3.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@junobuild+ic-client@3.1.2____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+identity@3.2.6_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.6____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_ora@8.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_@dfinity+auth-client@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6",
     "npm:@junobuild/config@^2.1.0": "2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76",
     "npm:@pagefind/default-ui@^1.4.0": "1.4.0",
     "npm:@radix-ui/react-navigation-menu@^1.2.14": "1.2.14_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1",
     "npm:@types/node@*": "22.15.15",
     "npm:@types/react@^19.1.12": "19.1.13",
+    "npm:@types/turndown@^5.0.6": "5.0.6",
     "npm:@types/yauzl@^2.10.3": "2.10.3",
-    "npm:astro-integration-kit@0.19": "0.19.0_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
-    "npm:astro-mermaid@^1.1.0": "1.1.0_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76__@types+node@22.15.15_mermaid@11.12.0__cytoscape@3.33.1_@types+node@22.15.15",
-    "npm:astro@5.13.8": "5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
+    "npm:astro-integration-kit@0.19": "0.19.0_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+    "npm:astro-mermaid@^1.1.0": "1.1.0_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_mermaid@11.12.0__cytoscape@3.33.1_@types+node@22.15.15",
+    "npm:astro@5.13.8": "5.13.8_@types+node@22.15.15_vite@6.3.6__@types+node@22.15.15__picomatch@4.0.3_zod@3.25.76",
     "npm:json-schema-to-typescript@^15.0.4": "15.0.4",
     "npm:mermaid@^11.12.0": "11.12.0_cytoscape@3.33.1",
     "npm:pagefind@^1.4.0": "1.4.0",
     "npm:react-dom@^19.1.1": "19.1.1_react@19.1.1",
     "npm:react@^19.1.1": "19.1.1",
+    "npm:turndown@^7.2.2": "7.2.2",
     "npm:unist-util-visit@5": "5.0.0",
     "npm:yauzl@^3.2.0": "3.2.0"
   },
@@ -110,8 +114,8 @@
     "@astrojs/internal-helpers@0.7.2": {
       "integrity": "sha512-KCkCqR3Goym79soqEtbtLzJfqhTWMyVaizUi35FLzgGSzBotSw8DB1qwsu7U96ihOJgYhDk2nVPz+3LnXPeX6g=="
     },
-    "@astrojs/internal-helpers@0.7.3": {
-      "integrity": "sha512-6Pl0bQEIChuW5wqN7jdKrzWfCscW2rG/Cz+fzt4PhSQX2ivBpnhXgFUCs0M3DCYvjYHnPVG2W36X5rmFjZ62sw=="
+    "@astrojs/internal-helpers@0.7.5": {
+      "integrity": "sha512-vreGnYSSKhAjFJCWAwe/CNhONvoc5lokxtRoZims+0wa3KbHBdPHSSthJsKxPd8d/aic6lWKpRTYGY/hsgK6EA=="
     },
     "@astrojs/markdown-remark@6.3.6": {
       "integrity": "sha512-bwylYktCTsLMVoCOEHbn2GSUA3c5KT/qilekBKA3CBng0bo1TYjNZPr761vxumRk9kJGqTOtU+fgCAp5Vwokug==",
@@ -139,10 +143,10 @@
         "vfile"
       ]
     },
-    "@astrojs/markdown-remark@6.3.7": {
-      "integrity": "sha512-KXGdq6/BC18doBCYXp08alHlWChH0hdD2B1qv9wIyOHbvwI5K6I7FhSta8dq1hBQNdun8YkKPR013D/Hm8xd0g==",
+    "@astrojs/markdown-remark@6.3.9": {
+      "integrity": "sha512-hX2cLC/KW74Io1zIbn92kI482j9J7LleBLGCVU9EP3BeH5MVrnFawOnqD0t/q6D1Z+ZNeQG2gNKMslCcO36wng==",
       "dependencies": [
-        "@astrojs/internal-helpers@0.7.3",
+        "@astrojs/internal-helpers@0.7.5",
         "@astrojs/prism",
         "github-slugger",
         "hast-util-from-html",
@@ -165,36 +169,17 @@
         "vfile"
       ]
     },
-    "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
-      "integrity": "sha512-jH04tYgaqLfq3To42+z1oEcXrXUzo3BxZ4fTkb+7BEmOJkQ9/c3iIixFEC+x0GgE8lJb4SuEDGldpAv7+1yY8A==",
+    "@astrojs/mdx@4.3.11_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
+      "integrity": "sha512-ca18jxAiYDbPE1eAsNoiGnZoMYZGtfQpCmAJMXCB1WpyzTOHH7+KP1+gnKK8SFEA6XjHvjwI5Xzu8695c0Gabw==",
       "dependencies": [
-        "@astrojs/markdown-remark@6.3.7",
+        "@astrojs/markdown-remark@6.3.9",
         "@mdx-js/mdx",
         "acorn",
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76",
+        "astro",
         "es-module-lexer",
         "estree-util-visit",
         "hast-util-to-html",
-        "kleur@4.1.5",
-        "rehype-raw",
-        "remark-gfm",
-        "remark-smartypants",
-        "source-map",
-        "unist-util-visit",
-        "vfile"
-      ]
-    },
-    "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-jH04tYgaqLfq3To42+z1oEcXrXUzo3BxZ4fTkb+7BEmOJkQ9/c3iIixFEC+x0GgE8lJb4SuEDGldpAv7+1yY8A==",
-      "dependencies": [
-        "@astrojs/markdown-remark@6.3.7",
-        "@mdx-js/mdx",
-        "acorn",
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-        "es-module-lexer",
-        "estree-util-visit",
-        "hast-util-to-html",
-        "kleur@4.1.5",
+        "picocolors",
         "rehype-raw",
         "remark-gfm",
         "remark-smartypants",
@@ -209,28 +194,16 @@
         "prismjs"
       ]
     },
-    "@astrojs/react@4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3": {
+    "@astrojs/react@4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__@types+node@22.15.15__picomatch@4.0.3_@types+node@22.15.15": {
       "integrity": "sha512-RzblkVImAFdV1C0AWsSWzS70Z0FMtW2p0XXkNYu3QePfyVJta3JIy8m8jY8271etaCZtpFjsE2UaiHGZIBm6nw==",
       "dependencies": [
         "@types/react",
         "@types/react-dom",
-        "@vitejs/plugin-react@4.7.0_vite@6.3.6__picomatch@4.0.3_@babel+core@7.28.4",
+        "@vitejs/plugin-react",
         "react",
         "react-dom",
         "ultrahtml",
-        "vite@6.3.6_picomatch@4.0.3"
-      ]
-    },
-    "@astrojs/react@4.4.0_@types+react@19.1.13_@types+react-dom@19.1.9__@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15": {
-      "integrity": "sha512-RzblkVImAFdV1C0AWsSWzS70Z0FMtW2p0XXkNYu3QePfyVJta3JIy8m8jY8271etaCZtpFjsE2UaiHGZIBm6nw==",
-      "dependencies": [
-        "@types/react",
-        "@types/react-dom",
-        "@vitejs/plugin-react@4.7.0_vite@6.3.6__picomatch@4.0.3_@babel+core@7.28.4_@types+node@22.15.15",
-        "react",
-        "react-dom",
-        "ultrahtml",
-        "vite@6.3.6_picomatch@4.0.3_@types+node@22.15.15"
+        "vite"
       ]
     },
     "@astrojs/sitemap@3.6.0": {
@@ -241,51 +214,18 @@
         "zod"
       ]
     },
-    "@astrojs/starlight@0.35.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
+    "@astrojs/starlight@0.35.3_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
       "integrity": "sha512-z9MbODjZl/STU3PPU18iOTkLObJBw7PA8xMe5s+KPscQGL0LNZyQUYeClG+F1/em/k+2AsokGpVPta+aOTk1sg==",
       "dependencies": [
-        "@astrojs/markdown-remark@6.3.7",
-        "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76",
+        "@astrojs/markdown-remark@6.3.9",
+        "@astrojs/mdx",
         "@astrojs/sitemap",
         "@pagefind/default-ui",
         "@types/hast",
         "@types/js-yaml",
         "@types/mdast",
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76",
-        "astro-expressive-code@0.41.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76",
-        "bcp-47",
-        "hast-util-from-html",
-        "hast-util-select",
-        "hast-util-to-string",
-        "hastscript",
-        "i18next",
-        "js-yaml",
-        "klona",
-        "mdast-util-directive",
-        "mdast-util-to-markdown",
-        "mdast-util-to-string",
-        "pagefind",
-        "rehype",
-        "rehype-format",
-        "remark-directive",
-        "ultrahtml",
-        "unified",
-        "unist-util-visit",
-        "vfile"
-      ]
-    },
-    "@astrojs/starlight@0.35.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-z9MbODjZl/STU3PPU18iOTkLObJBw7PA8xMe5s+KPscQGL0LNZyQUYeClG+F1/em/k+2AsokGpVPta+aOTk1sg==",
-      "dependencies": [
-        "@astrojs/markdown-remark@6.3.7",
-        "@astrojs/mdx@4.3.6_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
-        "@astrojs/sitemap",
-        "@pagefind/default-ui",
-        "@types/hast",
-        "@types/js-yaml",
-        "@types/mdast",
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-        "astro-expressive-code@0.41.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15",
+        "astro",
+        "astro-expressive-code",
         "bcp-47",
         "hast-util-from-html",
         "hast-util-select",
@@ -999,6 +939,9 @@
         "@isaacs/balanced-match"
       ]
     },
+    "@joplin/turndown-plugin-gfm@1.0.64": {
+      "integrity": "sha512-8GJ7f9OenE3zkSVII5B6qzIkvgF7C/a20gaASEjM6jWPLPJFFQ2nQ3Ou/kXH1mPUTs9dC9VYs8QXVPvZabKXBQ=="
+    },
     "@jridgewell/gen-mapping@0.3.13": {
       "integrity": "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==",
       "dependencies": [
@@ -1221,6 +1164,9 @@
       "dependencies": [
         "langium"
       ]
+    },
+    "@mixmark-io/domino@2.2.0": {
+      "integrity": "sha512-Y28PR25bHXUg88kCV7nivXrP2Nj2RueZ3/l/jdx6J9f8J4nsEGcgX0Qe6lt7Pa+J79+kPiJU3LguR6O/6zrLOw=="
     },
     "@noble/curves@1.9.7": {
       "integrity": "sha512-gbKGcRUYIjA3/zCCNaWDciTMFI0dCkvou3TL8Zmy5Nc7sJ47a0jtOeZoTaMxkuqRo9cRhjOdZJXegxYE5FN/xw==",
@@ -2018,6 +1964,9 @@
     "@types/trusted-types@2.0.7": {
       "integrity": "sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw=="
     },
+    "@types/turndown@5.0.6": {
+      "integrity": "sha512-ru00MoyeeouE5BX4gRL+6m/BsDfbRayOskWqUvh7CLGW+UXxHQItqALa38kKnOiZPqJrtzJUgAC2+F0rL1S4Pg=="
+    },
     "@types/unist@2.0.11": {
       "integrity": "sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA=="
     },
@@ -2033,7 +1982,7 @@
     "@ungap/structured-clone@1.3.0": {
       "integrity": "sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g=="
     },
-    "@vitejs/plugin-react@4.7.0_vite@6.3.6__picomatch@4.0.3_@babel+core@7.28.4": {
+    "@vitejs/plugin-react@4.7.0_vite@6.3.6__@types+node@22.15.15__picomatch@4.0.3_@babel+core@7.28.4_@types+node@22.15.15": {
       "integrity": "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA==",
       "dependencies": [
         "@babel/core",
@@ -2042,19 +1991,7 @@
         "@rolldown/pluginutils",
         "@types/babel__core",
         "react-refresh",
-        "vite@6.3.6_picomatch@4.0.3"
-      ]
-    },
-    "@vitejs/plugin-react@4.7.0_vite@6.3.6__picomatch@4.0.3_@babel+core@7.28.4_@types+node@22.15.15": {
-      "integrity": "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA==",
-      "dependencies": [
-        "@babel/core",
-        "@babel/plugin-transform-react-jsx-self",
-        "@babel/plugin-transform-react-jsx-source",
-        "@rolldown/pluginutils",
-        "@types/babel__core",
-        "react-refresh",
-        "vite@6.3.6_picomatch@4.0.3_@types+node@22.15.15"
+        "vite"
       ]
     },
     "acorn-jsx@5.3.2_acorn@8.15.0": {
@@ -2129,45 +2066,31 @@
       "integrity": "sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==",
       "bin": true
     },
-    "astro-expressive-code@0.41.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
+    "astro-expressive-code@0.41.3_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
       "integrity": "sha512-u+zHMqo/QNLE2eqYRCrK3+XMlKakv33Bzuz+56V1gs8H0y6TZ0hIi3VNbIxeTn51NLn+mJfUV/A0kMNfE4rANw==",
       "dependencies": [
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76",
+        "astro",
         "rehype-expressive-code"
       ]
     },
-    "astro-expressive-code@0.41.3_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-u+zHMqo/QNLE2eqYRCrK3+XMlKakv33Bzuz+56V1gs8H0y6TZ0hIi3VNbIxeTn51NLn+mJfUV/A0kMNfE4rANw==",
-      "dependencies": [
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-        "rehype-expressive-code"
-      ]
-    },
-    "astro-integration-kit@0.19.0_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76": {
+    "astro-integration-kit@0.19.0_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
       "integrity": "sha512-ftDrem91kJZoenhpJJfRtB29D/bmNglEp2oOXqF1uL5yODZauGIy3tDgIbec0UEMp6tNuky4tfWseUXpej5Dng==",
       "dependencies": [
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76",
+        "astro",
         "pathe@1.1.2"
       ]
     },
-    "astro-integration-kit@0.19.0_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-ftDrem91kJZoenhpJJfRtB29D/bmNglEp2oOXqF1uL5yODZauGIy3tDgIbec0UEMp6tNuky4tfWseUXpej5Dng==",
-      "dependencies": [
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
-        "pathe@1.1.2"
-      ]
-    },
-    "astro-mermaid@1.1.0_astro@5.13.8__vite@6.3.6___picomatch@4.0.3__zod@3.25.76__@types+node@22.15.15_mermaid@11.12.0__cytoscape@3.33.1_@types+node@22.15.15": {
+    "astro-mermaid@1.1.0_astro@5.13.8__@types+node@22.15.15__vite@6.3.6___@types+node@22.15.15___picomatch@4.0.3__zod@3.25.76_mermaid@11.12.0__cytoscape@3.33.1_@types+node@22.15.15": {
       "integrity": "sha512-eW5aqOISq2Uf8goCedSl12d0qy8y77A+jRwKxwYc7LvrEN9HiCQuwTGu3zQvi0mB4+ydwaueaYbFUFSCIs2jrA==",
       "dependencies": [
-        "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15",
+        "astro",
         "import-meta-resolve",
         "mdast-util-to-string",
         "mermaid",
         "unist-util-visit"
       ]
     },
-    "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76": {
+    "astro@5.13.8_@types+node@22.15.15_vite@6.3.6__@types+node@22.15.15__picomatch@4.0.3_zod@3.25.76": {
       "integrity": "sha512-SNURCAlfL4Z2ylF3NMmNk/s3RnSDSolXALXtH0gsN8hFZ7oppnF0sXVQLAGAxnzADemfRp3/9G58EALZ36qUdA==",
       "dependencies": [
         "@astrojs/compiler",
@@ -2224,79 +2147,8 @@
         "unist-util-visit",
         "unstorage",
         "vfile",
-        "vite@6.3.6_picomatch@4.0.3",
-        "vitefu@1.1.1_vite@6.3.6__picomatch@4.0.3",
-        "xxhash-wasm",
-        "yargs-parser",
-        "yocto-spinner",
-        "zod",
-        "zod-to-json-schema",
-        "zod-to-ts"
-      ],
-      "optionalDependencies": [
-        "sharp"
-      ],
-      "bin": true
-    },
-    "astro@5.13.8_vite@6.3.6__picomatch@4.0.3_zod@3.25.76_@types+node@22.15.15": {
-      "integrity": "sha512-SNURCAlfL4Z2ylF3NMmNk/s3RnSDSolXALXtH0gsN8hFZ7oppnF0sXVQLAGAxnzADemfRp3/9G58EALZ36qUdA==",
-      "dependencies": [
-        "@astrojs/compiler",
-        "@astrojs/internal-helpers@0.7.2",
-        "@astrojs/markdown-remark@6.3.6",
-        "@astrojs/telemetry",
-        "@capsizecss/unpack",
-        "@oslojs/encoding",
-        "@rollup/pluginutils",
-        "acorn",
-        "aria-query",
-        "axobject-query",
-        "boxen",
-        "ci-info",
-        "clsx",
-        "common-ancestor-path",
-        "cookie",
-        "cssesc",
-        "debug",
-        "deterministic-object-hash",
-        "devalue",
-        "diff",
-        "dlv",
-        "dset",
-        "es-module-lexer",
-        "esbuild",
-        "estree-walker@3.0.3",
-        "flattie",
-        "fontace",
-        "github-slugger",
-        "html-escaper",
-        "http-cache-semantics",
-        "import-meta-resolve",
-        "js-yaml",
-        "kleur@4.1.5",
-        "magic-string",
-        "magicast",
-        "mrmime",
-        "neotraverse",
-        "p-limit",
-        "p-queue",
-        "package-manager-detector",
-        "picomatch@4.0.3",
-        "prompts",
-        "rehype",
-        "semver@7.7.2",
-        "shiki",
-        "smol-toml",
-        "tinyexec@0.3.2",
-        "tinyglobby",
-        "tsconfck",
-        "ultrahtml",
-        "unifont",
-        "unist-util-visit",
-        "unstorage",
-        "vfile",
-        "vite@6.3.6_picomatch@4.0.3_@types+node@22.15.15",
-        "vitefu@1.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15",
+        "vite",
+        "vitefu",
         "xxhash-wasm",
         "yargs-parser",
         "yocto-spinner",
@@ -2578,13 +2430,13 @@
     "d3-array@2.12.1": {
       "integrity": "sha512-B0ErZK/66mHtEsR1TkPEEkwdy+WDesimkM5gpZr5Dsg54BiTA5RXtYW5qTLIAcekaS9xfZrzBLF/OAkB3Qn1YQ==",
       "dependencies": [
-        "internmap@1.0.1"
+        "internmap"
       ]
     },
     "d3-array@3.2.4": {
       "integrity": "sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==",
       "dependencies": [
-        "internmap@2.0.3"
+        "internmap"
       ]
     },
     "d3-axis@3.0.0": {
@@ -3401,9 +3253,6 @@
     },
     "internmap@1.0.1": {
       "integrity": "sha512-lDB5YccMydFBtasVtxnZ3MRBHuaoE8GKsppq+EchKL2U4nK/DmEpPHNH8MZe5HkMtpSiTSOZwfN0tzYjO/lJEw=="
-    },
-    "internmap@2.0.3": {
-      "integrity": "sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg=="
     },
     "iron-webcrypto@1.2.1": {
       "integrity": "sha512-feOM6FaSr6rEABp/eDfVseKyTMDt+KGpeB35SkVn9Tyn0CqvVsY3EwI0v5i8nMHyJnzCIQf7nsy3p41TPkJZhg=="
@@ -4847,6 +4696,7 @@
         "arg",
         "sax"
       ],
+      "deprecated": true,
       "bin": true
     },
     "slice-ansi@7.1.2": {
@@ -5003,6 +4853,12 @@
     "tunnel@0.0.6": {
       "integrity": "sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg=="
     },
+    "turndown@7.2.2": {
+      "integrity": "sha512-1F7db8BiExOKxjSMU2b7if62D/XOyQyZbPKq/nUwopfgnHlqXHqQ0lvfUTeUIr1lZJzOPFn43dODyMSIfvWRKQ==",
+      "dependencies": [
+        "@mixmark-io/domino"
+      ]
+    },
     "type-fest@4.41.0": {
       "integrity": "sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA=="
     },
@@ -5116,8 +4972,8 @@
         "@types/unist@3.0.3"
       ]
     },
-    "unist-util-visit-parents@6.0.1": {
-      "integrity": "sha512-L/PqWzfTP9lzzEa6CKs0k2nARxTdZduw3zyh8d2NVBnsyvHjSX4TWse388YrrQKbvI8w20fGjGlhgT96WwKykw==",
+    "unist-util-visit-parents@6.0.2": {
+      "integrity": "sha512-goh1s1TBrqSqukSc8wrjwWhL0hiJxgA8m4kFxGlQ+8FYQ3C/m11FcTs4YYem7V664AhHVvgoQLk890Ssdsr2IQ==",
       "dependencies": [
         "@types/unist@3.0.3",
         "unist-util-is"
@@ -5184,22 +5040,7 @@
         "vfile-message"
       ]
     },
-    "vite@6.3.6_picomatch@4.0.3": {
-      "integrity": "sha512-0msEVHJEScQbhkbVTb/4iHZdJ6SXp/AvxL2sjwYQFfBqleHtnCqv1J3sa9zbWz/6kW1m9Tfzn92vW+kZ1WV6QA==",
-      "dependencies": [
-        "esbuild",
-        "fdir",
-        "picomatch@4.0.3",
-        "postcss",
-        "rollup",
-        "tinyglobby"
-      ],
-      "optionalDependencies": [
-        "fsevents"
-      ],
-      "bin": true
-    },
-    "vite@6.3.6_picomatch@4.0.3_@types+node@22.15.15": {
+    "vite@6.3.6_@types+node@22.15.15_picomatch@4.0.3": {
       "integrity": "sha512-0msEVHJEScQbhkbVTb/4iHZdJ6SXp/AvxL2sjwYQFfBqleHtnCqv1J3sa9zbWz/6kW1m9Tfzn92vW+kZ1WV6QA==",
       "dependencies": [
         "@types/node@22.15.15",
@@ -5218,22 +5059,13 @@
       ],
       "bin": true
     },
-    "vitefu@1.1.1_vite@6.3.6__picomatch@4.0.3": {
+    "vitefu@1.1.1_vite@6.3.6__@types+node@22.15.15__picomatch@4.0.3_@types+node@22.15.15": {
       "integrity": "sha512-B/Fegf3i8zh0yFbpzZ21amWzHmuNlLlmJT6n7bu5e+pCHUKQIfXSYokrqOBGEMMe9UG2sostKQF9mml/vYaWJQ==",
       "dependencies": [
-        "vite@6.3.6_picomatch@4.0.3"
+        "vite"
       ],
       "optionalPeers": [
-        "vite@6.3.6_picomatch@4.0.3"
-      ]
-    },
-    "vitefu@1.1.1_vite@6.3.6__picomatch@4.0.3_@types+node@22.15.15": {
-      "integrity": "sha512-B/Fegf3i8zh0yFbpzZ21amWzHmuNlLlmJT6n7bu5e+pCHUKQIfXSYokrqOBGEMMe9UG2sostKQF9mml/vYaWJQ==",
-      "dependencies": [
-        "vite@6.3.6_picomatch@4.0.3_@types+node@22.15.15"
-      ],
-      "optionalPeers": [
-        "vite@6.3.6_picomatch@4.0.3_@types+node@22.15.15"
+        "vite"
       ]
     },
     "vscode-jsonrpc@8.2.0": {
@@ -5428,13 +5260,16 @@
       "jsr:@std/path@^1.1.2",
       "npm:@actions/core@^1.11.1",
       "npm:@actions/github@^6.0.1",
+      "npm:@astrojs/mdx@^4.3.11",
       "npm:@astrojs/react@^4.3.0",
       "npm:@astrojs/starlight@~0.35.2",
+      "npm:@joplin/turndown-plugin-gfm@^1.0.64",
       "npm:@junobuild/cli@0.10.0",
       "npm:@junobuild/config@^2.1.0",
       "npm:@pagefind/default-ui@^1.4.0",
       "npm:@radix-ui/react-navigation-menu@^1.2.14",
       "npm:@types/react@^19.1.12",
+      "npm:@types/turndown@^5.0.6",
       "npm:@types/yauzl@^2.10.3",
       "npm:astro-integration-kit@0.19",
       "npm:astro-mermaid@^1.1.0",
@@ -5444,6 +5279,7 @@
       "npm:pagefind@^1.4.0",
       "npm:react-dom@^19.1.1",
       "npm:react@^19.1.1",
+      "npm:turndown@^7.2.2",
       "npm:unist-util-visit@5",
       "npm:yauzl@^3.2.0"
     ]
