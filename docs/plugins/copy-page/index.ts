@@ -12,6 +12,14 @@ export function copyPagePlugin(): StarlightPlugin {
             logger: ctx.logger,
           }),
         );
+
+        // Override PageTitle component to add copy buttons
+        ctx.updateConfig({
+          components: {
+            ...ctx.config.components,
+            PageTitle: "./plugins/copy-page/components/PageTitle.astro",
+          },
+        });
       },
     },
   };

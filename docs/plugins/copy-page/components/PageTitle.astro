@@ -1,0 +1,40 @@
+---
+// Adapted from https://github.com/withastro/starlight/blob/cbb6579701cd92d8599534ba9eaa2c94710a1525/packages/starlight/components/PageTitle.astro
+
+import { CopyPage } from './CopyPage/CopyPage';
+
+// From https://github.com/withastro/starlight/blob/cbb6579701cd92d8599534ba9eaa2c94710a1525/packages/starlight/constants.ts#L4
+const PAGE_TITLE_ID = '_top';
+---
+
+<div class="sl-flex title-wrapper">
+  <h1 id={PAGE_TITLE_ID}>{Astro.locals.starlightRoute.entry.data.title}</h1>
+  <CopyPage client:load />
+</div>
+
+<style>
+  @layer starlight.core {
+    .title-wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+
+    @media (min-width: 50em) {
+        .title-wrapper {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+    }
+
+    h1 {
+        font-size: var(--sl-text-h1);
+        line-height: var(--sl-line-height-headings);
+        font-weight: 600;
+        color: var(--sl-color-white);
+    }
+  }
+</style>
