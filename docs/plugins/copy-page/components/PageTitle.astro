@@ -9,7 +9,10 @@ const PAGE_TITLE_ID = '_top';
 
 <div class="sl-flex title-wrapper">
   <h1 id={PAGE_TITLE_ID}>{Astro.locals.starlightRoute.entry.data.title}</h1>
-  <CopyPage client:load />
+  <CopyPage
+    client:load 
+    data-pagefind-ignore
+  />
 </div>
 
 <style>

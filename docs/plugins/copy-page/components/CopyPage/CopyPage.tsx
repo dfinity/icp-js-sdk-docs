@@ -20,7 +20,7 @@ enum CopyStatus {
 
 export function CopyPage() {
   const [copyStatus, setCopyStatus] = React.useState<CopyStatus>(
-    CopyStatus.IDLE,
+    CopyStatus.IDLE
   );
   const [dropdownOpen, setDropdownOpen] = React.useState(false);
   const markdownUrl = React.useMemo(() => getMarkdownUrl(), []);

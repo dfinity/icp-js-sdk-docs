@@ -12,6 +12,7 @@ const CLASSES_TO_REMOVE = [
   "pagination-links",
   "tablist-wrapper",
   "sr-only",
+  "copy-page-button-group",
 ];
 
 /**
