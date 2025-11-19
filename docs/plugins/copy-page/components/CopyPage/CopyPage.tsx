@@ -13,7 +13,7 @@ import "./CopyPage.css";
 import { fetchMarkdown, getMarkdownUrl, getPromptUrl } from "./helpers.ts";
 
 enum CopyStatus {
-  IDLE = "Copy Markdown",
+  IDLE = "Copy Page",
   COPIED = "Copied!",
   FAILED = "Failed",
 }
