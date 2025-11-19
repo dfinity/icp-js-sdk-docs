@@ -3,7 +3,13 @@
 import type { MatomoConfig } from "./config.ts";
 
 declare global {
-  var _paq: Array<[string] | [string, string | number | boolean]>;
+  var _paq: Array<
+    [string] | [string, string | number | boolean] | [
+      string,
+      string,
+      string | number | boolean,
+    ]
+  >;
   var _mtm: Array<[string]>;
 }
 

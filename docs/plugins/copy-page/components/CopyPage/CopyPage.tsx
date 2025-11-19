@@ -12,6 +12,8 @@ import {
 import "./CopyPage.css";
 import { fetchMarkdown, getMarkdownUrl, getPromptUrl } from "./helpers.ts";
 
+const ANALYTICS_EVENT_NAME = "CopyPage";
+
 enum CopyStatus {
   IDLE = "Copy Page",
   COPIED = "Copied!",
@@ -26,6 +28,10 @@ export function CopyPage() {
   const markdownUrl = React.useMemo(() => getMarkdownUrl(), []);
 
   const handleCopyMarkdown = async () => {
+    if (!markdownUrl) {
+      return;
+    }
+
     // The dev server doesn't serve markdown files,
     // so this is supposed to fail in development.
     try {
@@ -35,6 +41,12 @@ export function CopyPage() {
       }
 
       await navigator.clipboard.writeText(markdownContent);
+
+      globalThis._paq.push([
+        "trackEvent",
+        ANALYTICS_EVENT_NAME,
+        new URL(markdownUrl).pathname,
+      ]);
 
       setCopyStatus(CopyStatus.COPIED);
       setTimeout(() => {
