@@ -13,7 +13,7 @@ export function getMarkdownUrl(): string {
 
 export function getPromptUrl(providerUrl: string, url: string): string {
   const prompt = encodeURIComponent(
-    "Please read the contents from the following link so i can ask question about it: " +
+    "Please read the contents from the following link so that I can ask questions about it: " +
       url,
   );
   return `${providerUrl}?q=${prompt}`;
