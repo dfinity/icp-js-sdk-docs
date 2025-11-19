@@ -1,0 +1,18 @@
+import type { StarlightPlugin } from "@astrojs/starlight/types";
+import { copyPageIntegration } from "./integration.ts";
+
+export function copyPagePlugin(): StarlightPlugin {
+  return {
+    name: "starlight-copy-page-plugin",
+    hooks: {
+      "config:setup": (ctx) => {
+        ctx.addIntegration(
+          copyPageIntegration({
+            siteUrl: ctx.astroConfig.site!, // we assume this is set
+            logger: ctx.logger,
+          }),
+        );
+      },
+    },
+  };
+}
