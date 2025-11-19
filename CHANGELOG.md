@@ -2,6 +2,7 @@
 
 ### Feat
 
+- copy markdown integration (#148)
 - add canisters project (#142)
 - enable mermaid charts (#134)
 - add bindgen project (#121)
