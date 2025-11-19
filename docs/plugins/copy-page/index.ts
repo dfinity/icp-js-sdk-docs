@@ -8,12 +8,11 @@ export function copyPagePlugin(): StarlightPlugin {
       "config:setup": (ctx) => {
         ctx.addIntegration(
           copyPageIntegration({
-            siteUrl: ctx.astroConfig.site!, // we assume this is set
+            siteUrl: ctx.astroConfig.site!, // we assume this is always set
             logger: ctx.logger,
           }),
         );
 
-        // Override PageTitle component to add copy buttons
         ctx.updateConfig({
           components: {
             ...ctx.config.components,
