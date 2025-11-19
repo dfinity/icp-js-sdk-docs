@@ -16,6 +16,7 @@
     "npm:@junobuild/cli@0.10.0": "0.10.0_@dfinity+candid@3.2.6__@dfinity+principal@3.2.6_@dfinity+principal@3.2.6_@dfinity+agent@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+hashes@1.8.0_@dfinity+identity@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@noble+curves@1.9.7__@noble+hashes@1.8.0_@dfinity+ic-management@7.0.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+config@2.2.0__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__zod@3.25.76__@dfinity+principal@3.2.6_@junobuild+ic-client@3.1.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_semver@7.7.2_@junobuild+storage@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_@junobuild+cdn@1.3.2__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+ic-management@7.0.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@junobuild+config@2.2.0___@dfinity+zod-schemas@1.1.0____@dfinity+principal@3.2.6____zod@3.25.76___zod@3.25.76___@dfinity+principal@3.2.6__@junobuild+ic-client@3.1.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__@junobuild+storage@1.3.2___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+identity@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+curves@1.9.7____@noble+hashes@1.8.0___@dfinity+principal@3.2.6___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@junobuild+ic-client@3.1.2____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+identity@3.2.6_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+curves@1.9.7_____@noble+hashes@1.8.0____@dfinity+principal@3.2.6____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6___@junobuild+utils@0.2.1____@dfinity+utils@3.1.0_____@dfinity+agent@3.2.6______@dfinity+candid@3.2.6_______@dfinity+principal@3.2.6______@dfinity+principal@3.2.6______@noble+hashes@1.8.0_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6__semver@7.7.2__@dfinity+zod-schemas@1.1.0___@dfinity+principal@3.2.6___zod@3.25.76__@junobuild+utils@0.2.1___@dfinity+utils@3.1.0____@dfinity+agent@3.2.6_____@dfinity+candid@3.2.6______@dfinity+principal@3.2.6_____@dfinity+principal@3.2.6_____@noble+hashes@1.8.0____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6_ora@8.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_@dfinity+auth-client@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+identity@3.2.6___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+curves@1.9.7___@noble+hashes@1.8.0__@dfinity+principal@3.2.6__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6_@junobuild+utils@0.2.1__@dfinity+utils@3.1.0___@dfinity+agent@3.2.6____@dfinity+candid@3.2.6_____@dfinity+principal@3.2.6____@dfinity+principal@3.2.6____@noble+hashes@1.8.0___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6__@dfinity+agent@3.2.6___@dfinity+candid@3.2.6____@dfinity+principal@3.2.6___@dfinity+principal@3.2.6___@noble+hashes@1.8.0__@dfinity+candid@3.2.6___@dfinity+principal@3.2.6__@dfinity+principal@3.2.6",
     "npm:@junobuild/config@^2.1.0": "2.2.0_@dfinity+zod-schemas@1.1.0__@dfinity+principal@3.2.6__zod@3.25.76_zod@3.25.76",
     "npm:@pagefind/default-ui@^1.4.0": "1.4.0",
+    "npm:@radix-ui/react-dropdown-menu@^2.1.16": "2.1.16_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1",
     "npm:@radix-ui/react-navigation-menu@^1.2.14": "1.2.14_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1",
     "npm:@types/node@*": "22.15.15",
     "npm:@types/react@^19.1.12": "19.1.13",
@@ -772,6 +773,30 @@
     "@fastify/busboy@2.1.1": {
       "integrity": "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA=="
     },
+    "@floating-ui/core@1.7.3": {
+      "integrity": "sha512-sGnvb5dmrJaKEZ+LDIpguvdX3bDlEllmv4/ClQ9awcmCZrlx5jQyyMWFM5kBI+EyNOCDDiKk8il0zeuX3Zlg/w==",
+      "dependencies": [
+        "@floating-ui/utils"
+      ]
+    },
+    "@floating-ui/dom@1.7.4": {
+      "integrity": "sha512-OOchDgh4F2CchOX94cRVqhvy7b3AFb+/rQXyswmzmGakRfkMgoWVjfnLWkRirfLEfuD4ysVW16eXzwt3jHIzKA==",
+      "dependencies": [
+        "@floating-ui/core",
+        "@floating-ui/utils"
+      ]
+    },
+    "@floating-ui/react-dom@2.1.6_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-4JX6rEatQEvlmgU80wZyq9RT96HZJa88q8hp0pBd+LrczeDI4o6uA2M+uvxngVHo4Ihr8uibXxH6+70zhAFrVw==",
+      "dependencies": [
+        "@floating-ui/dom",
+        "react",
+        "react-dom"
+      ]
+    },
+    "@floating-ui/utils@0.2.10": {
+      "integrity": "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="
+    },
     "@iconify/types@2.0.0": {
       "integrity": "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg=="
     },
@@ -1295,6 +1320,18 @@
     "@radix-ui/primitive@1.1.3": {
       "integrity": "sha512-JTF99U/6XIjCBo0wqkU5sK10glYe27MRRsfwoiq5zzOEZLHU3A3KCMa5X/azekYRCJ0HlwI0crAXS/5dEHTzDg=="
     },
+    "@radix-ui/react-arrow@1.1.7_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-F+M1tLhO+mlQaOWspE8Wstg+z6PwxwRd8oQ8IXceWz92kfAmalTRf0EjrouQeo7QssEPfCn05B4Ihs1K9WQ/7w==",
+      "dependencies": [
+        "@radix-ui/react-primitive",
+        "@types/react",
+        "react",
+        "react-dom"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
     "@radix-ui/react-collection@1.1.7_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
       "integrity": "sha512-Fh9rGN0MoI4ZFUNyfFVNU4y9LUz93u9/0K+yLgA2bwRojxM8JU1DyvvMBabnZPBgMWREAJvU2jjVzq+LrFUglw==",
       "dependencies": [
@@ -1356,12 +1393,83 @@
         "@types/react"
       ]
     },
+    "@radix-ui/react-dropdown-menu@2.1.16_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-1PLGQEynI/3OX/ftV54COn+3Sud/Mn8vALg2rWnBLnRaGtJDduNW/22XjlGgPdpcIbiQxjKtb7BkcjP00nqfJw==",
+      "dependencies": [
+        "@radix-ui/primitive",
+        "@radix-ui/react-compose-refs",
+        "@radix-ui/react-context",
+        "@radix-ui/react-id",
+        "@radix-ui/react-menu",
+        "@radix-ui/react-primitive",
+        "@radix-ui/react-use-controllable-state",
+        "@types/react",
+        "react",
+        "react-dom"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "@radix-ui/react-focus-guards@1.1.3_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-0rFg/Rj2Q62NCm62jZw0QX7a3sz6QCQU0LpZdNrJX8byRGaGVTqbrW9jAoIAHyMQqsNpeZ81YgSizOt5WXq0Pw==",
+      "dependencies": [
+        "@types/react",
+        "react"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "@radix-ui/react-focus-scope@1.1.7_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-t2ODlkXBQyn7jkl6TNaw/MtVEVvIGelJDCG41Okq/KwUsJBwQ4XVZsHAVUkK4mBv3ewiAS3PGuUWuY2BoK4ZUw==",
+      "dependencies": [
+        "@radix-ui/react-compose-refs",
+        "@radix-ui/react-primitive",
+        "@radix-ui/react-use-callback-ref",
+        "@types/react",
+        "react",
+        "react-dom"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
     "@radix-ui/react-id@1.1.1_@types+react@19.1.13_react@19.1.1": {
       "integrity": "sha512-kGkGegYIdQsOb4XjsfM97rXsiHaBwco+hFI66oO4s9LU+PLAC5oJ7khdOVFxkhsmlbpUqDAvXw11CluXP+jkHg==",
       "dependencies": [
         "@radix-ui/react-use-layout-effect",
         "@types/react",
         "react"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "@radix-ui/react-menu@2.1.16_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-72F2T+PLlphrqLcAotYPp0uJMr5SjP5SL01wfEspJbru5Zs5vQaSHb4VB3ZMJPimgHHCHG7gMOeOB9H3Hdmtxg==",
+      "dependencies": [
+        "@radix-ui/primitive",
+        "@radix-ui/react-collection",
+        "@radix-ui/react-compose-refs",
+        "@radix-ui/react-context",
+        "@radix-ui/react-direction",
+        "@radix-ui/react-dismissable-layer",
+        "@radix-ui/react-focus-guards",
+        "@radix-ui/react-focus-scope",
+        "@radix-ui/react-id",
+        "@radix-ui/react-popper",
+        "@radix-ui/react-portal",
+        "@radix-ui/react-presence",
+        "@radix-ui/react-primitive",
+        "@radix-ui/react-roving-focus",
+        "@radix-ui/react-slot",
+        "@radix-ui/react-use-callback-ref",
+        "@types/react",
+        "aria-hidden",
+        "react",
+        "react-dom",
+        "react-remove-scroll"
       ],
       "optionalPeers": [
         "@types/react"
@@ -1392,6 +1500,40 @@
         "@types/react"
       ]
     },
+    "@radix-ui/react-popper@1.2.8_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-0NJQ4LFFUuWkE7Oxf0htBKS6zLkkjBH+hM1uk7Ng705ReR8m/uelduy1DBo0PyBXPKVnBA6YBlU94MBGXrSBCw==",
+      "dependencies": [
+        "@floating-ui/react-dom",
+        "@radix-ui/react-arrow",
+        "@radix-ui/react-compose-refs",
+        "@radix-ui/react-context",
+        "@radix-ui/react-primitive",
+        "@radix-ui/react-use-callback-ref",
+        "@radix-ui/react-use-layout-effect",
+        "@radix-ui/react-use-rect",
+        "@radix-ui/react-use-size",
+        "@radix-ui/rect",
+        "@types/react",
+        "react",
+        "react-dom"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "@radix-ui/react-portal@1.1.9_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-bpIxvq03if6UNwXZ+HTK71JLh4APvnXntDc6XOX8UVq4XQOVl7lwok0AvIl+b8zgCw3fSaVTZMpAPPagXbKmHQ==",
+      "dependencies": [
+        "@radix-ui/react-primitive",
+        "@radix-ui/react-use-layout-effect",
+        "@types/react",
+        "react",
+        "react-dom"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
     "@radix-ui/react-presence@1.1.5_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
       "integrity": "sha512-/jfEwNDdQVBCNvjkGit4h6pMOzq8bHkopq458dPt2lMjx+eBQUohZNG9A7DtO/O5ukSbxuaNGXMjHicgwy6rQQ==",
       "dependencies": [
@@ -1409,6 +1551,26 @@
       "integrity": "sha512-m9gTwRkhy2lvCPe6QJp4d3G1TYEUHn/FzJUtq9MjH46an1wJU+GdoGC5VLof8RX8Ft/DlpshApkhswDLZzHIcQ==",
       "dependencies": [
         "@radix-ui/react-slot",
+        "@types/react",
+        "react",
+        "react-dom"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "@radix-ui/react-roving-focus@1.1.11_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
+      "integrity": "sha512-7A6S9jSgm/S+7MdtNDSb+IU859vQqJ/QAtcYQcfFC6W8RS4IxIZDldLR0xqCFZ6DCyrQLjLPsxtTNch5jVA4lA==",
+      "dependencies": [
+        "@radix-ui/primitive",
+        "@radix-ui/react-collection",
+        "@radix-ui/react-compose-refs",
+        "@radix-ui/react-context",
+        "@radix-ui/react-direction",
+        "@radix-ui/react-id",
+        "@radix-ui/react-primitive",
+        "@radix-ui/react-use-callback-ref",
+        "@radix-ui/react-use-controllable-state",
         "@types/react",
         "react",
         "react-dom"
@@ -1492,6 +1654,28 @@
         "@types/react"
       ]
     },
+    "@radix-ui/react-use-rect@1.1.1_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-QTYuDesS0VtuHNNvMh+CjlKJ4LJickCMUAqjlE3+j8w+RlRpwyX3apEQKGFzbZGdo7XNG1tXa+bQqIE7HIXT2w==",
+      "dependencies": [
+        "@radix-ui/rect",
+        "@types/react",
+        "react"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "@radix-ui/react-use-size@1.1.1_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-ewrXRDTAqAXlkl6t/fkXWNAhFX9I+CkKlw6zjEwk86RSPKwZr3xpBRso655aqYafwtnbpHLj6toFzmd6xdVptQ==",
+      "dependencies": [
+        "@radix-ui/react-use-layout-effect",
+        "@types/react",
+        "react"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
     "@radix-ui/react-visually-hidden@1.2.3_@types+react@19.1.13_react@19.1.1_react-dom@19.1.1__react@19.1.1": {
       "integrity": "sha512-pzJq12tEaaIhqjbzpCuv/OypJY/BPavOofm+dbab+MHLajy277+1lLm6JFcGgF5eskJ6mquGirhXY2GD/8u8Ug==",
       "dependencies": [
@@ -1503,6 +1687,9 @@
       "optionalPeers": [
         "@types/react"
       ]
+    },
+    "@radix-ui/rect@1.1.1": {
+      "integrity": "sha512-HPwpGIzkl28mWyZqG52jiqDJ12waP11Pa1lGoiyUkIEuMLBP0oeK/C89esbXrxsky5we7dfd8U58nm0SgAWpVw=="
     },
     "@rolldown/pluginutils@1.0.0-beta.27": {
       "integrity": "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA=="
@@ -2055,6 +2242,12 @@
     },
     "argparse@2.0.1": {
       "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="
+    },
+    "aria-hidden@1.2.6": {
+      "integrity": "sha512-ik3ZgC9dY/lYVVM++OISsaYDeg1tb0VtP5uL3ouh1koGOaUMDPpbFIei4JkFimWUFPn90sbMNMXQAIVOlnYKJA==",
+      "dependencies": [
+        "tslib"
+      ]
     },
     "aria-query@5.3.2": {
       "integrity": "sha512-COROpnaoap1E2F000S62r6A60uHZnmlvomhfyT2DlTcrY1OrBKn2UhH7qn5wTC9zMvD0AY7csdPSNwKP+7WiQw=="
@@ -2714,6 +2907,9 @@
     "detect-libc@2.1.1": {
       "integrity": "sha512-ecqj/sy1jcK1uWrwpR67UhYrIFQ+5WlGxth34WquCbamhFA6hkkwiu37o6J5xCHdo1oixJRfVRw+ywV+Hq/0Aw=="
     },
+    "detect-node-es@1.1.0": {
+      "integrity": "sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ=="
+    },
     "deterministic-object-hash@2.0.2": {
       "integrity": "sha512-KxektNH63SrbfUyDiwXqRb1rLwKt33AmMv+5Nhsw1kqZ13SJBRTgZHtGbE+hH3a1mVW1cz+4pqSWVPAtLVXTzQ==",
       "dependencies": [
@@ -2963,6 +3159,9 @@
     },
     "get-east-asian-width@1.4.0": {
       "integrity": "sha512-QZjmEOC+IT1uk6Rx0sX22V6uHWVwbdbxf1faPqJ1QhLdGgsRGCZoyaQBm/piRdJy/D2um6hM1UP7ZEeQ4EkP+Q=="
+    },
+    "get-nonce@1.0.1": {
+      "integrity": "sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q=="
     },
     "github-slugger@2.0.0": {
       "integrity": "sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw=="
@@ -4345,6 +4544,45 @@
     "react-refresh@0.17.0": {
       "integrity": "sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ=="
     },
+    "react-remove-scroll-bar@2.3.8_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==",
+      "dependencies": [
+        "@types/react",
+        "react",
+        "react-style-singleton",
+        "tslib"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "react-remove-scroll@2.7.1_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-HpMh8+oahmIdOuS5aFKKY6Pyog+FNaZV/XyJOq7b4YFwsFHe5yYfdbIalI4k3vU2nSDql7YskmUseHsRrJqIPA==",
+      "dependencies": [
+        "@types/react",
+        "react",
+        "react-remove-scroll-bar",
+        "react-style-singleton",
+        "tslib",
+        "use-callback-ref",
+        "use-sidecar"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "react-style-singleton@2.2.3_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==",
+      "dependencies": [
+        "@types/react",
+        "get-nonce",
+        "react",
+        "tslib"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
     "react@19.1.1": {
       "integrity": "sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ=="
     },
@@ -5012,6 +5250,29 @@
       ],
       "bin": true
     },
+    "use-callback-ref@1.3.3_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==",
+      "dependencies": [
+        "@types/react",
+        "react",
+        "tslib"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "use-sidecar@1.1.3_@types+react@19.1.13_react@19.1.1": {
+      "integrity": "sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==",
+      "dependencies": [
+        "@types/react",
+        "detect-node-es",
+        "react",
+        "tslib"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
     "util-deprecate@1.0.2": {
       "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
     },
@@ -5267,6 +5528,7 @@
       "npm:@junobuild/cli@0.10.0",
       "npm:@junobuild/config@^2.1.0",
       "npm:@pagefind/default-ui@^1.4.0",
+      "npm:@radix-ui/react-dropdown-menu@^2.1.16",
       "npm:@radix-ui/react-navigation-menu@^1.2.14",
       "npm:@types/react@^19.1.12",
       "npm:@types/turndown@^5.0.6",

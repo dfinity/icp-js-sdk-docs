@@ -15,6 +15,7 @@
     "@joplin/turndown-plugin-gfm": "npm:@joplin/turndown-plugin-gfm@^1.0.64",
     "@junobuild/cli": "npm:@junobuild/cli@0.10.0",
     "@pagefind/default-ui": "npm:@pagefind/default-ui@^1.4.0",
+    "@radix-ui/react-dropdown-menu": "npm:@radix-ui/react-dropdown-menu@^2.1.16",
     "@radix-ui/react-navigation-menu": "npm:@radix-ui/react-navigation-menu@^1.2.14",
     "@types/react": "npm:@types/react@^19.1.12",
     "@types/turndown": "npm:@types/turndown@^5.0.6",
