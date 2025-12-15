@@ -43,5 +43,8 @@
     "astro": "npm:astro@5.13.8",
     "yauzl": "npm:yauzl@^3.2.0"
   },
-  "nodeModulesDir": "auto"
+  "nodeModulesDir": "auto",
+  "fmt": {
+    "exclude": ["CHANGELOG.md"]
+  }
 }
