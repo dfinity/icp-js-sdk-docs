@@ -3,13 +3,27 @@ import pluginConfig from 'virtual:starlight-multi-sidebar/config';
 import { getCurrentPathComponents } from '../../path.ts';
 import { ProjectSwitcherReact } from './ProjectSwitcher.tsx';
 import { getCurrentHeader } from '../../config.ts';
+import type { HeadersByCategory } from './types.ts';
 
 const { projectPath } = getCurrentPathComponents(Astro.url.pathname);
 const currentHeader = getCurrentHeader(pluginConfig, projectPath);
+
+// Compute headersByCategory server-side to avoid bundling versions in client JS
+const headersByCategory = pluginConfig.sidebars.reduce<HeadersByCategory>(
+  (acc, sidebar) => {
+    acc[sidebar.header.category].items.push({
+      basePath: sidebar.basePath,
+      header: sidebar.header,
+    });
+    return acc;
+  },
+  { library: { items: [] }, tool: { items: [] } },
+);
 ---
 
 <ProjectSwitcherReact
     client:load
     projectPath={projectPath}
-    currentHeader={currentHeader}
+    currentProjectTitle={currentHeader?.title}
+    headersByCategory={headersByCategory}
 />

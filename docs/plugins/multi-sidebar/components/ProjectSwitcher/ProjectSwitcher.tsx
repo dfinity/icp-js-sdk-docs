@@ -1,32 +1,8 @@
 import * as React from "react";
 
-import { type MultiSidebarConfig } from "../../config.ts";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import pluginConfig from "virtual:starlight-multi-sidebar/config";
+import type { HeaderItem, HeadersByCategory } from "./types.ts";
 import "./ProjectSwitcher.css";
-
-type Header = MultiSidebarConfig["sidebars"][number]["header"];
-type HeaderItem = {
-  basePath: MultiSidebarConfig["sidebars"][number]["basePath"];
-  header: Header;
-};
-type HeadersByCategory = Record<
-  Header["category"],
-  {
-    items: Array<HeaderItem>;
-  }
->;
-
-const headersByCategory = pluginConfig.sidebars.reduce<HeadersByCategory>(
-  (acc, sidebar) => {
-    acc[sidebar.header.category].items.push({
-      basePath: sidebar.basePath,
-      header: sidebar.header,
-    });
-    return acc;
-  },
-  { library: { items: [] }, tool: { items: [] } },
-);
 
 type NavigationLinkProps = React.ComponentProps<typeof NavigationMenu.Link> & {
   projectPath: string;
@@ -60,12 +36,14 @@ const NavigationLink: React.FC<NavigationLinkProps> = ({
 
 type ProjectSwitcherProps = {
   projectPath: string;
-  currentHeader?: Header | undefined;
+  currentProjectTitle?: string | undefined;
+  headersByCategory: HeadersByCategory;
 };
 
 export const ProjectSwitcherReact: React.FC<ProjectSwitcherProps> = ({
   projectPath,
-  currentHeader,
+  currentProjectTitle,
+  headersByCategory,
 }) => {
   return (
     <React.Fragment>
@@ -85,7 +63,7 @@ export const ProjectSwitcherReact: React.FC<ProjectSwitcherProps> = ({
               data-slot="navigation-menu-trigger"
               className="project-switcher-trigger"
             >
-              <span>{currentHeader?.title || "Packages"}</span>
+              <span>{currentProjectTitle || "Packages"}</span>
               <svg
                 className="project-switcher-chevron"
                 width="16"
