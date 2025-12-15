@@ -25,7 +25,8 @@
 
 ### Fix
 
-- do not inject multi-sidebar config in client code to ensure deterministic builds (#161)
+- do not inject multi-sidebar config in client code to ensure deterministic
+  builds (#161)
 - ignore copy page button in pagefind and markdown (#152)
 - padding and border radius for inline code elements (#138)
 - reduce space between elements in project switcher (#122)
