@@ -25,6 +25,7 @@
 
 ### Fix
 
+- use `GET` to prefetch the selected version's page (#170)
 - do not inject multi-sidebar config in client code to ensure deterministic builds (#161)
 - ignore copy page button in pagefind and markdown (#152)
 - padding and border radius for inline code elements (#138)
