@@ -33,9 +33,7 @@ export const VersionDropdown: React.FC<Props> = ({
       const currentPrefix = subPath
         ? `${projectPath}/${subPath}`
         : `${projectPath}`;
-      const pathSuffix = pathname.startsWith(currentPrefix)
-        ? pathname.slice(currentPrefix.length)
-        : "";
+      const pathSuffix = pathname.split(currentPrefix)[1] || "";
 
       const nextHref = `${projectPath}/${selectedVersionPath}${pathSuffix}`;
       const exists = await doesUrlExist(nextHref);
