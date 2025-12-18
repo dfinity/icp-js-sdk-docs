@@ -33,18 +33,12 @@ export const VersionDropdown: React.FC<Props> = ({
       const currentPrefix = subPath
         ? `${projectPath}/${subPath}`
         : `${projectPath}`;
-      const _rest = pathname.startsWith(currentPrefix)
-        ? pathname.slice(currentPrefix.length)
-        : "";
+      const pathSuffix = pathname.split(currentPrefix)[1] || "";
 
-      const nextHref =
-        `${projectPath}/${selectedVersionPath}${_rest}${search}${hash}`;
-
-      const hrefToCheck =
-        `${projectPath}/${selectedVersionPath}${_rest}${search}`;
-      const exists = await doesUrlExist(hrefToCheck);
+      const nextHref = `${projectPath}/${selectedVersionPath}${pathSuffix}`;
+      const exists = await doesUrlExist(nextHref);
       if (exists) {
-        globalThis.location.href = nextHref;
+        globalThis.location.href = `${nextHref}${search}${hash}`;
         return;
       }
     } catch {
@@ -88,11 +82,11 @@ export const VersionDropdown: React.FC<Props> = ({
 
 async function doesUrlExist(url: string): Promise<boolean> {
   try {
-    const headResponse = await globalThis.fetch(url, {
-      method: "HEAD",
+    const response = await globalThis.fetch(url, {
+      method: "GET",
       redirect: "follow",
     });
-    if (headResponse.status && headResponse.status < 400) {
+    if (response.status && response.status < 400) {
       return true;
     }
     return false;
