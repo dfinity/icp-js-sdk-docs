@@ -4,6 +4,9 @@
 dist/
 node_modules/
 
+# IDE
+.idea
+
 # env files
 .env
 
