@@ -24,7 +24,7 @@ jobs:
       - name: Deploy Docs to Juno satellite
         env:
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
-        run: deno task juno hosting deploy --mode production --immediate --batch 50
+        run: deno task juno hosting deploy --mode production --immediate --batch 50 --prune
 
       - name: Update Juno satellite config
         env:
