@@ -4,6 +4,7 @@ type Header = MultiSidebarConfig["sidebars"][number]["header"];
 
 export type HeaderItem = {
   basePath: MultiSidebarConfig["sidebars"][number]["basePath"];
+  href: string;
   header: Header;
 };
 

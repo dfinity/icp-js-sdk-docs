@@ -19,7 +19,7 @@ const NavigationLink: React.FC<NavigationLinkProps> = ({
   return (
     <NavigationMenu.Link className="project-switcher-link" asChild {...props}>
       <a
-        href={headerItem.basePath}
+        href={headerItem.href}
         className={isActive ? "active" : undefined}
         role="menuitem"
       >
