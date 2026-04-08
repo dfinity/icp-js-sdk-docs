@@ -26,6 +26,14 @@
       "subdirectory": "canisters"
     },
     {
+      "title": "Signer",
+      "description": "Library to interact with ICP signers",
+      "category": "library",
+      "repository": "dfinity/icp-js-signer",
+      "branch": "icp-pages",
+      "subdirectory": "signer"
+    },
+    {
       "title": "Pic JS",
       "description": "A canister testing framework",
       "category": "tool",
