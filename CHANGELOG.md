@@ -2,6 +2,7 @@
 
 ### Feat
 
+- add icp-js-signer to projects (#201)
 - remove legacy library from homepage (#155)
 - track copy page events in matomo (#154)
 - copy page button (#150)
