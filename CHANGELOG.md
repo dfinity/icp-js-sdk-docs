@@ -2,6 +2,7 @@
 
 ### Feat
 
+- add missing signer redirect (#203)
 - add icp-js-signer to overview (#204)
 - add icp-js-signer to projects (#201)
 - remove legacy library from homepage (#155)
