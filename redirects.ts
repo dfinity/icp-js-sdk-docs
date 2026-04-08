@@ -32,6 +32,16 @@ export const REDIRECTS: StorageConfigRedirect[] = [
     code: 302,
   },
   {
+    source: "/signer",
+    location: "/signer/latest",
+    code: 302,
+  },
+  {
+    source: "/signer/",
+    location: "/signer/latest",
+    code: 302,
+  },
+  {
     source: "/pic-js",
     location: "/pic-js/latest",
     code: 302,
