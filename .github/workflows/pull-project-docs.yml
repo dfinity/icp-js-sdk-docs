@@ -46,7 +46,7 @@ jobs:
           deno task fetch-project-commit --project "${{ steps.params.outputs.project_repository }}" --token "${{ steps.generate_token.outputs.token }}"
 
       - name: Create pull request
-        uses: dfinity/ci-tools/actions/create-pr@main
+        uses: dfinity/ci-tools/actions/create-pr@afeee4fbdc0683a88ec5a74ed7f59a2ce0e833ad # main
         with:
           branch_name: "build/docs-update"
           base_branch_name: "main"
