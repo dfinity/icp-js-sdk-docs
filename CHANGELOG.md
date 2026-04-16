@@ -2,6 +2,7 @@
 
 ### Feat
 
+- script to certify all assets (#211)
 - add missing signer redirect (#203)
 - add icp-js-signer to overview (#204)
 - add icp-js-signer to projects (#201)
