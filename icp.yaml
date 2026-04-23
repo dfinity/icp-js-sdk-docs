@@ -1,0 +1,9 @@
+canisters:
+  - name: docs
+    recipe:
+      type: "@dfinity/asset-canister@v2.1.0"
+      configuration:
+        dir: docs/dist
+        version: asset-canister-404-support
+        build:
+          - deno task docs:build
