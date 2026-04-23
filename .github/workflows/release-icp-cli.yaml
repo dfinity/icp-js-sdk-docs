@@ -1,4 +1,4 @@
-name: Release
+name: Release (ICP-CLI)
 
 on:
   push:
@@ -34,7 +34,7 @@ jobs:
       - name: Setup Identity
         run: |
           mkdir -p ~/.local/share/icp-cli/identity/keys
-          echo "$ICP_IDENTITY_DEPLOY" | base64 -d > ~/.local/share/icp-cli/identity/keys/deploy.pem
+          printf '%s' "$ICP_IDENTITY_DEPLOY" | base64 -d > ~/.local/share/icp-cli/identity/keys/deploy.pem
           sed -i 's/\\r\\n/\r\n/g' ~/.local/share/icp-cli/identity/keys/deploy.pem
           icp identity import deploy --from-pem ~/.local/share/icp-cli/identity/keys/deploy.pem --storage plaintext
           icp identity default deploy
