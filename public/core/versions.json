@@ -1,7 +1,12 @@
 [
   {
     "path": "latest",
-    "label": "Latest (v5.3.1)"
+    "label": "Latest (v5.4.0)"
+  },
+  {
+    "path": "v5.4",
+    "label": "v5.4",
+    "versionInTitle": "v5.4.0"
   },
   {
     "path": "v5.3",
@@ -9,9 +14,34 @@
     "versionInTitle": "v5.3.1"
   },
   {
+    "path": "v5.2",
+    "label": "v5.2",
+    "versionInTitle": "v5.2.1"
+  },
+  {
+    "path": "v5.1",
+    "label": "v5.1",
+    "versionInTitle": "v5.1.0"
+  },
+  {
+    "path": "v5.0",
+    "label": "v5.0",
+    "versionInTitle": "v5.0.0"
+  },
+  {
     "path": "v4.2",
     "label": "v4.2",
     "versionInTitle": "v4.2.3"
+  },
+  {
+    "path": "v4.1",
+    "label": "v4.1",
+    "versionInTitle": "v4.1.1"
+  },
+  {
+    "path": "v4.0",
+    "label": "v4.0",
+    "versionInTitle": "v4.0.5"
   },
   {
     "path": "v3.2",
